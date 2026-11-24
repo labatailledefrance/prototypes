@@ -1,0 +1,23 @@
+[package]
+name = "p09-chemin-routier"
+version = "0.1.0"
+edition = "2024"
+
+# Versions vérifiées sur crates.io le 2026-11-24, choisies vieilles d'au moins
+# deux semaines.
+[dependencies]
+zstd = "=0.14.3"
+rayon = "=1.12.0"
+blake3 = "=1.8.7"
+png = "=0.18.1"
+clap = { version = "=4.6.7", features = ["derive"] }
+# Contraction hierarchies (CH) classiques, pour comparaison.
+fast_paths = "=1.0.0"
+# CCH en Rust pur, pour comparaison avec l'implémentation du prototype.
+cch = "=0.3.0"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 16
+debug = false

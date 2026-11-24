@@ -1,0 +1,2 @@
+etiquette,colons,tiles,ticks_simules,octets_memoire_par_colon,octets_bruts_par_colon,octets_zstd_par_colon,octets_zstd_p90,ko_tile_mediane,ko_tile_max,encodage_ms_mediane,decodage_ms_mediane,colons_tile_mediane,aller_retour_identique
+sauvegarde,1000000,72,72000,32,19.44,15.88,18.23,173.0,854.4,1.744,0.601,10863,1

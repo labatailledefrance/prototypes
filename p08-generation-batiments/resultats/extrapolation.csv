@@ -1,0 +1,6 @@
+type,tiles_france,tiles_mesurees,batiments_moyen,bati_p07_octets,maillage_iso_octets,maillage_loin_octets,go_bati_p07,go_maillages_iso,go_maillages_iso_et_loin,ms_generation_moyen,heures_generation_1_thread
+vide,175540,194,9,247,3432,2041,0.04,0.6,1.0,0.1,0.0
+rural,363734,4884,59,1305,24997,15515,0.47,9.1,14.7,0.69,0.07
+bourg,81297,892,258,5683,124333,75283,0.46,10.1,16.2,3.54,0.08
+urbain,11227,58,1196,26616,592455,354507,0.3,6.7,10.6,18.0,0.06
+dense,1638,93,1393,49361,1051068,557693,0.08,1.7,2.6,38.96,0.02

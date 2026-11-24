@@ -1,0 +1,3 @@
+vivre : 4500 colons, 25.3 ns par colon (meilleur de 20)
+vivre : 45000 colons, 25.4 ns par colon (meilleur de 20)
+vivre : 1000000 colons, 25.5 ns par colon (meilleur de 20)

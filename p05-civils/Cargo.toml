@@ -1,0 +1,17 @@
+[package]
+name = "p05-civils"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy_ecs = { version = "0.20.1", default-features = false, features = ["std", "multi_threaded", "async_executor"] }
+bevy_tasks = { version = "0.20.1", features = ["multi_threaded"] }
+bevy_utils = { version = "0.20.1", default-features = false, features = ["parallel", "std"] }
+clap = { version = "4.6.7", features = ["derive"] }
+lz4_flex = { version = "0.11", default-features = false, features = ["safe-encode", "safe-decode", "std"] }
+zstd = "0.13.3"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1

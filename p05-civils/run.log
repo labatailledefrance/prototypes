@@ -1,0 +1,35 @@
+    Finished `release` profile [optimized] target(s) in 0.06s
+calme : fait
+survol : fait
+assaut : fait
+jour 1 : 100000 vivants, 298 malades, 0 morts
+jour 2 : 100000 vivants, 496 malades, 0 morts
+jour 3 : 100000 vivants, 636 malades, 0 morts
+jour 4 : 100000 vivants, 711 malades, 0 morts
+jour 5 : 100000 vivants, 814 malades, 0 morts
+jour 6 : 100000 vivants, 826 malades, 0 morts
+jour 7 : 100000 vivants, 852 malades, 0 morts
+jour 1 : 99904 vivants, 1311 malades, 96 morts
+jour 2 : 99608 vivants, 2524 malades, 392 morts
+jour 3 : 99101 vivants, 3748 malades, 899 morts
+jour 4 : 98429 vivants, 5237 malades, 1571 morts
+jour 5 : 97533 vivants, 7042 malades, 2467 morts
+jour 6 : 96305 vivants, 9227 malades, 3695 morts
+jour 7 : 94754 vivants, 11845 malades, 5246 morts
+jour 1 : 99965 vivants, 505 malades, 35 morts
+jour 2 : 99850 vivants, 982 malades, 150 morts
+jour 3 : 99656 vivants, 1405 malades, 344 morts
+jour 4 : 99419 vivants, 1841 malades, 581 morts
+jour 5 : 99104 vivants, 2260 malades, 896 morts
+jour 6 : 98721 vivants, 2706 malades, 1279 morts
+jour 7 : 98270 vivants, 3166 malades, 1730 morts
+jour 1 : 99903 vivants, 1539 malades, 97 morts
+jour 2 : 99516 vivants, 3438 malades, 484 morts
+jour 3 : 98877 vivants, 5627 malades, 1123 morts
+jour 4 : 97866 vivants, 8221 malades, 2134 morts
+jour 5 : 96372 vivants, 11621 malades, 3628 morts
+jour 6 : 94311 vivants, 16044 malades, 5689 morts
+jour 7 : 91466 vivants, 21402 malades, 8534 morts
+hiver : fait
+sauvegarde : fait
+banc : fait

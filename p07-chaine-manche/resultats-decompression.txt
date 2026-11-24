@@ -1,0 +1,3 @@
+bdtopo_7z_s 4.04
+bdtopo_7z_rss_ko 1252248
+bdtopo_gpkg_octets 2554758416

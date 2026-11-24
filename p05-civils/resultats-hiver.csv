@@ -1,0 +1,5 @@
+etiquette,repr,colons,periode,temperature,chauffage,jours,secondes_reelles,us_par_tick,malades_fin,morts,corps,disponibles_debut,disponibles_fin,heures_travail_j1,heures_travail_fin,vivres_deficit,somme
+reference,B,100000,200,2,1,7,192.8,15.94,852,0,0,59766,59220,477384,473962,0,50e282d2f4e2edd7
+sans-rien,B,100000,200,-5,0,7,207.0,17.12,11845,5246,5246,59766,49334,474877,405697,0,62088a4d2f606140
+sans-medicaments,B,100000,200,-5,0,7,196.7,16.26,3166,1730,1730,59766,56683,477035,456182,0,7093551284889c8e
+sans-rien-c,C,100000,200,-5,0,7,15.9,1.31,21402,8534,8534,59766,45677,474512,381464,0,4924135555d5be1d

@@ -1,0 +1,14 @@
+batiments_generes 126581
+identifiants_distincts 126581
+batiments_dans_les_entetes 126581
+raster_1m_cases_emprise 34476836
+raster_1m_bati_sans_volume 1813
+raster_1m_volume_hors_emprise 1770
+batiments_avec_ecart_raster 1509
+batiments_echec_toit 0
+batiments_ecart_aire_sup_1e-3 41
+batiments_denivele_sup_1m 0
+batiments_denivele_sup_3m 0
+batiments_denivele_sup_10m 0
+mesures_remesurees 1
+  remesure batiment 245159796 : 1388 µs puis 1334 µs

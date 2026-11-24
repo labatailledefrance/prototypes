@@ -1,0 +1,762 @@
+type,id,nom,detail,ix,iy
+"Port",316322605,"Port de Goury","Port / ",343,6968
+"Enceinte militaire",111641837,"","",343,6969
+"Piste",24299536,"","Piste en dur / ",345,6964
+"Centrale électrique (CNPE)",111641170,"","",346,6874
+"Piste",24299546,"","Piste en dur / ",346,6874
+"Centrale électrique (CNPE)",111642215,"Centrale Électrique de Flamanville","",346,6948
+"Barrage",24291991,"","Barrage",346,6963
+"Barrage",2005890442,"","Barrage",346,6963
+"Port",24230273,"Port Racine","Port / Port de pêche",346,6967
+"Mairie",111641735,"Mairie de Flamanville","",347,6947
+"Port",2000596323,"Port du Houguet","Port / ",347,6962
+"Usine de retraitement",24231035,"Usine de Retraitement de la Hague","",347,6964
+"Barrage",24293511,"","Barrage",348,6946
+"Port",24230506,"Port de Diélette","Port / Port de plaisance",348,6950
+"Gare maritime",324299538,"Gare Maritime du Port de Diélette","Gare maritime / ",348,6950
+"Mairie",111641769,"Mairie de Siouville-Hague","",349,6950
+"Barrage",24291987,"","Barrage",349,6962
+"Mairie",111641714,"Mairie du Rozel","",350,6942
+"Mairie",111641698,"Mairie de Baubigny","",351,6936
+"Mairie",245636441,"Mairie de Surtainville","",351,6939
+"Mairie",111641739,"Mairie des Pieux","",351,6945
+"Mairie",111641736,"Mairie de Tréauville","",351,6947
+"Aérodrome",24230426,"","",351,6957
+"Piste",24299538,"","Piste en herbe / ",351,6957
+"Mairie",106451396,"Mairie de La Hague","",351,6962
+"Port",315541287,"le Port du Hâble","Port / ",351,6967
+"Gare maritime",327473825,"Gare Maritime de Barneville-Carteret","Gare maritime / ",352,6929
+"Port",250044523,"le Port des Isles","Port / Port de plaisance",352,6930
+"Barrage",24294307,"","Barrage",352,6934
+"Port",24230715,"Havre de Carteret","Port / ",353,6930
+"Mairie",111641699,"Mairie des Moitiers-d'Allonne","",353,6933
+"Mairie",250221480,"Mairie de Sénoville","",353,6936
+"Mairie",111641713,"Mairie de Pierreville","",353,6940
+"Mairie",111641710,"Mairie de Saint-Germain-le-Gaillard","",353,6942
+"Centrale électrique (CNPE)",2000238695,"","Centrale photovoltaïque sol ou agrivoltaïque",353,6945
+"Mairie",111641741,"Mairie d'Helleville","",353,6950
+"Mairie",111641771,"Mairie d'Héauville","",353,6952
+"Mairie",111641696,"Mairie de Barneville-Carteret","",354,6930
+"Mairie",111641742,"Mairie de Benoîtville","",354,6947
+"Barrage",24292751,"","Barrage",354,6957
+"Mairie",111641678,"Mairie de Saint-Jean-de-la-Rivière","",355,6929
+"Barrage",24294424,"","Barrage",355,6931
+"Mairie",2201848234,"Mairie de Saint-Georges-de-la-Rivière","",356,6928
+"Mairie",111641701,"Mairie de La Haye-d'Ectot","",356,6931
+"Mairie",111641746,"Mairie de Grosville","",356,6944
+"Mairie",111641740,"Mairie de Sotteville","",356,6948
+"Mairie",111641744,"Mairie de Saint-Christophe-du-Foc","",356,6949
+"Mairie",111641703,"Mairie de Sortosville-en-Beaumont","",357,6935
+"Barrage",24294017,"","Barrage",357,6939
+"Piste",2223238333,"","Piste en herbe / ",357,6958
+"Port",335457544,"Port de la Caillourie","Port / Port de plaisance",358,6924
+"Mairie",2201497019,"Mairie de Port-Bail-sur-Mer","",358,6925
+"Mairie",111640555,"Mairie de Saint-Maurice-en-Cotentin","",358,6931
+"Centrale éolienne",331506746,"Parc Éolien de Cotentin","Parc éolien",358,6934
+"Mairie",106451399,"Mairie de Bricquebosq","",358,6947
+"Barrage",24293223,"","Barrage",358,6950
+"Barrage",24293224,"","Barrage",358,6950
+"Mairie",111641774,"Mairie de Virandeville","",358,6951
+"Mairie",111641772,"Mairie de Teurthéville-Hague","",358,6952
+"Mairie",111641679,"Mairie du Mesnil","",359,6928
+"Barrage",24294385,"","Barrage",359,6932
+"Barrage",24294386,"","Barrage",359,6933
+"Mairie",111641702,"Mairie de Saint-Pierre-d'Arthéglise","",359,6934
+"Barrage",24294251,"","Barrage",359,6935
+"Barrage",24294252,"","Barrage",359,6935
+"Mairie",111641743,"Mairie de Rauville-la-Bigot","",360,6945
+"Mairie",111641745,"Mairie de Couville","",360,6949
+"Barrage",24292470,"Barrage du Rouland","Barrage",360,6960
+"Enceinte militaire",356862640,"Camping Familial de la Marine","",360,6962
+"Mairie",111641704,"Mairie de Fierville-les-Mines","",361,6931
+"Barrage",24294342,"","Barrage",361,6934
+"Mairie",242584586,"Mairie de Breuville","",361,6947
+"Mairie",111641775,"Mairie de Sideville","",361,6953
+"Mairie",111641808,"Mairie de Nouainville","",361,6957
+"Mairie",24231470,"Mairie de Granville","",362,6869
+"Port",24230794,"Port de Hérel","Port / Port de plaisance",362,6869
+"Port",24230795,"Gare Maritime de Granville","Port / ",362,6869
+"Port",24230796,"Port de Granville","Port / ",362,6869
+"Mairie",111641665,"Mairie de Bretteville-sur-Ay","",362,6916
+"Barrage",24294128,"","Barrage",362,6937
+"Mairie",24231437,"Mairie de Martinvast","",362,6953
+"Enceinte militaire",24231419,"Site de Brécourt","",362,6960
+"Port",24230297,"Port de Querqueville","Port / Port de plaisance",362,6962
+"Enceinte militaire",24231396,"Fort de Querqueville","",362,6962
+"Gare",24230793,"Gare de Granville","Gare voyageurs et fret / ",363,6869
+"Barrage",24295194,"","Barrage",363,6919
+"Centrale éolienne",331506983,"Parc Éolien de Baudreville","Parc éolien",363,6920
+"Mairie",111641685,"Mairie de Canville-la-Rocque","",363,6925
+"Mairie",111641687,"Mairie de Besneville","",363,6928
+"Barrage",24294655,"","Barrage",363,6928
+"Barrage",24294213,"","Barrage",363,6935
+"Mairie",111641749,"Mairie de Saint-Martin-le-Gréard","",363,6949
+"Mairie",242612043,"Mairie d'Hardinvast","",363,6952
+"Mairie",106369887,"Mairie de Jullouville","",364,6862
+"Mairie",111641601,"Mairie de Saint-Pair-sur-Mer","",364,6866
+"Piste",339520560,"","Piste en dur / ",364,6868
+"Mairie",111641608,"Mairie de Donville-les-Bains","",364,6870
+"Centrale éolienne",331506984,"Parc Éolien de Saint-Jacques-de-Néhou","Parc éolien",364,6935
+"Mairie",111641720,"Mairie de Bricquebec-en-Cotentin","",364,6939
+"Mairie",106451763,"Mairie de Carolles","",365,6859
+"Mairie",111641609,"Mairie d'Yquelon","",365,6870
+"Mairie",111641620,"Mairie de Bréville-sur-Mer","",365,6872
+"Aérodrome",24230778,"Aérodrome de Granville-Mont-Saint-Michel","LFRF",365,6874
+"Piste",24299545,"","Piste en dur / ",365,6874
+"Piste",339521282,"","Piste en herbe / ",365,6874
+"Piste",358537298,"","Piste en dur / ",365,6874
+"Piste",2000089543,"","Piste en dur / ",365,6874
+"Mairie",107937549,"Mairie d'Agon-Coutainville","",365,6892
+"Mairie",111641628,"Mairie de Blainville-sur-Mer","",365,6894
+"Barrage",2000246399,"","Barrage",365,6895
+"Mairie",111641643,"Mairie de Gouville-sur-Mer","",365,6898
+"Barrage",24295953,"","Barrage",365,6902
+"Mairie",2201848235,"Mairie de Saint-Germain-sur-Ay","",365,6913
+"Mairie",111641683,"Mairie de Neuville-en-Beaumont","",365,6926
+"Barrage",24294376,"","Barrage",365,6932
+"Mairie",107937543,"Mairie de Saint-Jacques-de-Néhou","",365,6934
+"Barrage",24294009,"","Barrage",365,6939
+"Mairie",111641777,"Mairie de Tollevast","",365,6951
+"Enceinte militaire",24231433,"Dépôt du Nardouet","",365,6955
+"Port",357670236,"Bassin Napoléon III","Port / Bassin",365,6960
+"Port",357670237,"Bassin Charles X","Port / Bassin",365,6960
+"Enceinte militaire",24231415,"Base Navale de Cherbourg","",365,6960
+"Mairie",111641617,"Mairie de Longueville","",366,6871
+"Mairie",287941341,"Mairie de Pirou","",366,6905
+"Mairie",111641671,"Mairie de Saint-Nicolas-de-Pierrepont","",366,6923
+"Mairie",111641688,"Mairie de Saint-Sauveur-de-Pierrepont","",366,6924
+"Enceinte militaire",242620176,"Station Hertzienne des Hauts Vents","",366,6953
+"Enceinte militaire",356862638,"","",366,6957
+"Enceinte militaire",356862639,"","",366,6957
+"Port",24230356,"Avant-Port de Cherbourg","Port / Port de plaisance",366,6958
+"Port",24230357,"Bassin du Commerce","Port / Bassin",366,6958
+"Gare",24230403,"Gare de Cherbourg","Gare voyageurs et fret / ",366,6958
+"Mairie",24231408,"Mairie de Cherbourg-en-Cotentin","Hôtel de ville",366,6959
+"Port",24230358,"Port Chantereyne","Port / Port de plaisance",366,6959
+"Mairie",106452177,"Mairie de Pontorson","Hôtel de ville",367,6837
+"Barrage",358379416,"","Barrage",367,6843
+"Barrage",259115417,"","Barrage",367,6844
+"Mairie",130228546,"Mairie du Mont-Saint-Michel","",367,6846
+"Mairie",106452176,"Mairie de Champeaux","",367,6858
+"Barrage",339520943,"","Barrage",367,6861
+"Mairie",111641604,"Mairie de Saint-Planchers","",367,6867
+"Mairie",111641616,"Mairie d'Anctoville-sur-Boscq","",367,6870
+"Mairie",107938556,"Mairie de Hauteville-sur-Mer","",367,6884
+"Mairie",107937545,"Mairie de Tourville-sur-Sienne","",367,6892
+"Mairie",111641644,"Mairie de Geffosses","",367,6901
+"Mairie",225329114,"Mairie de Créances","",367,6909
+"Mairie",111641686,"Mairie de Catteville","",367,6927
+"Mairie",111641684,"Mairie de Taillepied","",367,6928
+"Mairie",33874779,"Mairie de Rocheville","",367,6943
+"Mairie",111641753,"Mairie de Sottevast","",367,6945
+"Port",24230355,"Port de Cherbourg","Port / ",367,6959
+"Gare maritime",24230354,"Terminal Car-Ferry","Gare maritime / ",367,6959
+"Mairie",130359815,"Mairie de Beauvoir","",368,6842
+"Mairie",106452901,"Mairie de Saint-Jean-le-Thomas","",368,6857
+"Barrage",24298182,"","Barrage",368,6864
+"Mairie",108282927,"Mairie de Coudeville-sur-Mer","",368,6874
+"Mairie",107938552,"Mairie de Bricqueville-sur-Mer","",368,6877
+"Mairie",107938558,"Mairie de Tourneville-sur-Mer","",368,6881
+"Mairie",108283327,"Mairie de Regnéville-sur-Mer","",368,6889
+"Mairie",111641630,"Mairie de Saint-Malo-de-la-Lande","",368,6895
+"Mairie",111641750,"Mairie de Brix","",368,6948
+"Port",24230353,"Port des Flamands","Port / Port de plaisance",368,6959
+"Mairie",106363637,"Mairie d'Aucey-la-Plaine","",369,6834
+"Piste",339519543,"","Piste en herbe / ",369,6854
+"Mairie",106440784,"Mairie de Dragey-Ronthon","",369,6855
+"Mairie",106438916,"Mairie de Saint-Pierre-Langers","",369,6863
+"Mairie",111641605,"Mairie de Saint-Aubin-des-Préaux","",369,6865
+"Mairie",107706765,"Mairie de Bréhal","",369,6875
+"Mairie",107938564,"Mairie de Montmartin-sur-Mer","",369,6886
+"Mairie",107937544,"Mairie d'Heugueville-sur-Sienne","",369,6891
+"Mairie",102803369,"Mairie de Lessay","",369,6911
+"Mairie",111641040,"Mairie de La Haye","",369,6919
+"Mairie",111641728,"Mairie de L'Étang-Bertrand","",369,6939
+"Barrage",24293172,"","Barrage",369,6951
+"Barrage",2491576647,"","Barrage",369,6959
+"Mairie",106453670,"Mairie de Genêts","",370,6851
+"Mairie",107706763,"Mairie d'Hudimesnil","",370,6871
+"Barrage",357530410,"","Barrage",370,6881
+"Barrage",24296918,"","Barrage",370,6886
+"Barrage",24296639,"","Barrage",370,6890
+"Mairie",111641676,"Mairie de Neufmesnil","",370,6921
+"Mairie",111641690,"Mairie de Doville","",370,6924
+"Mairie",109056232,"Mairie de Néhou","",370,6933
+"Mairie",111641726,"Mairie de Magneville","",370,6937
+"Mairie",111641724,"Mairie de Négreville","",370,6941
+"Mairie",106371511,"Mairie de Sacey","",371,6832
+"Mairie",242943252,"Mairie d'Huisnes-sur-Mer","",371,6843
+"Barrage",24298075,"","Barrage",371,6867
+"Mairie",107938539,"Mairie de Chanteloup","",371,6875
+"Mairie",107706761,"Mairie de Muneville-sur-Mer","",371,6879
+"Barrage",24297029,"","Barrage",371,6884
+"Barrage",2000246400,"","Barrage",371,6895
+"Mairie",111641635,"Mairie de Brainville","",371,6896
+"Enceinte militaire",111641508,"Ancien Émetteur Loran-C de Lessay","",371,6903
+"Aérodrome",111640622,"Aérodrome Charles Lindbergh","LFOM",371,6909
+"Piste",24299539,"","Piste en dur / ",371,6909
+"Piste",24299540,"","Piste en dur / ",371,6909
+"Piste",2333060186,"","Piste en dur / Piste d'envol",371,6910
+"Barrage",24294738,"","Barrage",371,6927
+"Mairie",111641695,"Mairie de Saint-Sauveur-le-Vicomte","",371,6930
+"Écluse",24301867,"","Ecluse",371,6930
+"Port",24230352,"Port du Becquet","Port / Port de plaisance",371,6960
+"Mairie",106371509,"Mairie de Tanis","",372,6841
+"Mairie",106454616,"Mairie de Sartilly-Baie-Bocage","",372,6859
+"Mairie",111641606,"Mairie de Saint-Jean-des-Champs","",372,6867
+"Mairie",238949268,"Mairie de Quettreville-sur-Sienne","",372,6883
+"Barrage",357335769,"","Barrage",372,6884
+"Barrage",357335884,"","Barrage",372,6890
+"Mairie",111641624,"Mairie de Bricqueville-la-Blouette","",372,6891
+"Mairie",111641634,"Mairie de Gratot","",372,6894
+"Mairie",111641667,"Mairie de Vesly","",372,6915
+"Mairie",111641705,"Mairie de Sainte-Colombe","",372,6933
+"Mairie",111641706,"Mairie de Golleville","",372,6935
+"Mairie",111641754,"Mairie de Saint-Joseph","",372,6946
+"Mairie",111641778,"Mairie du Mesnil-au-Val","",372,6954
+"Mairie",111641810,"Mairie de Digosville","",372,6957
+"Mairie",106454621,"Mairie de Bacilly","",373,6853
+"Barrage",24297025,"","Barrage",373,6884
+"Barrage",24296913,"","Barrage",373,6885
+"Mairie",106454618,"Mairie d'Orval sur Sienne","",373,6888
+"Mairie",111641646,"Mairie de Muneville-le-Bingard","",373,6900
+"Mairie",111641532,"Mairie de La Feuillie","",373,6906
+"Mairie",111641677,"Mairie de Montsenelle","",373,6920
+"Mairie",111641689,"Mairie de Varenguebec","",373,6924
+"Barrage",24294836,"","Barrage",373,6925
+"Mairie",111641691,"Mairie de Rauville-la-Place","",373,6930
+"Mairie",111641722,"Mairie de Morville","",373,6939
+"Mairie",111641727,"Mairie d'Yvetot-Bocage","",373,6941
+"Barrage",24293332,"","Barrage",373,6949
+"Mairie",109056119,"Mairie de Bretteville","",373,6960
+"Mairie",106455020,"Mairie de Servon","",374,6842
+"Mairie",107706621,"Mairie de La Lucerne-d'Outremer","",374,6862
+"Mairie",111641619,"Mairie de Saint-Sauveur-la-Pommeraye","",374,6869
+"Barrage",24297292,"","Barrage",374,6879
+"Barrage",231293327,"","Barrage",374,6882
+"Barrage",2000246397,"","Barrage",374,6882
+"Mairie",111641625,"Mairie de Saint-Pierre-de-Coutances","",374,6891
+"Mairie",111641636,"Mairie de La Vendelée","",374,6896
+"Mairie",111641651,"Mairie de Millières","",374,6907
+"Mairie",243543541,"Mairie de Laulne","",374,6914
+"Mairie",111641692,"Mairie de Crosville-sur-Douve","",374,6930
+"Mairie",111641725,"Mairie de Colomby","",374,6937
+"Barrage",24294053,"","Barrage",374,6938
+"Barrage",24293015,"","Barrage",374,6953
+"Mairie",106455022,"Mairie de Courtils","",375,6845
+"Aérodrome",24230816,"Aérodrome d'Avranches-le Val-Saint-Père","LFRW",375,6849
+"Piste",24299548,"","Piste en dur / ",375,6849
+"Piste",24299549,"","Piste en herbe / ",375,6849
+"Mairie",106455023,"Mairie de Vains","",375,6851
+"Mairie",130360101,"Mairie du Loreur","",375,6872
+"Mairie",107938855,"Mairie de Cérences","",375,6877
+"Centrale électrique (CNPE)",335011413,"","Centrale hydroélectrique",375,6877
+"Barrage",24297391,"","Barrage",375,6877
+"Mairie",117791008,"Mairie de Saussey","",375,6887
+"Gare",111641505,"Gare de Coutances","Gare voyageurs et fret / ",375,6891
+"Mairie",111641637,"Mairie de Coutances","",375,6892
+"Barrage",24296534,"","Barrage",375,6892
+"Barrage",24295235,"","Barrage",375,6917
+"Barrage",24295211,"","Barrage",375,6918
+"Mairie",111641708,"Mairie de Reigneville-Bocage","",375,6932
+"Mairie",111641707,"Mairie de Biniville","",375,6934
+"Barrage",24294159,"","Barrage",375,6936
+"Mairie",111641721,"Mairie de Lieusaint","",375,6939
+"Gare",111641570,"Gare de Valognes","Gare voyageurs et fret / ",375,6943
+"Mairie",107706773,"Mairie de Saussemesnil","",375,6950
+"Mairie",106369888,"Mairie de Crollon","",376,6840
+"Mairie",106371515,"Mairie de Céaux","",376,6845
+"Mairie",107938557,"Mairie d'Hocquigny","",376,6866
+"Mairie",106455671,"Mairie de Folligny","",376,6867
+"Mairie",107706623,"Mairie de La Meurdraquière","",376,6870
+"Barrage",24297485,"","Barrage",376,6876
+"Mairie",130359845,"Mairie du Mesnil-Aubert","",376,6880
+"Mairie",106455672,"Mairie de Nicorps","",376,6889
+"Barrage",24296533,"","Barrage",376,6892
+"Barrage",357335856,"","Barrage",376,6899
+"Centrale éolienne",2223862731,"Parc Éolien Source de Sèves","Parc éolien",376,6904
+"Mairie",130360096,"Mairie de Saint-Patrice-de-Claids","",376,6912
+"Barrage",24294834,"","Barrage",376,6925
+"Mairie",111641709,"Mairie de La Bonneville","",376,6930
+"Mairie",2201848236,"Mairie de Hautteville-Bocage","",376,6934
+"Barrage",24294157,"","Barrage",376,6937
+"Mairie",106455024,"Mairie de Valognes","",376,6943
+"Mairie",111641816,"Mairie de Gonneville-Le Theil","",376,6957
+"Mairie",111641817,"Mairie de Maupertus-sur-Mer","",376,6960
+"Barrage",24299524,"","Barrage",377,6827
+"Mairie",106455675,"Mairie de Précey","",377,6843
+"Mairie",130359412,"Mairie du Val-Saint-Père","",377,6849
+"Mairie",24231477,"Mairie de Marcey-les-Grèves","",377,6853
+"Mairie",106455674,"Mairie de Lolif","",377,6857
+"Mairie",130359454,"Mairie du Grippon","",377,6861
+"Mairie",107706608,"Mairie de La Haye-Pesnel","",377,6864
+"Barrage",24297483,"","Barrage",377,6875
+"Mairie",130359448,"Mairie de Saint-Denis-le-Vêtu","",377,6885
+"Barrage",2000246398,"","Barrage",377,6887
+"Mairie",116125656,"Mairie de Monthuchon","",377,6896
+"Barrage",357335857,"","Barrage",377,6899
+"Barrage",24295058,"","Barrage",377,6921
+"Mairie",252659805,"Mairie d'Étienville","",377,6928
+"Mairie",107937537,"Mairie d'Orglandes","",377,6933
+"Mairie",111641731,"Mairie de Flottemanville","",377,6939
+"Mairie",243161421,"Mairie de Tamerville","",377,6946
+"Enceinte militaire",111641814,"Base Aéronautique Navale de Maupertus Site Sud-Est","",377,6958
+"Aérodrome",110065630,"Aéroport de Cherbourg-Manche","LFRC",377,6959
+"Piste",24299537,"","Piste en dur / ",377,6959
+"Enceinte militaire",315058164,"Base Aéronavale de Cherbourg-Maupertus","",377,6959
+"Port",24230296,"Port du Cap Lévi","Port / ",377,6963
+"Enceinte militaire",111641846,"","",377,6964
+"Mairie",130359419,"Mairie d'Équilly","",378,6868
+"Mairie",130359837,"Mairie de Ver","",378,6874
+"Mairie",116124883,"Mairie de Lengronne","",378,6879
+"Barrage",2000246401,"","Barrage",378,6881
+"Mairie",106455679,"Mairie de Courcy","",378,6891
+"Mairie",2201497337,"Mairie de Saint-Sauveur-Villages","",378,6901
+"Mairie",130359890,"Mairie de Périers","",378,6907
+"Mairie",130359389,"Mairie du Plessis-Lastelle","",378,6918
+"Mairie",107938543,"Mairie d'Urville","",378,6937
+"Mairie",107938544,"Mairie d'Hémevez","",378,6937
+"Mairie",130359321,"Mairie de Sortosville","",378,6940
+"Mairie",243424380,"Mairie d'Huberville","",378,6943
+"Enceinte militaire",111641812,"Base Aéronavale de Cherbourg-Maupertus","",378,6959
+"Port",24230294,"Port Pignot","Port / Port de plaisance",378,6964
+"Mairie",106455682,"Mairie de Juilley","",379,6842
+"Mairie",106371512,"Mairie de Pontaubault","",379,6845
+"Mairie",24231476,"Mairie d'Avranches","",379,6851
+"Mairie",106455680,"Mairie de Saint-Jean-de-la-Haize","",379,6853
+"Mairie",106371517,"Mairie de Subligny","",379,6858
+"Barrage",357335897,"","Barrage",379,6887
+"Barrage",2000246396,"","Barrage",379,6892
+"Mairie",130359903,"Mairie de Cambernon","",379,6895
+"Barrage",24295897,"","Barrage",379,6903
+"Barrage",24295898,"","Barrage",379,6903
+"Mairie",130360102,"Mairie de Gonfreville","",379,6913
+"Centrale éolienne",2490093707,"Parc Éolien de Gorges-Gonfreville","Parc éolien",379,6914
+"Mairie",130359822,"Mairie de Gorges","",379,6915
+"Mairie",130359892,"Mairie de Picauville","",379,6928
+"Mairie",107937547,"Mairie du Ham","",379,6936
+"Barrage",24294156,"","Barrage",379,6937
+"Mairie",130359829,"Mairie de Saint-Cyr-Bocage","",379,6941
+"Barrage",24293060,"","Barrage",379,6952
+"Barrage",24293061,"","Barrage",379,6952
+"Barrage",24293062,"","Barrage",379,6952
+"Barrage",24292331,"","Barrage",379,6959
+"Barrage",24292332,"","Barrage",379,6959
+"Mairie",111641811,"Mairie de Carneville","",379,6960
+"Barrage",24292208,"","Barrage",379,6960
+"Barrage",24292133,"","Barrage",379,6961
+"Mairie",111641848,"Mairie de Fermanville","",379,6963
+"Mairie",106455689,"Mairie de Saint-James","",380,6833
+"Mairie",130360107,"Mairie de Saint-Senier-sous-Avranches","",380,6851
+"Mairie",24231473,"Mairie de Ponts","",380,6853
+"Mairie",130359907,"Mairie de La Mouche","",380,6863
+"Mairie",130359415,"Mairie du Tanu","",380,6866
+"Mairie",106455688,"Mairie de Beauchamps","",380,6868
+"Barrage",24297933,"","Barrage",380,6868
+"Barrage",24297482,"","Barrage",380,6875
+"Barrage",357335877,"","Barrage",380,6891
+"Barrage",24293469,"","Barrage",380,6946
+"Mairie",111641761,"Mairie de Montaigu-la-Brisette","",380,6949
+"Mairie",111641781,"Mairie de Brillevast","",380,6956
+"Mairie",111641820,"Mairie de Théville","",380,6959
+"Barrage",24299289,"","Barrage",381,6837
+"Mairie",130359838,"Mairie de Chavoy","",381,6856
+"Mairie",2201496077,"Mairie de Gavray-sur-Sienne","",381,6876
+"Barrage",24297478,"","Barrage",381,6876
+"Mairie",130359965,"Mairie de Grimesnil","",381,6881
+"Mairie",106455937,"Mairie d'Ouville","",381,6888
+"Mairie",130360092,"Mairie de Belval","",381,6891
+"Centrale éolienne",331507045,"Parc Éolien de Cambernon","Parc éolien",381,6897
+"Mairie",130360103,"Mairie de Saint-Sébastien-de-Raids","",381,6907
+"Mairie",130359911,"Mairie de Saint-Germain-sur-Sèves","",381,6911
+"Mairie",130359850,"Mairie de Nay","",381,6913
+"Mairie",130359413,"Mairie d'Éroudeville","",381,6939
+"Mairie",243282127,"Mairie de Saint-Germain-de-Tournebut","",381,6945
+"Barrage",24292974,"","Barrage",381,6953
+"Barrage",24292975,"","Barrage",381,6953
+"Mairie",111641849,"Mairie de Vicq-sur-Mer","",381,6963
+"Barrage",358599922,"","Barrage",381,6964
+"Mairie",106456410,"Mairie de Saint-Senier-de-Beuvron","",382,6839
+"Barrage",24299010,"","Barrage",382,6843
+"Mairie",106456411,"Mairie de Poilley","",382,6844
+"Mairie",106371507,"Mairie de Saint-Quentin-sur-le-Homme","",382,6847
+"Centrale électrique (CNPE)",354597234,"Écoparc du Val de Sée","",382,6854
+"Mairie",130359875,"Mairie du Luot","",382,6859
+"Mairie",130359842,"Mairie de Champrepus","",382,6868
+"Mairie",130359841,"Mairie du Mesnil-Villeman","",382,6871
+"Mairie",106456719,"Mairie de Savigny","",382,6892
+"Mairie",130359863,"Mairie de Camprond","",382,6896
+"Mairie",130359404,"Mairie de Saint-Martin-d'Aubigny","",382,6905
+"Centrale électrique (CNPE)",351104926,"Poste de Transformation de la Taute","",382,6909
+"Mairie",130359893,"Mairie de Baupte","",382,6920
+"Mairie",130359964,"Mairie de Beuzeville-la-Bastille","",382,6926
+"Mairie",130359373,"Mairie d'Écausseville","",382,6937
+"Mairie",106455939,"Mairie de Montebourg","",382,6940
+"Mairie",243164565,"Mairie de Teurthéville-Bocage","",382,6952
+"Mairie",109056194,"Mairie de Saint-Pierre-Église","",382,6961
+"Barrage",24291931,"","Barrage",382,6962
+"Barrage",24299448,"","Barrage",383,6832
+"Mairie",106456722,"Mairie de Montjoie-Saint-Martin","",383,6834
+"Barrage",24299340,"","Barrage",383,6835
+"Mairie",106456721,"Mairie de Saint-Aubin-de-Terregatte","",383,6839
+"Mairie",106531169,"Mairie de Ducey-Les Chéris","",383,6844
+"Barrage",312838173,"","Barrage",383,6844
+"Mairie",106456723,"Mairie de Saint-Loup","",383,6849
+"Mairie",106456720,"Mairie de Saint-Brice","",383,6852
+"Centrale éolienne",331507063,"Parc Éolien de Gavray","Parc éolien",383,6875
+"Mairie",130360095,"Mairie de La Baleine","",383,6878
+"Mairie",117896939,"Mairie de Saint-Denis-le-Gast","",383,6879
+"Mairie",83214859,"Mairie de Roncey","",383,6885
+"Mairie",130359814,"Mairie de Montcuit","",383,6900
+"Mairie",130359414,"Mairie de Raids","",383,6910
+"Mairie",111641763,"Mairie de Vaudreville","",383,6944
+"Mairie",111641768,"Mairie de Videcosville","",383,6948
+"Barrage",24293252,"","Barrage",383,6949
+"Barrage",24293253,"","Barrage",383,6949
+"Centrale éolienne",315243013,"Parc Éolien de Clitourps","Parc éolien",383,6958
+"Mairie",106531170,"Mairie de La Godefroy","",384,6851
+"Mairie",130359410,"Mairie du Parc","",384,6859
+"Mairie",130359884,"Mairie de Bourguenolles","",384,6864
+"Mairie",130359888,"Mairie du Mesnil-Garnier","",384,6871
+"Barrage",24297325,"","Barrage",384,6878
+"Mairie",106456724,"Mairie de Montpinchon","",384,6888
+"Mairie",130359421,"Mairie de Feugères","",384,6903
+"Mairie",130359938,"Mairie d'Appeville","",384,6922
+"Mairie",130359933,"Mairie de Fresville","",384,6935
+"Mairie",244270501,"Mairie de Joganville","",384,6938
+"Mairie",244270500,"Mairie de Saint-Floxel","",384,6941
+"Mairie",111641764,"Mairie de Saint-Martin-d'Audouville","",384,6945
+"Mairie",244204806,"Mairie d'Octeville-l'Avenel","",384,6947
+"Mairie",111641825,"Mairie de Clitourps","",384,6959
+"Mairie",111641826,"Mairie de Varouville","",384,6961
+"Barrage",24299276,"","Barrage",385,6837
+"Mairie",130359409,"Mairie de La Lande-d'Airou","",385,6865
+"Centrale éolienne",331507065,"Parc Éolien de Sourdeval-les-Bois","Parc éolien",385,6876
+"Mairie",130360109,"Mairie du Lorey","",385,6896
+"Mairie",117790964,"Mairie de Terre-et-Marais","",385,6912
+"Mairie",130359857,"Mairie d'Auvers","",385,6919
+"Mairie",130359432,"Mairie de Neuville-au-Plain","",385,6933
+"Mairie",244270502,"Mairie d'Émondeville","",385,6937
+"Mairie",244254417,"Mairie d'Ozeville","",385,6942
+"Mairie",107939166,"Mairie du Vast","",385,6955
+"Mairie",111641823,"Mairie de Canteloup","",385,6958
+"Barrage",24299309,"","Barrage",386,6837
+"Mairie",106456726,"Mairie de Saint-Laurent-de-Terregatte","",386,6838
+"Mairie",106456728,"Mairie de Marcilly","",386,6847
+"Mairie",106440607,"Mairie de Saint-Ovin","",386,6850
+"Mairie",130359824,"Mairie de Tirepied-sur-Sée","",386,6853
+"Mairie",130359377,"Mairie de Fleury","",386,6869
+"Mairie",2201848237,"Mairie de Montaigu-les-Bois","",386,6874
+"Mairie",130359931,"Mairie de Saint-Martin-de-Cenilly","",386,6884
+"Mairie",130360094,"Mairie de Cerisy-la-Salle","",386,6889
+"Mairie",130360074,"Mairie de Hauteville-la-Guichard","",386,6900
+"Centrale éolienne",331507068,"Parc Éolien de Méautis","Parc éolien",386,6918
+"Mairie",130359945,"Mairie de Liesville-sur-Douve","",386,6925
+"Mairie",130360025,"Mairie de Sainte-Mère-Église","",386,6931
+"Mairie",111641765,"Mairie de Lestre","",386,6944
+"Mairie",111641023,"Mairie de Crasville","",386,6947
+"Barrage",24299009,"","Barrage",387,6843
+"Mairie",83214891,"Mairie d'Hambye","",387,6880
+"Barrage",24296431,"","Barrage",387,6893
+"Mairie",106457923,"Mairie de Cametours","",387,6894
+"Mairie",130360063,"Mairie de Marchésieux","",387,6907
+"Mairie",130359948,"Mairie d'Auxais","",387,6910
+"Mairie",130359858,"Mairie de Méautis","",387,6917
+"Barrage",24294683,"","Barrage",387,6928
+"Mairie",130359813,"Mairie d'Azeville","",387,6937
+"Mairie",130359424,"Mairie de Fontenay-sur-Mer","",387,6940
+"Mairie",111641766,"Mairie d'Aumeville-Lestre","",387,6946
+"Barrage",24293316,"","Barrage",387,6948
+"Mairie",111641824,"Mairie de Valcanville","",387,6957
+"Mairie",111641830,"Mairie de Tocqueville","",387,6961
+"Mairie",106457925,"Mairie du Mesnil-Ozenne","",388,6849
+"Mairie",130359384,"Mairie de La Chaise-Baudouin","",388,6860
+"Mairie",130360018,"Mairie de La Trinité","",388,6862
+"Mairie",119234214,"Mairie de Notre-Dame-de-Cenilly","",388,6885
+"Mairie",130359941,"Mairie de Blosville","",388,6927
+"Mairie",130360112,"Mairie de Sébeville","",388,6929
+"Mairie",111641734,"Mairie de Quinéville","",388,6943
+"Mairie",111641785,"Mairie de Quettehou","",388,6952
+"Mairie",111641829,"Mairie du Vicel","",388,6956
+"Mairie",111641828,"Mairie de Sainte-Geneviève","",388,6959
+"Mairie",106457970,"Mairie d'Hamelin","",389,6835
+"Barrage",24299308,"","Barrage",389,6837
+"Mairie",130360022,"Mairie de Vernix","",389,6854
+"Mairie",130359889,"Mairie de Saint-Georges-de-Livoye","",389,6856
+"Mairie",130359998,"Mairie de La Bloutière","",389,6872
+"Barrage",24297255,"","Barrage",389,6880
+"Mairie",117790880,"Mairie de Remilly Les Marais","",389,6906
+"Mairie",130359878,"Mairie de Turqueville","",389,6931
+"Mairie",130359942,"Mairie de Saint-Marcouf","",389,6938
+"Port",334648635,"","Port / Port de plaisance",389,6943
+"Mairie",111641792,"Mairie de La Pernelle","",389,6955
+"Barrage",24299221,"","Barrage",390,6838
+"Mairie",106457971,"Mairie du Petit-Celland","",390,6852
+"Mairie",130360105,"Mairie de Notre-Dame-de-Livoye","",390,6857
+"Mairie",130360011,"Mairie de Villedieu-les-Poêles-Rouffigny","",390,6868
+"Mairie",130359843,"Mairie du Guislain","",390,6883
+"Mairie",130359356,"Mairie de Carantilly","",390,6893
+"Mairie",247284691,"Mairie de Marigny-Le-Lozon","",390,6897
+"Mairie",130359362,"Mairie du Mesnil-Eury","",390,6902
+"Barrage",358431501,"","Barrage",390,6906
+"Mairie",130359387,"Mairie de Tribehou","",390,6909
+"Mairie",130359885,"Mairie de Saint-André-de-Bohon","",390,6912
+"Barrage",24294731,"","Barrage",390,6926
+"Mairie",244980886,"Mairie d'Hiesville","",390,6927
+"Barrage",24293190,"","Barrage",390,6950
+"Mairie",111641834,"Mairie d'Anneville-en-Saire","",390,6956
+"Mairie",111641831,"Mairie de Gatteville-le-Phare","",390,6962
+"Barrage",24299136,"","Barrage",391,6839
+"Barrage",24298699,"","Barrage",391,6851
+"Mairie",130359914,"Mairie de Saint-Nicolas-des-Bois","",391,6858
+"Mairie",130359990,"Mairie de Saint-Jean-du-Corail-des-Bois","",391,6860
+"Mairie",130360009,"Mairie de Chérencé-le-Héron","",391,6863
+"Mairie",130359355,"Mairie de Dangy","",391,6890
+"Mairie",130360090,"Mairie de Montreuil-sur-Lozon","",391,6901
+"Mairie",106457973,"Mairie de Carentan-les-Marais","",391,6919
+"Gare",24230734,"Gare de Carentan","Gare voyageurs uniquement / ",391,6919
+"Port",250008283,"Port de Carentan","Port / Port de plaisance",391,6920
+"Barrage",24294955,"","Barrage",391,6922
+"Barrage",24295003,"","Barrage",391,6922
+"Mairie",2201848238,"Mairie de Boutteville","",391,6929
+"Mairie",244871238,"Mairie de Saint-Germain-de-Varreville","",391,6934
+"Mairie",111641795,"Mairie de Saint-Vaast-la-Hougue","",391,6951
+"Port",250110236,"Port de Plaisance de Saint-Vaast-la-Hougue","Port / Port de plaisance",391,6951
+"Écluse",24301859,"","Ecluse",391,6951
+"Mairie",111641833,"Mairie de Montfarville","",391,6958
+"Barrage",24291917,"","Barrage",391,6962
+"Port",24230274,"Port de Roubary","Port / Port de plaisance",391,6963
+"Mairie",106457976,"Mairie d'Isigny-le-Buat","",392,6843
+"Mairie",106457975,"Mairie du Grand-Celland","",392,6850
+"Mairie",130360028,"Mairie de Sainte-Cécile","",392,6867
+"Barrage",24297466,"","Barrage",392,6876
+"Mairie",130359865,"Mairie de Maupertuis","",392,6880
+"Mairie",130360091,"Mairie du Mesnil-Amey","",392,6897
+"Barrage",24295146,"","Barrage",392,6919
+"Barrage",24295150,"","Barrage",392,6919
+"Barrage",2490963638,"","Barrage",392,6920
+"Écluse",24230733,"Écluse du Haut Dicq","Ecluse",392,6921
+"Mairie",130359891,"Mairie d'Audouville-la-Hubert","",392,6931
+"Mairie",244871239,"Mairie de Saint-Martin-de-Varreville","",392,6933
+"Mairie",111641791,"Mairie de Réville","",392,6954
+"Mairie",111641832,"Mairie de Barfleur","",392,6960
+"Port",250016685,"Port de Barfleur","Port / Port de plaisance",392,6960
+"Port",358647781,"","Port / Port de pêche",392,6960
+"Enceinte militaire",111641486,"","",392,6963
+"Mairie",106457977,"Mairie de Saint-Brice-de-Landelles","",393,6833
+"Barrage",24299425,"","Barrage",393,6833
+"Barrage",24299272,"","Barrage",393,6837
+"Mairie",130359868,"Mairie de Brécey","",393,6855
+"Mairie",130359840,"Mairie des Loges-sur-Brécey","",393,6859
+"Mairie",130359825,"Mairie de Saint-Martin-le-Bouillant","",393,6862
+"Barrage",24298280,"","Barrage",393,6862
+"Mairie",130359930,"Mairie de La Colombe","",393,6871
+"Mairie",130359880,"Mairie de Percy-en-Normandie","",393,6876
+"Mairie",130359934,"Mairie de La Haye-Bellefond","",393,6884
+"Mairie",116127091,"Mairie de Quibou","",393,6893
+"Barrage",358420016,"","Barrage",393,6907
+"Mairie",130360054,"Mairie de Sainte-Marie-du-Mont","",393,6928
+"Mairie",130359879,"Mairie de La Chapelle-Cécelin","",394,6864
+"Mairie",130360098,"Mairie de Graignes-Mesnil-Angot","",394,6912
+"Barrage",24294915,"","Barrage",394,6923
+"Mairie",106457978,"Mairie de La Chapelle-Urée","",395,6849
+"Mairie",130359973,"Mairie de Beslon","",395,6868
+"Mairie",130359374,"Mairie de Villebaudon","",395,6881
+"Mairie",130359416,"Mairie de Saint-Martin-de-Bonfossé","",395,6891
+"Mairie",130359910,"Mairie de Canisy","",395,6894
+"Mairie",247287538,"Mairie de Saint-Gilles","",395,6897
+"Mairie",2201848239,"Mairie d'Amigny","",395,6903
+"Barrage",234045427,"","Barrage",395,6926
+"Mairie",129472754,"Mairie des Cresnays","",396,6854
+"Mairie",130359859,"Mairie de Boisyvon","",396,6863
+"Barrage",24298150,"","Barrage",396,6864
+"Mairie",130359918,"Mairie de Margueray","",396,6874
+"Mairie",130359411,"Mairie de Beaucoudray","",396,6881
+"Barrage",24296175,"","Barrage",396,6897
+"Mairie",130360052,"Mairie de Thèreval","",396,6899
+"Mairie",130359987,"Mairie du Dézert","",396,6908
+"Mairie",130359932,"Mairie du Mesnil-Véneron","",396,6910
+"Barrage",234045408,"","Barrage",396,6926
+"Mairie",130359849,"Mairie de Reffuveille","",397,6848
+"Mairie",130359359,"Mairie de Cuves","",397,6854
+"Mairie",130359860,"Mairie de Saint-Laurent-de-Cuves","",397,6858
+"Barrage",24298327,"","Barrage",397,6860
+"Barrage",24298151,"","Barrage",397,6864
+"Centrale éolienne",356377208,"Centrale Éolienne de Montbray-Margueray","Parc éolien",397,6875
+"Mairie",130359904,"Mairie de Montabot","",397,6878
+"Mairie",106457979,"Mairie des Loges-Marchis","",398,6834
+"Barrage",24299264,"","Barrage",398,6837
+"Mairie",128727505,"Mairie de Saint-Hilaire-du-Harcouët","",398,6838
+"Barrage",357961756,"","Barrage",398,6838
+"Mairie",116125640,"Mairie de Grandparigny","",398,6840
+"Mairie",241346957,"Mairie de Coulouvray-Boisbenâtre","",398,6861
+"Mairie",116125644,"Mairie de Moyon Villages","",398,6885
+"Mairie",130359992,"Mairie de Bourgvallées","",398,6891
+"Écluse",24301888,"","Ecluse",398,6897
+"Mairie",130359855,"Mairie de Rampan","",398,6901
+"Mairie",116125633,"Mairie de Pont-Hébert","",398,6904
+"Mairie",83214899,"Mairie de Saint-Jean-de-Daye","",398,6911
+"Barrage",359101593,"Portes à Flot du Pont de Vey","Barrage",398,6920
+"Mairie",129471325,"Mairie du Mesnillard","",399,6844
+"Barrage",24298871,"","Barrage",399,6846
+"Barrage",24298805,"","Barrage",399,6848
+"Mairie",116125214,"Mairie de Montbray","",399,6872
+"Barrage",230970509,"","Barrage",399,6879
+"Barrage",24296169,"","Barrage",399,6897
+"Barrage",24296210,"","Barrage",399,6897
+"Mairie",24231457,"Mairie d'Agneaux","",399,6898
+"Barrage",24295815,"","Barrage",399,6904
+"Mairie",129473553,"Mairie du Mesnil-Adelée","",400,6852
+"Centrale électrique (CNPE)",324103589,"","Centrale hydroélectrique",400,6857
+"Barrage",314970347,"","Barrage",400,6858
+"Barrage",339527627,"","Barrage",400,6874
+"Mairie",243543543,"Mairie de Saint-Vigor-des-Monts","",400,6875
+"Mairie",130359848,"Mairie de Gouvets","",400,6877
+"Gare",24230765,"Gare de Saint-Lô","Gare voyageurs uniquement / ",400,6898
+"Écluse",24301885,"","Ecluse",400,6898
+"Mairie",130360070,"Mairie de La Meauffe","",400,6905
+"Barrage",24295759,"","Barrage",400,6905
+"Barrage",24295762,"","Barrage",400,6905
+"Mairie",130359947,"Mairie de Cavigny","",400,6907
+"Barrage",24294997,"","Barrage",400,6922
+"Mairie",106458047,"Mairie de Savigny-le-Vieux","",401,6831
+"Mairie",106458046,"Mairie du Mesnil-Gilbert","",401,6853
+"Mairie",106458045,"Mairie de Saint-Pois","",401,6857
+"Mairie",24231454,"Mairie de Saint-Lô","",401,6898
+"Barrage",24296111,"","Barrage",401,6898
+"Mairie",225329112,"Mairie de Saint-Georges-Montcocq","",401,6900
+"Mairie",130359915,"Mairie de Saint-Fromond","",401,6909
+"Mairie",106458048,"Mairie de Moulines","",402,6834
+"Barrage",24298847,"","Barrage",402,6847
+"Barrage",24298726,"","Barrage",402,6850
+"Mairie",130359820,"Mairie de Morigny","",402,6872
+"Mairie",128709809,"Mairie de Tessy-Bocage","",402,6882
+"Barrage",24296995,"","Barrage",402,6884
+"Barrage",24296458,"","Barrage",402,6893
+"Barrage",2000343482,"Écluse du Moulin Pochin","Barrage",402,6893
+"Mairie",130359966,"Mairie de Baudre","",402,6895
+"Mairie",130359991,"Mairie du Mesnil-Rouxelin","",402,6901
+"Barrage",24295965,"","Barrage",402,6901
+"Barrage",24295966,"","Barrage",402,6901
+"Barrage",24295967,"","Barrage",402,6901
+"Mairie",111641659,"Mairie d'Airel","",402,6909
+"Barrage",24295423,"","Barrage",402,6911
+"Barrage",24299420,"","Barrage",403,6833
+"Barrage",24299085,"","Barrage",403,6840
+"Barrage",24298380,"","Barrage",403,6858
+"Écluse",24301903,"Écluse de Fourneaux","Ecluse",403,6880
+"Mairie",130359827,"Mairie de Sainte-Suzanne-sur-Vire","",403,6892
+"Mairie",111641648,"Mairie de Villiers-Fossard","",403,6902
+"Barrage",24295812,"","Barrage",403,6904
+"Barrage",24299417,"","Barrage",404,6833
+"Barrage",24299418,"","Barrage",404,6833
+"Barrage",24299419,"","Barrage",404,6833
+"Mairie",106438914,"Mairie de Lapenty","",404,6838
+"Mairie",106458050,"Mairie de Juvigny les Vallées","",404,6849
+"Mairie",130359427,"Mairie de Lingeard","",404,6856
+"Mairie",130359988,"Mairie de Saint-Michel-de-Montjoie","",404,6859
+"Barrage",13959279,"Écluse de Pont-Farcy","Barrage",404,6878
+"Écluse",13964083,"Écluse de Pont-Farcy","Ecluse",404,6878
+"Barrage",13959075,"","Barrage",404,6880
+"Écluse",13964080,"Écluse du Val","Ecluse",404,6880
+"Mairie",130359831,"Mairie de Fourneaux","",404,6881
+"Barrage",24296701,"","Barrage",404,6889
+"Écluse",24301895,"Écluse du Moulin de Vire","Ecluse",404,6889
+"Mairie",130359380,"Mairie de Condé-sur-Vire","",404,6891
+"Barrage",24296416,"","Barrage",404,6893
+"Barrage",24296259,"","Barrage",404,6896
+"Mairie",130359936,"Mairie de La Luzerne","",404,6900
+"Barrage",24296015,"","Barrage",404,6900
+"Barrage",24295515,"","Barrage",404,6908
+"Barrage",24295516,"","Barrage",404,6908
+"Barrage",24295518,"","Barrage",404,6908
+"Barrage",24299435,"","Barrage",405,6832
+"Barrage",24298456,"","Barrage",405,6856
+"Mairie",90470374,"Mairie de Sainte-Marie-Outre-l'Eau","",405,6878
+"Barrage",13959191,"","Barrage",405,6879
+"Barrage",24297113,"","Barrage",405,6882
+"Mairie",130360013,"Mairie de Domjean","",405,6883
+"Mairie",130360076,"Mairie de La Barre-de-Semilly","",405,6897
+"Barrage",331313631,"","Barrage",405,6902
+"Mairie",111641657,"Mairie de Moon-sur-Elle","",405,6908
+"Mairie",130359905,"Mairie de Perriers-en-Beauficel","",406,6855
+"Barrage",24298350,"","Barrage",406,6859
+"Barrage",24298351,"","Barrage",406,6859
+"Barrage",13959278,"","Barrage",406,6878
+"Barrage",24296896,"","Barrage",406,6885
+"Barrage",24296506,"","Barrage",406,6892
+"Barrage",24295963,"","Barrage",406,6900
+"Barrage",24296013,"","Barrage",406,6900
+"Mairie",111641656,"Mairie de Saint-Clair-sur-l'Elle","",406,6906
+"Barrage",24295638,"","Barrage",406,6906
+"Mairie",106803608,"Mairie de Buais-Les-Monts","",407,6832
+"Barrage",24299383,"","Barrage",407,6833
+"Mairie",130360097,"Mairie de Romagny Fontenay","",407,6845
+"Barrage",24298866,"","Barrage",407,6846
+"Barrage",24298867,"","Barrage",407,6846
+"Mairie",130360030,"Mairie de Gathemo","",407,6859
+"Mairie",130359360,"Mairie de Beuvrigny","",407,6881
+"Barrage",24296849,"","Barrage",407,6886
+"Barrage",24296294,"","Barrage",407,6895
+"Barrage",24296296,"","Barrage",407,6895
+"Mairie",117907128,"Mairie de Saint-Pierre-de-Semilly","",407,6898
+"Barrage",24296159,"","Barrage",407,6898
+"Barrage",24296161,"","Barrage",407,6898
+"Mairie",117896610,"Mairie de Saint-André-de-l'Épine","",407,6900
+"Mairie",111641647,"Mairie de Couvains","",407,6903
+"Barrage",24299382,"","Barrage",408,6834
+"Mairie",130359851,"Mairie de Brouains","",408,6854
+"Barrage",339525486,"","Barrage",408,6855
+"Barrage",339525487,"","Barrage",408,6855
+"Mairie",130359867,"Mairie de Beauficel","",408,6856
+"Barrage",24298425,"","Barrage",408,6857
+"Mairie",24231460,"Mairie de Saint-Louet-sur-Vire","",408,6884
+"Barrage",24296295,"","Barrage",408,6895
+"Barrage",24295962,"","Barrage",408,6900
+"Barrage",24295882,"","Barrage",408,6902
+"Barrage",24295923,"","Barrage",408,6902
+"Barrage",24299434,"","Barrage",409,6832
+"Mairie",130359315,"Mairie de Mortain-Bocage","",409,6845
+"Mairie",106459039,"Mairie du Neufbourg","",409,6846
+"Mairie",130359887,"Mairie de Saint-Barthélemy","",409,6849
+"Centrale éolienne",331507213,"Parc Éolien du Hamel au Brun","Parc éolien",409,6881
+"Mairie",130359828,"Mairie de Torigny-les-Villes","",409,6888
+"Mairie",130360115,"Mairie de Saint-Jean-d'Elle","",409,6895
+"Barrage",24296204,"","Barrage",409,6896
+"Barrage",24296251,"","Barrage",409,6896
+"Mairie",111641663,"Mairie de Saint-Jean-de-Savigny","",409,6906
+"Barrage",26309402,"","Barrage",410,6829
+"Barrage",24299380,"","Barrage",410,6834
+"Mairie",117896549,"Mairie de Saint-Amand-Villages","",410,6889
+"Mairie",111641649,"Mairie de Saint-Georges-d'Elle","",410,6901
+"Barrage",24295750,"","Barrage",410,6905
+"Barrage",230011148,"","Barrage",411,6829
+"Mairie",130359856,"Mairie de Sourdeval","",411,6854
+"Barrage",24295800,"","Barrage",411,6904
+"Barrage",24298581,"","Barrage",412,6854
+"Mairie",111641650,"Mairie de Bérigny","",412,6900
+"Mairie",130359846,"Mairie de Saint-Clément-Rancoudray","",413,6848
+"Barrage",339528478,"","Barrage",413,6889
+"Centrale éolienne",331524547,"Parc Éolien les Hauts Vents","Parc éolien",413,6889
+"Barrage",24295799,"","Barrage",413,6904
+"Mairie",111641662,"Mairie de Cerisy-la-Forêt","",413,6906
+"Mairie",130359392,"Mairie du Teilleul","",414,6833
+"Barrage",339528477,"","Barrage",414,6889
+"Mairie",130359440,"Mairie du Perron","",414,6890
+"Mairie",130360093,"Mairie de Lamberville","",414,6893
+"Mairie",130359453,"Mairie de Saint-Germain-d'Elle","",414,6898
+"Barrage",24299459,"","Barrage",415,6831
+"Barrage",24299409,"","Barrage",415,6832
+"Barrage",24299433,"","Barrage",415,6832
+"Barrage",24299408,"","Barrage",415,6833
+"Mairie",130359995,"Mairie de Chaulieu","",416,6855
+"Mairie",130360111,"Mairie de Biéville","",416,6893
+"Mairie",24231451,"Mairie de Montrabot","",416,6896
+"Mairie",241347138,"Mairie de Barenton","",417,6840
+"Mairie",130359929,"Mairie du Fresne-Poret","",418,6852
+"Mairie",130359924,"Mairie de Saint-Cyr-du-Bailleul","",419,6836
+"Centrale éolienne",331507250,"Parc Éolien de Ger","Parc éolien",420,6850
+"Mairie",130360099,"Mairie de Ger","",421,6849
+"Barrage",294783459,"","Barrage",421,6850
+"Mairie",130359358,"Mairie de Saint-Georges-de-Rouelley","",422,6840
+"Barrage",24298747,"","Barrage",424,6849

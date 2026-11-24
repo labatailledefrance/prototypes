@@ -1,0 +1,12 @@
+perimetre,type,tiles,octets_moyen,go_total,ms_calcul_moyen,heures_calcul_1_thread
+metropole,vide,169429,54803,9.29,19.68,0.93
+metropole,rural,293942,63066,18.54,26.53,2.17
+metropole,bourg,68561,77362,5.3,27.94,0.53
+metropole,urbain,10399,117088,1.22,35.67,0.1
+metropole,dense,1609,149813,0.24,36.29,0.02
+outre-mer,vide,6111,54803,0.33,19.68,0.03
+outre-mer,rural,69792,63066,4.4,26.53,0.51
+outre-mer,bourg,12736,77362,0.99,27.94,0.1
+outre-mer,urbain,828,117088,0.1,35.67,0.01
+outre-mer,dense,29,149813,0.0,36.29,0.0
+mer-30km,mer,167314,968,0.16,6.53,0.3

@@ -1,0 +1,221 @@
+[01:24:21] A. précalcul des zones accessibles
+zones globales : 2453 ms pour 55 tiles (32245 composantes, principale 30115803 cases sur 33793251 libres)
+[01:24:26] B. banc tile par tile
+x652 y6863 (61 %, 19999 zombies) : terrain 6.53 ms (18 ticks), placement 1.28, naissance 2.09, destruction 1.67, sauvegarde zstd 77813 o
+x652 y6863 (61 %, 19999 zombies) : terrain 6.12 ms (18 ticks), placement 1.27, naissance 1.90, destruction 1.70, sauvegarde zstd 77813 o
+x652 y6863 (61 %, 19999 zombies) : terrain 6.09 ms (18 ticks), placement 1.15, naissance 1.84, destruction 1.82, sauvegarde zstd 77813 o
+x651 y6863 (60 %, 19613 zombies) : terrain 6.02 ms (18 ticks), placement 1.14, naissance 0.63, destruction 0.96, sauvegarde zstd 77100 o
+x651 y6863 (60 %, 19613 zombies) : terrain 5.97 ms (18 ticks), placement 1.10, naissance 0.60, destruction 0.92, sauvegarde zstd 77100 o
+x651 y6863 (60 %, 19613 zombies) : terrain 5.99 ms (18 ticks), placement 1.08, naissance 0.59, destruction 0.92, sauvegarde zstd 77100 o
+x652 y6862 (55 %, 17998 zombies) : terrain 6.17 ms (18 ticks), placement 0.99, naissance 0.55, destruction 0.84, sauvegarde zstd 70703 o
+x652 y6862 (55 %, 17998 zombies) : terrain 6.11 ms (18 ticks), placement 0.94, naissance 0.54, destruction 0.86, sauvegarde zstd 70703 o
+x652 y6862 (55 %, 17998 zombies) : terrain 6.12 ms (18 ticks), placement 0.93, naissance 0.55, destruction 0.85, sauvegarde zstd 70703 o
+x653 y6862 (55 %, 17781 zombies) : terrain 6.29 ms (18 ticks), placement 1.02, naissance 0.54, destruction 0.84, sauvegarde zstd 70685 o
+x653 y6862 (55 %, 17781 zombies) : terrain 6.25 ms (18 ticks), placement 0.95, naissance 0.56, destruction 0.89, sauvegarde zstd 70685 o
+x653 y6862 (55 %, 17781 zombies) : terrain 6.23 ms (18 ticks), placement 0.99, naissance 0.54, destruction 0.84, sauvegarde zstd 70685 o
+x654 y6861 (54 %, 17709 zombies) : terrain 6.35 ms (18 ticks), placement 1.01, naissance 0.54, destruction 0.84, sauvegarde zstd 69555 o
+x654 y6861 (54 %, 17709 zombies) : terrain 6.25 ms (18 ticks), placement 0.99, naissance 0.53, destruction 0.86, sauvegarde zstd 69555 o
+x654 y6861 (54 %, 17709 zombies) : terrain 6.25 ms (18 ticks), placement 1.02, naissance 0.54, destruction 0.85, sauvegarde zstd 69555 o
+x653 y6863 (52 %, 16947 zombies) : terrain 6.27 ms (18 ticks), placement 0.94, naissance 0.53, destruction 0.81, sauvegarde zstd 67953 o
+x653 y6863 (52 %, 16947 zombies) : terrain 6.19 ms (18 ticks), placement 0.93, naissance 0.52, destruction 0.81, sauvegarde zstd 67953 o
+x653 y6863 (52 %, 16947 zombies) : terrain 6.20 ms (18 ticks), placement 0.90, naissance 0.52, destruction 0.81, sauvegarde zstd 67953 o
+x650 y6863 (51 %, 16743 zombies) : terrain 6.04 ms (18 ticks), placement 0.95, naissance 0.52, destruction 0.81, sauvegarde zstd 66055 o
+x650 y6863 (51 %, 16743 zombies) : terrain 5.98 ms (18 ticks), placement 0.88, naissance 0.51, destruction 0.79, sauvegarde zstd 66055 o
+x650 y6863 (51 %, 16743 zombies) : terrain 6.01 ms (18 ticks), placement 0.85, naissance 0.53, destruction 0.81, sauvegarde zstd 66055 o
+x654 y6862 (51 %, 16678 zombies) : terrain 6.30 ms (18 ticks), placement 0.91, naissance 0.53, destruction 0.79, sauvegarde zstd 67428 o
+x654 y6862 (51 %, 16678 zombies) : terrain 6.24 ms (18 ticks), placement 0.87, naissance 0.53, destruction 0.86, sauvegarde zstd 67428 o
+x654 y6862 (51 %, 16678 zombies) : terrain 6.24 ms (18 ticks), placement 0.86, naissance 0.53, destruction 0.79, sauvegarde zstd 67428 o
+x650 y6861 (50 %, 16148 zombies) : terrain 6.37 ms (18 ticks), placement 0.91, naissance 0.50, destruction 0.75, sauvegarde zstd 64140 o
+x650 y6861 (50 %, 16148 zombies) : terrain 6.32 ms (18 ticks), placement 0.86, naissance 0.52, destruction 0.74, sauvegarde zstd 64140 o
+x650 y6861 (50 %, 16148 zombies) : terrain 6.29 ms (18 ticks), placement 0.85, naissance 0.50, destruction 0.75, sauvegarde zstd 64140 o
+x651 y6861 (49 %, 15840 zombies) : terrain 6.24 ms (18 ticks), placement 0.84, naissance 0.49, destruction 0.73, sauvegarde zstd 64769 o
+x651 y6861 (49 %, 15840 zombies) : terrain 6.19 ms (18 ticks), placement 0.79, naissance 0.49, destruction 0.73, sauvegarde zstd 64769 o
+x651 y6861 (49 %, 15840 zombies) : terrain 6.22 ms (18 ticks), placement 0.78, naissance 0.49, destruction 0.74, sauvegarde zstd 64769 o
+x648 y6863 (48 %, 15623 zombies) : terrain 6.21 ms (18 ticks), placement 0.83, naissance 0.48, destruction 0.72, sauvegarde zstd 62292 o
+x648 y6863 (48 %, 15623 zombies) : terrain 6.12 ms (18 ticks), placement 0.78, naissance 0.48, destruction 0.73, sauvegarde zstd 62292 o
+x648 y6863 (48 %, 15623 zombies) : terrain 6.12 ms (18 ticks), placement 0.77, naissance 0.49, destruction 0.72, sauvegarde zstd 62292 o
+x654 y6863 (48 %, 15570 zombies) : terrain 6.36 ms (18 ticks), placement 0.85, naissance 0.50, destruction 0.73, sauvegarde zstd 63021 o
+x654 y6863 (48 %, 15570 zombies) : terrain 6.30 ms (18 ticks), placement 0.80, naissance 0.47, destruction 0.72, sauvegarde zstd 63021 o
+x654 y6863 (48 %, 15570 zombies) : terrain 6.33 ms (18 ticks), placement 0.79, naissance 0.47, destruction 0.72, sauvegarde zstd 63021 o
+x648 y6860 (47 %, 15394 zombies) : terrain 6.47 ms (18 ticks), placement 0.83, naissance 0.47, destruction 0.72, sauvegarde zstd 61263 o
+x648 y6860 (47 %, 15394 zombies) : terrain 6.37 ms (18 ticks), placement 0.82, naissance 0.47, destruction 0.72, sauvegarde zstd 61263 o
+x648 y6860 (47 %, 15394 zombies) : terrain 6.37 ms (18 ticks), placement 0.78, naissance 0.47, destruction 0.71, sauvegarde zstd 61263 o
+x655 y6861 (46 %, 14896 zombies) : terrain 6.34 ms (18 ticks), placement 0.78, naissance 0.46, destruction 0.69, sauvegarde zstd 61085 o
+x655 y6861 (46 %, 14896 zombies) : terrain 6.27 ms (18 ticks), placement 0.74, naissance 0.45, destruction 0.69, sauvegarde zstd 61085 o
+x655 y6861 (46 %, 14896 zombies) : terrain 6.26 ms (18 ticks), placement 0.73, naissance 0.44, destruction 0.73, sauvegarde zstd 61085 o
+x647 y6863 (45 %, 14814 zombies) : terrain 6.29 ms (18 ticks), placement 0.78, naissance 0.45, destruction 0.68, sauvegarde zstd 58243 o
+x647 y6863 (45 %, 14814 zombies) : terrain 6.31 ms (18 ticks), placement 0.75, naissance 0.44, destruction 0.69, sauvegarde zstd 58243 o
+x647 y6863 (45 %, 14814 zombies) : terrain 6.24 ms (18 ticks), placement 0.75, naissance 0.45, destruction 0.76, sauvegarde zstd 58243 o
+x649 y6860 (44 %, 14400 zombies) : terrain 6.36 ms (18 ticks), placement 0.74, naissance 0.43, destruction 0.67, sauvegarde zstd 57453 o
+x649 y6860 (44 %, 14400 zombies) : terrain 6.32 ms (18 ticks), placement 0.67, naissance 0.43, destruction 0.67, sauvegarde zstd 57453 o
+x649 y6860 (44 %, 14400 zombies) : terrain 6.30 ms (18 ticks), placement 0.67, naissance 0.44, destruction 0.67, sauvegarde zstd 57453 o
+x650 y6860 (44 %, 14382 zombies) : terrain 6.26 ms (18 ticks), placement 0.75, naissance 0.44, destruction 0.67, sauvegarde zstd 56790 o
+x650 y6860 (44 %, 14382 zombies) : terrain 6.22 ms (18 ticks), placement 0.69, naissance 0.43, destruction 0.67, sauvegarde zstd 56790 o
+x650 y6860 (44 %, 14382 zombies) : terrain 6.24 ms (18 ticks), placement 0.68, naissance 0.43, destruction 0.66, sauvegarde zstd 56790 o
+x655 y6863 (44 %, 14334 zombies) : terrain 6.50 ms (18 ticks), placement 0.72, naissance 0.44, destruction 0.67, sauvegarde zstd 58720 o
+x655 y6863 (44 %, 14334 zombies) : terrain 6.44 ms (18 ticks), placement 0.67, naissance 0.43, destruction 0.67, sauvegarde zstd 58720 o
+x655 y6863 (44 %, 14334 zombies) : terrain 6.47 ms (18 ticks), placement 0.66, naissance 0.43, destruction 0.66, sauvegarde zstd 58720 o
+x649 y6863 (44 %, 14257 zombies) : terrain 6.07 ms (18 ticks), placement 0.72, naissance 0.43, destruction 0.66, sauvegarde zstd 56432 o
+x649 y6863 (44 %, 14257 zombies) : terrain 6.07 ms (18 ticks), placement 0.70, naissance 0.43, destruction 0.66, sauvegarde zstd 56432 o
+x649 y6863 (44 %, 14257 zombies) : terrain 6.09 ms (18 ticks), placement 0.67, naissance 0.43, destruction 0.66, sauvegarde zstd 56432 o
+x647 y6860 (44 %, 14212 zombies) : terrain 6.43 ms (18 ticks), placement 0.70, naissance 0.42, destruction 0.65, sauvegarde zstd 57856 o
+x647 y6860 (44 %, 14212 zombies) : terrain 6.30 ms (18 ticks), placement 0.66, naissance 0.42, destruction 0.66, sauvegarde zstd 57856 o
+x647 y6860 (44 %, 14212 zombies) : terrain 6.29 ms (18 ticks), placement 0.66, naissance 0.44, destruction 0.67, sauvegarde zstd 57856 o
+x652 y6860 (43 %, 14020 zombies) : terrain 6.39 ms (18 ticks), placement 0.70, naissance 0.43, destruction 0.66, sauvegarde zstd 55809 o
+x652 y6860 (43 %, 14020 zombies) : terrain 6.31 ms (18 ticks), placement 0.67, naissance 0.42, destruction 0.66, sauvegarde zstd 55809 o
+x652 y6860 (43 %, 14020 zombies) : terrain 6.33 ms (18 ticks), placement 0.65, naissance 0.44, destruction 0.65, sauvegarde zstd 55809 o
+x650 y6859 (42 %, 13656 zombies) : terrain 6.52 ms (18 ticks), placement 0.68, naissance 0.41, destruction 0.64, sauvegarde zstd 55734 o
+x650 y6859 (42 %, 13656 zombies) : terrain 6.39 ms (18 ticks), placement 0.63, naissance 0.41, destruction 0.63, sauvegarde zstd 55734 o
+x650 y6859 (42 %, 13656 zombies) : terrain 6.41 ms (18 ticks), placement 0.61, naissance 0.41, destruction 0.74, sauvegarde zstd 55734 o
+x653 y6861 (41 %, 13414 zombies) : terrain 6.23 ms (18 ticks), placement 0.66, naissance 0.40, destruction 0.63, sauvegarde zstd 53936 o
+x653 y6861 (41 %, 13414 zombies) : terrain 6.24 ms (18 ticks), placement 0.60, naissance 0.40, destruction 0.62, sauvegarde zstd 53936 o
+x653 y6861 (41 %, 13414 zombies) : terrain 6.22 ms (18 ticks), placement 0.59, naissance 0.41, destruction 0.63, sauvegarde zstd 53936 o
+x647 y6859 (40 %, 13060 zombies) : terrain 6.18 ms (18 ticks), placement 0.60, naissance 0.39, destruction 0.61, sauvegarde zstd 51682 o
+x647 y6859 (40 %, 13060 zombies) : terrain 6.08 ms (18 ticks), placement 0.54, naissance 0.40, destruction 0.61, sauvegarde zstd 51682 o
+x647 y6859 (40 %, 13060 zombies) : terrain 6.09 ms (18 ticks), placement 0.54, naissance 0.40, destruction 0.61, sauvegarde zstd 51682 o
+x646 y6861 (40 %, 13037 zombies) : terrain 6.45 ms (18 ticks), placement 0.62, naissance 0.40, destruction 0.62, sauvegarde zstd 54193 o
+x646 y6861 (40 %, 13037 zombies) : terrain 6.64 ms (18 ticks), placement 0.59, naissance 0.39, destruction 0.60, sauvegarde zstd 54193 o
+x646 y6861 (40 %, 13037 zombies) : terrain 6.38 ms (18 ticks), placement 0.56, naissance 0.39, destruction 0.61, sauvegarde zstd 54193 o
+x652 y6859 (39 %, 12684 zombies) : terrain 6.46 ms (18 ticks), placement 0.60, naissance 0.38, destruction 0.59, sauvegarde zstd 51340 o
+x652 y6859 (39 %, 12684 zombies) : terrain 6.32 ms (18 ticks), placement 0.55, naissance 0.38, destruction 0.59, sauvegarde zstd 51340 o
+x652 y6859 (39 %, 12684 zombies) : terrain 6.32 ms (18 ticks), placement 0.52, naissance 0.38, destruction 0.60, sauvegarde zstd 51340 o
+x655 y6860 (39 %, 12626 zombies) : terrain 6.36 ms (18 ticks), placement 0.57, naissance 0.40, destruction 0.59, sauvegarde zstd 52358 o
+x655 y6860 (39 %, 12626 zombies) : terrain 6.27 ms (18 ticks), placement 0.52, naissance 0.39, destruction 0.61, sauvegarde zstd 52358 o
+x655 y6860 (39 %, 12626 zombies) : terrain 6.31 ms (18 ticks), placement 0.52, naissance 0.38, destruction 0.58, sauvegarde zstd 52358 o
+x654 y6860 (38 %, 12282 zombies) : terrain 6.10 ms (18 ticks), placement 0.53, naissance 0.38, destruction 0.59, sauvegarde zstd 51414 o
+x654 y6860 (38 %, 12282 zombies) : terrain 6.11 ms (18 ticks), placement 0.49, naissance 0.38, destruction 0.59, sauvegarde zstd 51414 o
+x654 y6860 (38 %, 12282 zombies) : terrain 6.13 ms (18 ticks), placement 0.48, naissance 0.37, destruction 0.57, sauvegarde zstd 51414 o
+x648 y6861 (37 %, 12221 zombies) : terrain 6.27 ms (18 ticks), placement 0.55, naissance 0.37, destruction 0.64, sauvegarde zstd 49562 o
+x648 y6861 (37 %, 12221 zombies) : terrain 6.23 ms (18 ticks), placement 0.51, naissance 0.38, destruction 0.58, sauvegarde zstd 49562 o
+x648 y6861 (37 %, 12221 zombies) : terrain 6.24 ms (18 ticks), placement 0.51, naissance 0.37, destruction 0.57, sauvegarde zstd 49562 o
+x648 y6859 (37 %, 12121 zombies) : terrain 6.33 ms (18 ticks), placement 0.56, naissance 0.38, destruction 0.57, sauvegarde zstd 50214 o
+x648 y6859 (37 %, 12121 zombies) : terrain 6.36 ms (18 ticks), placement 0.50, naissance 0.36, destruction 0.56, sauvegarde zstd 50214 o
+x648 y6859 (37 %, 12121 zombies) : terrain 6.34 ms (18 ticks), placement 0.49, naissance 0.36, destruction 0.57, sauvegarde zstd 50214 o
+x651 y6862 (37 %, 12084 zombies) : terrain 6.12 ms (18 ticks), placement 0.55, naissance 0.38, destruction 0.56, sauvegarde zstd 48386 o
+x651 y6862 (37 %, 12084 zombies) : terrain 6.09 ms (18 ticks), placement 0.51, naissance 0.37, destruction 0.59, sauvegarde zstd 48386 o
+x651 y6862 (37 %, 12084 zombies) : terrain 6.08 ms (18 ticks), placement 0.51, naissance 0.36, destruction 0.57, sauvegarde zstd 48386 o
+x653 y6859 (37 %, 12009 zombies) : terrain 6.25 ms (18 ticks), placement 0.52, naissance 0.36, destruction 0.56, sauvegarde zstd 48348 o
+x653 y6859 (37 %, 12009 zombies) : terrain 6.16 ms (18 ticks), placement 0.46, naissance 0.37, destruction 0.57, sauvegarde zstd 48348 o
+x653 y6859 (37 %, 12009 zombies) : terrain 6.22 ms (18 ticks), placement 0.46, naissance 0.36, destruction 0.56, sauvegarde zstd 48348 o
+x649 y6859 (37 %, 11996 zombies) : terrain 6.30 ms (18 ticks), placement 0.54, naissance 0.36, destruction 0.56, sauvegarde zstd 47943 o
+x649 y6859 (37 %, 11996 zombies) : terrain 6.30 ms (18 ticks), placement 0.50, naissance 0.37, destruction 0.56, sauvegarde zstd 47943 o
+x649 y6859 (37 %, 11996 zombies) : terrain 6.28 ms (18 ticks), placement 0.48, naissance 0.37, destruction 0.56, sauvegarde zstd 47943 o
+x647 y6862 (36 %, 11831 zombies) : terrain 6.35 ms (18 ticks), placement 0.53, naissance 0.35, destruction 0.58, sauvegarde zstd 48822 o
+x647 y6862 (36 %, 11831 zombies) : terrain 6.26 ms (18 ticks), placement 0.47, naissance 0.36, destruction 0.56, sauvegarde zstd 48822 o
+x647 y6862 (36 %, 11831 zombies) : terrain 6.30 ms (18 ticks), placement 0.48, naissance 0.36, destruction 0.55, sauvegarde zstd 48822 o
+x656 y6861 (36 %, 11828 zombies) : terrain 6.28 ms (18 ticks), placement 0.55, naissance 0.37, destruction 0.55, sauvegarde zstd 48826 o
+x656 y6861 (36 %, 11828 zombies) : terrain 6.24 ms (18 ticks), placement 0.56, naissance 0.37, destruction 0.57, sauvegarde zstd 48826 o
+x656 y6861 (36 %, 11828 zombies) : terrain 6.27 ms (18 ticks), placement 0.48, naissance 0.36, destruction 0.56, sauvegarde zstd 48826 o
+x651 y6860 (35 %, 11516 zombies) : terrain 6.28 ms (18 ticks), placement 0.50, naissance 0.35, destruction 0.55, sauvegarde zstd 47901 o
+x651 y6860 (35 %, 11516 zombies) : terrain 6.27 ms (18 ticks), placement 0.48, naissance 0.35, destruction 0.55, sauvegarde zstd 47901 o
+x651 y6860 (35 %, 11516 zombies) : terrain 6.29 ms (18 ticks), placement 0.45, naissance 0.35, destruction 0.56, sauvegarde zstd 47901 o
+x652 y6861 (35 %, 11461 zombies) : terrain 6.21 ms (18 ticks), placement 0.48, naissance 0.38, destruction 0.55, sauvegarde zstd 45486 o
+x652 y6861 (35 %, 11461 zombies) : terrain 6.22 ms (18 ticks), placement 0.44, naissance 0.35, destruction 0.54, sauvegarde zstd 45486 o
+x652 y6861 (35 %, 11461 zombies) : terrain 6.22 ms (18 ticks), placement 0.44, naissance 0.34, destruction 0.54, sauvegarde zstd 45486 o
+x649 y6861 (34 %, 10981 zombies) : terrain 6.29 ms (18 ticks), placement 0.50, naissance 0.33, destruction 0.51, sauvegarde zstd 44498 o
+x649 y6861 (34 %, 10981 zombies) : terrain 6.27 ms (18 ticks), placement 0.45, naissance 0.33, destruction 0.52, sauvegarde zstd 44498 o
+x649 y6861 (34 %, 10981 zombies) : terrain 6.30 ms (18 ticks), placement 0.45, naissance 0.33, destruction 0.52, sauvegarde zstd 44498 o
+x651 y6859 (33 %, 10678 zombies) : terrain 6.29 ms (18 ticks), placement 0.45, naissance 0.32, destruction 0.50, sauvegarde zstd 45857 o
+x651 y6859 (33 %, 10678 zombies) : terrain 6.29 ms (18 ticks), placement 0.39, naissance 0.32, destruction 0.51, sauvegarde zstd 45857 o
+x651 y6859 (33 %, 10678 zombies) : terrain 6.29 ms (18 ticks), placement 0.37, naissance 0.33, destruction 0.51, sauvegarde zstd 45857 o
+x647 y6861 (33 %, 10654 zombies) : terrain 6.13 ms (18 ticks), placement 0.43, naissance 0.33, destruction 0.51, sauvegarde zstd 42558 o
+x647 y6861 (33 %, 10654 zombies) : terrain 6.13 ms (18 ticks), placement 0.37, naissance 0.33, destruction 0.51, sauvegarde zstd 42558 o
+x647 y6861 (33 %, 10654 zombies) : terrain 6.10 ms (18 ticks), placement 0.37, naissance 0.33, destruction 0.51, sauvegarde zstd 42558 o
+x646 y6862 (31 %, 10170 zombies) : terrain 6.28 ms (18 ticks), placement 0.43, naissance 0.31, destruction 0.48, sauvegarde zstd 41735 o
+x646 y6862 (31 %, 10170 zombies) : terrain 6.29 ms (18 ticks), placement 0.38, naissance 0.31, destruction 0.48, sauvegarde zstd 41735 o
+x646 y6862 (31 %, 10170 zombies) : terrain 6.28 ms (18 ticks), placement 0.38, naissance 0.31, destruction 0.50, sauvegarde zstd 41735 o
+x656 y6862 (31 %, 10153 zombies) : terrain 6.34 ms (18 ticks), placement 0.41, naissance 0.30, destruction 0.48, sauvegarde zstd 44099 o
+x656 y6862 (31 %, 10153 zombies) : terrain 6.34 ms (18 ticks), placement 0.39, naissance 0.31, destruction 0.49, sauvegarde zstd 44099 o
+x656 y6862 (31 %, 10153 zombies) : terrain 6.30 ms (18 ticks), placement 0.37, naissance 0.31, destruction 0.49, sauvegarde zstd 44099 o
+x656 y6863 (31 %, 10063 zombies) : terrain 6.32 ms (18 ticks), placement 0.41, naissance 0.31, destruction 0.50, sauvegarde zstd 43346 o
+x656 y6863 (31 %, 10063 zombies) : terrain 6.35 ms (18 ticks), placement 0.35, naissance 0.30, destruction 0.48, sauvegarde zstd 43346 o
+x656 y6863 (31 %, 10063 zombies) : terrain 6.39 ms (18 ticks), placement 0.34, naissance 0.34, destruction 0.47, sauvegarde zstd 43346 o
+x656 y6860 (30 %, 9903 zombies) : terrain 6.25 ms (18 ticks), placement 0.37, naissance 0.30, destruction 0.47, sauvegarde zstd 41424 o
+x656 y6860 (30 %, 9903 zombies) : terrain 6.25 ms (18 ticks), placement 0.34, naissance 0.30, destruction 0.47, sauvegarde zstd 41424 o
+x656 y6860 (30 %, 9903 zombies) : terrain 6.25 ms (18 ticks), placement 0.31, naissance 0.30, destruction 0.47, sauvegarde zstd 41424 o
+x655 y6859 (29 %, 9605 zombies) : terrain 6.25 ms (18 ticks), placement 0.38, naissance 0.29, destruction 0.46, sauvegarde zstd 41447 o
+x655 y6859 (29 %, 9605 zombies) : terrain 6.20 ms (18 ticks), placement 0.32, naissance 0.30, destruction 0.46, sauvegarde zstd 41447 o
+x655 y6859 (29 %, 9605 zombies) : terrain 6.19 ms (18 ticks), placement 0.31, naissance 0.29, destruction 0.46, sauvegarde zstd 41447 o
+x649 y6862 (28 %, 9069 zombies) : terrain 6.26 ms (18 ticks), placement 0.34, naissance 0.29, destruction 0.44, sauvegarde zstd 36563 o
+x649 y6862 (28 %, 9069 zombies) : terrain 6.20 ms (18 ticks), placement 0.31, naissance 0.28, destruction 0.44, sauvegarde zstd 36563 o
+x649 y6862 (28 %, 9069 zombies) : terrain 6.21 ms (18 ticks), placement 0.29, naissance 0.28, destruction 0.43, sauvegarde zstd 36563 o
+x650 y6862 (28 %, 9043 zombies) : terrain 6.18 ms (18 ticks), placement 0.35, naissance 0.29, destruction 0.43, sauvegarde zstd 36942 o
+x650 y6862 (28 %, 9043 zombies) : terrain 6.17 ms (18 ticks), placement 0.30, naissance 0.29, destruction 0.44, sauvegarde zstd 36942 o
+x650 y6862 (28 %, 9043 zombies) : terrain 6.22 ms (18 ticks), placement 0.29, naissance 0.27, destruction 0.44, sauvegarde zstd 36942 o
+x655 y6862 (25 %, 8101 zombies) : terrain 6.30 ms (18 ticks), placement 0.30, naissance 0.26, destruction 0.39, sauvegarde zstd 32757 o
+x655 y6862 (25 %, 8101 zombies) : terrain 6.33 ms (18 ticks), placement 0.23, naissance 0.24, destruction 0.38, sauvegarde zstd 32757 o
+x655 y6862 (25 %, 8101 zombies) : terrain 6.31 ms (18 ticks), placement 0.23, naissance 0.24, destruction 0.38, sauvegarde zstd 32757 o
+x648 y6862 (24 %, 7804 zombies) : terrain 6.20 ms (18 ticks), placement 0.29, naissance 0.23, destruction 0.37, sauvegarde zstd 33721 o
+x648 y6862 (24 %, 7804 zombies) : terrain 6.19 ms (18 ticks), placement 0.22, naissance 0.23, destruction 0.37, sauvegarde zstd 33721 o
+x648 y6862 (24 %, 7804 zombies) : terrain 6.24 ms (18 ticks), placement 0.23, naissance 0.24, destruction 0.37, sauvegarde zstd 33721 o
+x653 y6860 (23 %, 7552 zombies) : terrain 6.13 ms (18 ticks), placement 0.30, naissance 0.23, destruction 0.36, sauvegarde zstd 31533 o
+x653 y6860 (23 %, 7552 zombies) : terrain 6.15 ms (18 ticks), placement 0.22, naissance 0.23, destruction 0.35, sauvegarde zstd 31533 o
+x653 y6860 (23 %, 7552 zombies) : terrain 6.12 ms (18 ticks), placement 0.22, naissance 0.23, destruction 0.36, sauvegarde zstd 31533 o
+x654 y6859 (23 %, 7519 zombies) : terrain 6.12 ms (18 ticks), placement 0.27, naissance 0.23, destruction 0.36, sauvegarde zstd 30598 o
+x654 y6859 (23 %, 7519 zombies) : terrain 6.09 ms (18 ticks), placement 0.24, naissance 0.22, destruction 0.35, sauvegarde zstd 30598 o
+x654 y6859 (23 %, 7519 zombies) : terrain 6.05 ms (18 ticks), placement 0.22, naissance 0.23, destruction 0.35, sauvegarde zstd 30598 o
+x646 y6860 (23 %, 7356 zombies) : terrain 6.23 ms (18 ticks), placement 0.27, naissance 0.22, destruction 0.34, sauvegarde zstd 30059 o
+x646 y6860 (23 %, 7356 zombies) : terrain 6.24 ms (18 ticks), placement 0.21, naissance 0.22, destruction 0.35, sauvegarde zstd 30059 o
+x646 y6860 (23 %, 7356 zombies) : terrain 6.23 ms (18 ticks), placement 0.20, naissance 0.22, destruction 0.34, sauvegarde zstd 30059 o
+x646 y6859 (22 %, 7257 zombies) : terrain 6.09 ms (18 ticks), placement 0.27, naissance 0.22, destruction 0.34, sauvegarde zstd 29895 o
+x646 y6859 (22 %, 7257 zombies) : terrain 6.10 ms (18 ticks), placement 0.23, naissance 0.22, destruction 0.34, sauvegarde zstd 29895 o
+x646 y6859 (22 %, 7257 zombies) : terrain 6.08 ms (18 ticks), placement 0.21, naissance 0.22, destruction 0.34, sauvegarde zstd 29895 o
+x656 y6859 (18 %, 5831 zombies) : terrain 6.23 ms (18 ticks), placement 0.21, naissance 0.18, destruction 0.28, sauvegarde zstd 24343 o
+x656 y6859 (18 %, 5831 zombies) : terrain 6.22 ms (18 ticks), placement 0.15, naissance 0.19, destruction 0.27, sauvegarde zstd 24343 o
+x656 y6859 (18 %, 5831 zombies) : terrain 6.24 ms (18 ticks), placement 0.14, naissance 0.18, destruction 0.28, sauvegarde zstd 24343 o
+x646 y6863 (14 %, 4525 zombies) : terrain 6.19 ms (18 ticks), placement 0.18, naissance 0.14, destruction 0.22, sauvegarde zstd 19127 o
+x646 y6863 (14 %, 4525 zombies) : terrain 6.15 ms (18 ticks), placement 0.18, naissance 0.15, destruction 0.22, sauvegarde zstd 19127 o
+x646 y6863 (14 %, 4525 zombies) : terrain 6.18 ms (18 ticks), placement 0.13, naissance 0.14, destruction 0.22, sauvegarde zstd 19127 o
+[01:24:34] C. colonne, traversée complète (configuration retenue)
+Colonne densité 1 : 75619 ticks (3781 s), médiane 2.97 ms, p99 4.14, p99.9 4.84, max 7.33 ; chantier max/tick 2.94 ms, entités max/tick 1.48 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 27.0 ticks, 12.11 ms ; passages 705990 (max 90/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.50 / champs 0.55 / perception 0.59 / deplacement 0.91 / admission 0.18 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-417616
+[01:28:20] C. colonne, traversée complète, d'un seul tenant
+Colonne densité 1 : 75647 ticks (3782 s), médiane 3.49 ms, p99 5.10, p99.9 7.41, max 17.76 ; chantier max/tick 36.44 ms, entités max/tick 8.90 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 1.0 ticks, 10.01 ms ; passages 767245 (max 114/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.51 / champs 0.55 / perception 0.81 / deplacement 1.18 / admission 0.18 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-417731
+[01:32:43] C. colonne, traversée complète, entités d'un coup
+Colonne densité 1 : 75626 ticks (3781 s), médiane 3.46 ms, p99 4.96, p99.9 6.35, max 18.88 ; chantier max/tick 2.93 ms, entités max/tick 10.08 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 21.0 ticks, 12.02 ms ; passages 766667 (max 168/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.51 / champs 0.55 / perception 0.80 / deplacement 1.16 / admission 0.18 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-417873
+[01:37:05] C. colonne, traversée complète, sans préchauffage des tables
+Colonne densité 1 : 75619 ticks (3781 s), médiane 2.96 ms, p99 4.13, p99.9 4.81, max 11.36 ; chantier max/tick 2.95 ms, entités max/tick 8.44 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 27.0 ticks, 12.35 ms ; passages 705990 (max 90/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.50 / champs 0.55 / perception 0.59 / deplacement 0.90 / admission 0.18 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-418006
+[01:40:51] C. colonne, variantes (20 min de jeu)
+Colonne densité 1 : 24000 ticks (1200 s), médiane 2.87 ms, p99 3.44, p99.9 3.98, max 63.20 ; chantier max/tick 159.28 ms, entités max/tick 0.99 ms ; actifs moy 11.4 (max 15) ; activations 9 (dont 0 restaurations), désactivations 6 ; chantier 26.9 ticks, 61.95 ms ; passages 286456 (max 152/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.48 / champs 0.54 / perception 0.57 / deplacement 0.85 / admission 0.16 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-418134
+Colonne densité 1 : 24000 ticks (1200 s), médiane 2.83 ms, p99 3.35, p99.9 4.02, max 70.50 ; chantier max/tick 189.94 ms, entités max/tick 1.01 ms ; actifs moy 11.4 (max 15) ; activations 9 (dont 0 restaurations), désactivations 6 ; chantier 6.9 ticks, 58.56 ms ; passages 286294 (max 153/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.48 / champs 0.55 / perception 0.55 / deplacement 0.84 / admission 0.16 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-418178
+Colonne densité 1 : 24000 ticks (1200 s), médiane 2.85 ms, p99 3.37, p99.9 3.83, max 6.03 ; chantier max/tick 2.95 ms, entités max/tick 1.09 ms ; actifs moy 11.4 (max 15) ; activations 9 (dont 0 restaurations), désactivations 6 ; chantier 27.1 ticks, 12.12 ms ; passages 241081 (max 148/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.47 / champs 0.54 / perception 0.58 / deplacement 0.83 / admission 0.16 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-418220
+Colonne densité 1 : 22665 ticks (1133 s), médiane 3.01 ms, p99 4.27, p99.9 5.09, max 6.00 ; chantier max/tick 2.92 ms, entités max/tick 1.23 ms ; actifs moy 12.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 27.0 ticks, 12.41 ms ; passages 643525 (max 233/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.21 / grilles 0.51 / champs 0.56 / perception 0.61 / deplacement 0.89 / admission 0.18 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/colonne-418272
+[01:45:31] D. colonne, densité 0,1 et 0,25, budget 2,5 ms
+Colonne densité 0.1 : 75629 ticks (3781 s), médiane 1.35 ms, p99 1.62, p99.9 1.92, max 4.86 ; chantier max/tick 2.89 ms, entités max/tick 0.80 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 19.0 ticks, 11.27 ms ; passages 186829 (max 43/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.24 / champs 0.50 / perception 0.14 / deplacement 0.19 / admission 0.06 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/colonne-418338
+Colonne densité 0.1 : 75647 ticks (3782 s), médiane 1.37 ms, p99 1.71, p99.9 1.97, max 13.93 ; chantier max/tick 34.06 ms, entités max/tick 0.89 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 1.0 ticks, 8.99 ms ; passages 181477 (max 59/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.24 / champs 0.50 / perception 0.15 / deplacement 0.19 / admission 0.06 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/colonne-418411
+Colonne densité 0.25 : 75628 ticks (3781 s), médiane 1.68 ms, p99 2.31, p99.9 2.82, max 4.35 ; chantier max/tick 2.99 ms, entités max/tick 0.80 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 20.2 ticks, 11.71 ms ; passages 280908 (max 52/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.29 / champs 0.51 / perception 0.24 / deplacement 0.34 / admission 0.09 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/colonne-418494
+Colonne densité 0.25 : 75647 ticks (3782 s), médiane 1.73 ms, p99 2.34, p99.9 2.74, max 11.81 ; chantier max/tick 29.49 ms, entités max/tick 2.31 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 1.0 ticks, 9.12 ms ; passages 270605 (max 92/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.29 / champs 0.51 / perception 0.25 / deplacement 0.36 / admission 0.09 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/colonne-418580
+[01:53:18] E. base et patrouille, délai 0 s
+Base densité 1 : 36000 ticks (1800 s), médiane 2.54 ms, p99 2.87, p99.9 3.60, max 5.78 ; chantier max/tick 2.96 ms, entités max/tick 0.68 ms ; actifs moy 10.8 (max 12) ; activations 9 (dont 6 restaurations), désactivations 9 ; chantier 26.4 ticks, 12.09 ms ; passages 199902 (max 37/tick) ; contrôles 6/6 ; constructions 6/6 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.48 / champs 0.52 / perception 0.43 / deplacement 0.74 / admission 0.14 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-418672
+[01:54:48] E. base et patrouille, délai 10 s
+Base densité 1 : 36000 ticks (1800 s), médiane 2.55 ms, p99 2.87, p99.9 3.59, max 6.01 ; chantier max/tick 2.91 ms, entités max/tick 0.68 ms ; actifs moy 10.8 (max 12) ; activations 9 (dont 6 restaurations), désactivations 9 ; chantier 26.4 ticks, 12.18 ms ; passages 197285 (max 34/tick) ; contrôles 6/6 ; constructions 6/6 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.49 / champs 0.52 / perception 0.44 / deplacement 0.74 / admission 0.14 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-418737
+[01:56:18] E. base et patrouille, délai 30 s
+Base densité 1 : 36000 ticks (1800 s), médiane 2.56 ms, p99 2.88, p99.9 3.90, max 6.28 ; chantier max/tick 2.90 ms, entités max/tick 0.68 ms ; actifs moy 10.9 (max 12) ; activations 9 (dont 6 restaurations), désactivations 6 ; chantier 26.4 ticks, 12.31 ms ; passages 199896 (max 41/tick) ; contrôles 6/6 ; constructions 6/6 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.49 / champs 0.52 / perception 0.44 / deplacement 0.75 / admission 0.14 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-418798
+[01:57:48] E. base et patrouille, délai 60 s
+Base densité 1 : 36000 ticks (1800 s), médiane 2.57 ms, p99 2.88, p99.9 3.66, max 5.83 ; chantier max/tick 2.92 ms, entités max/tick 0.69 ms ; actifs moy 11.0 (max 12) ; activations 9 (dont 6 restaurations), désactivations 6 ; chantier 26.4 ticks, 12.03 ms ; passages 202398 (max 39/tick) ; contrôles 6/6 ; constructions 6/6 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.49 / champs 0.52 / perception 0.44 / deplacement 0.76 / admission 0.15 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-418857
+[01:59:19] E. base et patrouille, délai 120 s
+Base densité 1 : 36000 ticks (1800 s), médiane 2.58 ms, p99 2.88, p99.9 3.54, max 6.02 ; chantier max/tick 2.95 ms, entités max/tick 0.70 ms ; actifs moy 11.2 (max 12) ; activations 9 (dont 6 restaurations), désactivations 6 ; chantier 26.4 ticks, 12.50 ms ; passages 210363 (max 39/tick) ; contrôles 6/6 ; constructions 6/6 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.49 / champs 0.53 / perception 0.44 / deplacement 0.76 / admission 0.15 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-418929
+[02:00:50] E. base et patrouille, délai 300 s
+Base densité 1 : 36000 ticks (1800 s), médiane 2.61 ms, p99 2.89, p99.9 3.52, max 6.01 ; chantier max/tick 2.96 ms, entités max/tick 0.47 ms ; actifs moy 11.7 (max 12) ; activations 3 (dont 0 restaurations), désactivations 0 ; chantier 28.0 ticks, 12.68 ms ; passages 222080 (max 39/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.49 / champs 0.53 / perception 0.45 / deplacement 0.78 / admission 0.15 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-418996
+[02:02:24] E. base, délai 0, fsync
+Base densité 1 : 36000 ticks (1800 s), médiane 2.54 ms, p99 2.87, p99.9 3.64, max 5.12 ; chantier max/tick 2.91 ms, entités max/tick 0.70 ms ; actifs moy 10.8 (max 12) ; activations 9 (dont 6 restaurations), désactivations 9 ; chantier 26.4 ticks, 12.19 ms ; passages 199902 (max 37/tick) ; contrôles 6/6 ; constructions 6/6 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.48 / champs 0.52 / perception 0.43 / deplacement 0.74 / admission 0.14 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-419045
+Base densité 1 : 36000 ticks (1800 s), médiane 2.56 ms, p99 2.88, p99.9 3.84, max 5.62 ; chantier max/tick 2.85 ms, entités max/tick 0.67 ms ; actifs moy 10.9 (max 12) ; activations 12 (dont 9 restaurations), désactivations 9 ; chantier 26.2 ticks, 11.78 ms ; passages 201925 (max 36/tick) ; contrôles 9/9 ; constructions 9/9 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.49 / champs 0.52 / perception 0.44 / deplacement 0.75 / admission 0.15 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-419105
+Base densité 1 : 36000 ticks (1800 s), médiane 2.54 ms, p99 2.86, p99.9 3.55, max 5.88 ; chantier max/tick 2.91 ms, entités max/tick 0.72 ms ; actifs moy 10.8 (max 12) ; activations 6 (dont 3 restaurations), désactivations 6 ; chantier 26.8 ticks, 12.50 ms ; passages 197701 (max 35/tick) ; contrôles 3/3 ; constructions 3/3 ; conservation KO 0 ; gestion 0.01 / humains 0.18 / grilles 0.48 / champs 0.52 / perception 0.43 / deplacement 0.74 / admission 0.14 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/base-419176
+[02:06:53] F. reprise
+Reprise densité 1 : 49973 ticks (2499 s), médiane 2.08 ms, p99 2.66, p99.9 3.68, max 5.92 ; chantier max/tick 2.92 ms, entités max/tick 1.51 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 25.8 ticks, 11.44 ms ; passages 926774 (max 246/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.42 / champs 0.49 / perception 0.32 / deplacement 0.48 / admission 0.13 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/reprise-419232
+[02:08:36] G. migration
+Migration densité 1 : 83957 ticks (4198 s), médiane 1.93 ms, p99 5.56, p99.9 6.65, max 11.40 ; chantier max/tick 5.82 ms, entités max/tick 7.33 ms ; actifs moy 8.3 (max 12) ; activations 54 (dont 27 restaurations), désactivations 54 ; chantier 32.0 ticks, 14.35 ms ; passages 3576631 (max 828/tick) ; contrôles 27/27 ; constructions 27/27 ; conservation KO 0 ; gestion 0.00 / humains 0.14 / grilles 0.42 / champs 0.48 / perception 0.31 / deplacement 0.48 / admission 0.12 / frontieres 0.01 — ../../data/generated/p04-sauvegardes/migration-419333
+[02:11:53] H. déterminisme, 16 threads
+Reprise densité 0.25 : 49982 ticks (2499 s), médiane 1.31 ms, p99 1.60, p99.9 2.04, max 3.94 ; chantier max/tick 2.90 ms, entités max/tick 0.67 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 20.2 ticks, 10.95 ms ; passages 243669 (max 52/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.25 / champs 0.47 / perception 0.14 / deplacement 0.19 / admission 0.07 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/reprise-419502
+[02:12:59] H. déterminisme, 8 threads
+Reprise densité 0.25 : 49982 ticks (2499 s), médiane 1.30 ms, p99 1.77, p99.9 2.03, max 2.67 ; chantier max/tick 2.87 ms, entités max/tick 0.69 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 20.2 ticks, 9.72 ms ; passages 243669 (max 52/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.19 / grilles 0.24 / champs 0.44 / perception 0.14 / deplacement 0.21 / admission 0.06 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/reprise-419590
+[02:14:05] H. déterminisme, 4 threads
+Reprise densité 0.25 : 49982 ticks (2499 s), médiane 1.69 ms, p99 2.36, p99.9 2.72, max 3.92 ; chantier max/tick 2.55 ms, entités max/tick 0.66 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 20.2 ticks, 8.63 ms ; passages 243669 (max 52/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.23 / grilles 0.32 / champs 0.60 / perception 0.17 / deplacement 0.26 / admission 0.06 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/reprise-419671
+[02:15:30] H. déterminisme, 1 threads
+Reprise densité 0.25 : 49982 ticks (2499 s), médiane 4.88 ms, p99 7.05, p99.9 7.27, max 8.05 ; chantier max/tick 1.81 ms, entités max/tick 0.66 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 20.2 ticks, 8.54 ms ; passages 243669 (max 52/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.61 / grilles 0.89 / champs 1.94 / perception 0.41 / deplacement 0.79 / admission 0.09 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/reprise-419755
+Reprise densité 0.25 : 49982 ticks (2499 s), médiane 1.31 ms, p99 1.60, p99.9 2.05, max 3.22 ; chantier max/tick 2.90 ms, entités max/tick 0.66 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 20.2 ticks, 10.58 ms ; passages 243669 (max 52/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.25 / champs 0.47 / perception 0.14 / deplacement 0.19 / admission 0.07 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/reprise-419882
+Reprise densité 0.25 : 49982 ticks (2499 s), médiane 2.25 ms, p99 3.05, p99.9 3.22, max 3.68 ; chantier max/tick 2.92 ms, entités max/tick 0.66 ms ; actifs moy 9.4 (max 12) ; activations 33 (dont 18 restaurations), désactivations 33 ; chantier 20.2 ticks, 10.83 ms ; passages 243669 (max 52/tick) ; contrôles 18/18 ; constructions 18/18 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.25 / champs 0.45 / perception 0.41 / deplacement 0.82 / admission 0.10 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/reprise-419975
+[02:22:31] I. colonne, densité 0.1, budget 2,5 ms, budgets du chantier ÷ 4
+Colonne densité 0.1 : 75574 ticks (3779 s), médiane 1.35 ms, p99 1.60, p99.9 1.80, max 4.34 ; chantier max/tick 0.84 ms, entités max/tick 0.40 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 72.8 ticks, 13.25 ms ; passages 155072 (max 63/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.24 / champs 0.50 / perception 0.14 / deplacement 0.18 / admission 0.06 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/colonne-420084
+[02:24:13] I. colonne, densité 0.25, budget 2,5 ms, budgets du chantier ÷ 4
+Colonne densité 0.25 : 75568 ticks (3778 s), médiane 1.63 ms, p99 2.04, p99.9 2.49, max 5.27 ; chantier max/tick 0.84 ms, entités max/tick 0.39 ms ; actifs moy 11.3 (max 15) ; activations 24 (dont 0 restaurations), désactivations 27 ; chantier 78.7 ticks, 13.37 ms ; passages 265814 (max 54/tick) ; contrôles 0/0 ; constructions 0/0 ; conservation KO 0 ; gestion 0.01 / humains 0.20 / grilles 0.28 / champs 0.51 / perception 0.22 / deplacement 0.31 / admission 0.09 / frontieres 0.00 — ../../data/generated/p04-sauvegardes/colonne-420158
+[02:26:16] fin

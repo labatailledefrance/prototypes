@@ -1,0 +1,6 @@
+recalage (ns par modèle, un thread) : affine 6.7 ; quadratique 9.8
+recalage (ns par modèle, un thread) : affine 2.2 ; quadratique 9.8
+recalage (ns par modèle, un thread) : affine 2.2 ; quadratique 9.8
+marche (ns par marcheur, un thread) : C 14.4 ; B 16.1 ; B avec floor 26.0 ; A 318.7
+marche (ns par marcheur, un thread) : C 14.3 ; B 16.1 ; B avec floor 25.7 ; A 317.4
+marche (ns par marcheur, un thread) : C 14.0 ; B 15.9 ; B avec floor 25.6 ; A 317.5

@@ -1,0 +1,16 @@
+    Finished `release` profile [optimized] target(s) in 0.05s
+écart max : Lambert-93 0.066 mm, LAEA 0.070 mm, LAEA → Lambert-93 0.066 mm (précision de sortie de cs2cs : 0,1 mm)
+décompression : fait
+manche : fait
+  16 threads : paquets identiques
+  16 threads : paquets identiques
+  8 threads : paquets identiques
+  4 threads : paquets identiques
+  1 threads : paquets identiques
+déterminisme : fait
+relief : fait
+murs : fait
+tile absente : x648_y6858
+paris : fait
+extrapolation : fait
+tests : fait

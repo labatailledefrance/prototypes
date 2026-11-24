@@ -1,0 +1,206 @@
+etiquette,scenario,lieu,strategie,sonde,n,px_mediane,px_p99,px_max,mm_mediane,mm_p99,mm_max,trem_px_p99,trem_px_max,recalages
+soldat,soldat,Brest,naif-paris,batiment,274,1.760,5.343,5.867,34.517,72.324,77.553,3.268,4.487,1
+soldat,soldat,Brest,naif-paris,sol,2397,1.209,5.275,8.439,29.498,72.318,91.819,3.736,8.104,1
+soldat,soldat,Brest,naif-paris,sol-voisin,7707,1.003,4.330,6.841,31.976,77.628,116.3,3.088,8.009,1
+soldat,soldat,Brest,naif-paris,soldat,25200,1.463,5.072,7.628,32.691,86.166,120.3,4.052,8.249,1
+soldat,soldat,Brest,naif-ecef,batiment,274,44.130,105.5,107.6,533.8,934.1,1123.2,76.700,99.183,1
+soldat,soldat,Brest,naif-ecef,sol,2397,44.673,105.5,142.5,594.4,1248.8,1420.7,62.508,122.2,1
+soldat,soldat,Brest,naif-ecef,sol-voisin,7707,26.388,103.4,205.7,469.3,1140.8,1674.8,59.194,116.5,1
+soldat,soldat,Brest,naif-ecef,soldat,25200,38.826,107.4,157.1,532.7,1232.1,1813.8,58.657,135.3,1
+soldat,soldat,Brest,chaque-frame,batiment,274,2.507e-4,3.834e-4,3.999e-4,0.00230,0.00366,0.00410,1.999e-4,2.683e-4,3603
+soldat,soldat,Brest,chaque-frame,sol,2397,6.042e-4,0.00265,0.00358,0.01261,0.03829,0.04524,0.00204,0.00253,3603
+soldat,soldat,Brest,chaque-frame,sol-voisin,7707,4.135e-4,0.00212,0.00329,0.01285,0.04282,0.05870,0.00216,0.00342,3603
+soldat,soldat,Brest,chaque-frame,soldat,25200,1.687e-4,2.502e-4,3.010e-4,0.00231,0.00367,0.00507,1.205e-4,2.241e-4,3603
+soldat,soldat,Brest,seuil:1000,batiment,274,1.813e-4,3.279e-4,3.617e-4,0.00249,0.00487,0.00514,3.452e-4,3.891e-4,1
+soldat,soldat,Brest,seuil:1000,sol,2397,4.967e-4,0.00171,0.00190,0.01123,0.02041,0.02174,3.747e-4,5.734e-4,1
+soldat,soldat,Brest,seuil:1000,sol-voisin,7707,5.998e-4,0.00194,0.00263,0.01782,0.02637,0.03365,5.274e-4,0.00123,1
+soldat,soldat,Brest,seuil:1000,soldat,25200,1.871e-4,7.437e-4,0.00129,0.00385,0.01408,0.02202,7.794e-4,0.00145,1
+soldat,soldat,Brest,seuil:10000,batiment,274,1.813e-4,3.279e-4,3.617e-4,0.00249,0.00487,0.00514,3.452e-4,3.891e-4,1
+soldat,soldat,Brest,seuil:10000,sol,2397,4.967e-4,0.00171,0.00190,0.01123,0.02041,0.02174,3.747e-4,5.734e-4,1
+soldat,soldat,Brest,seuil:10000,sol-voisin,7707,5.998e-4,0.00194,0.00263,0.01782,0.02637,0.03365,5.274e-4,0.00123,1
+soldat,soldat,Brest,seuil:10000,soldat,25200,1.871e-4,7.437e-4,0.00129,0.00385,0.01408,0.02202,7.794e-4,0.00145,1
+soldat,soldat,Brest,tiles,batiment,274,0.00412,0.00967,0.01082,0.05032,0.10430,0.11811,0.00851,0.01264,3603
+soldat,soldat,Brest,tiles,sol,2397,0.00282,0.00820,0.01143,0.04616,0.10823,0.14141,0.00608,0.00950,3603
+soldat,soldat,Brest,tiles,sol-voisin,7707,0.00123,0.00528,0.00910,0.02632,0.06432,0.08628,0.00453,0.00869,3603
+soldat,soldat,Brest,tiles,soldat,25200,0.00154,0.00510,0.00766,0.01944,0.07867,0.12002,0.00575,0.00872,3603
+soldat,soldat,Brest,big-space:1000,batiment,274,0.00316,0.00806,0.01004,0.03903,0.08480,0.09552,0.00841,0.01032,1
+soldat,soldat,Brest,big-space:1000,sol,2397,0.00256,0.00679,0.00930,0.05861,0.11159,0.14616,0.00745,0.01194,1
+soldat,soldat,Brest,big-space:1000,sol-voisin,7707,0.00205,0.00664,0.01005,0.04406,0.09983,0.13546,0.00683,0.01416,1
+soldat,soldat,Brest,big-space:1000,soldat,25200,0.00214,0.00617,0.01046,0.03711,0.09138,0.13864,0.00808,0.01389,1
+decalage,soldat,Brest,decalage:100,batiment,274,3.309e-4,9.743e-4,0.00144,0.00440,0.01010,0.01142,0.00113,0.00130,3603
+decalage,soldat,Brest,decalage:100,sol,2397,7.257e-4,0.00353,0.00477,0.01707,0.05096,0.05767,0.00354,0.00553,3603
+decalage,soldat,Brest,decalage:100,sol-voisin,7707,3.645e-4,0.00208,0.00354,0.01097,0.03493,0.04251,0.00172,0.00345,3603
+decalage,soldat,Brest,decalage:100,soldat,25200,2.084e-4,5.216e-4,7.345e-4,0.00390,0.00958,0.01242,2.302e-4,8.740e-4,3603
+decalage,soldat,Brest,decalage:1000,batiment,274,0.00283,0.00800,0.00845,0.04584,0.10648,0.13449,0.00826,0.01475,3603
+decalage,soldat,Brest,decalage:1000,sol,2397,0.00245,0.01064,0.01556,0.04918,0.13868,0.18313,0.00935,0.01582,3603
+decalage,soldat,Brest,decalage:1000,sol-voisin,7707,0.00195,0.00770,0.01256,0.03980,0.10475,0.14011,0.00850,0.01584,3603
+decalage,soldat,Brest,decalage:1000,soldat,25200,0.00156,0.00575,0.00802,0.04030,0.08738,0.10354,0.00515,0.00547,3603
+decalage,soldat,Brest,decalage:10000,batiment,274,0.06112,0.10860,0.11944,0.65265,1.248,1.341,0.10720,0.12693,3603
+decalage,soldat,Brest,decalage:10000,sol,2397,0.02658,0.10165,0.11951,0.56652,1.311,1.514,0.08924,0.12486,3603
+decalage,soldat,Brest,decalage:10000,sol-voisin,7707,0.01283,0.05754,0.07985,0.38635,0.88784,1.155,0.07001,0.12360,3603
+decalage,soldat,Brest,decalage:10000,soldat,25200,0.03897,0.08057,0.08396,0.52318,0.96127,1.049,1.266e-4,0.04316,3603
+decalage,soldat,Brest,decalage:100000,batiment,274,0.18633,0.55587,0.59427,4.204,8.060,8.282,0.63678,0.98056,3603
+decalage,soldat,Brest,decalage:100000,sol,2397,0.12350,0.59350,0.82573,6.898,14.857,17.062,0.47830,0.79313,3603
+decalage,soldat,Brest,decalage:100000,sol-voisin,7707,0.10758,0.50063,1.005,6.889,14.857,17.265,0.44933,0.93401,3603
+decalage,soldat,Brest,decalage:100000,soldat,25200,0.08315,0.25513,0.28245,5.296,8.928,9.113,1.263e-4,0.34592,3603
+decalage,soldat,Brest,decalage:1000000,batiment,274,1.914,6.137,6.745,41.534,77.305,82.957,7.231,7.512,3603
+decalage,soldat,Brest,decalage:1000000,sol,2397,1.347,5.668,7.724,57.936,97.137,110.1,6.706,7.309,3603
+decalage,soldat,Brest,decalage:1000000,sol-voisin,7707,1.106,5.021,9.302,59.850,105.7,130.6,6.305,7.409,3603
+decalage,soldat,Brest,decalage:1000000,soldat,25200,2.248,4.703,4.720,22.040,60.221,60.624,1.266e-4,0.00814,3603
+soldat,soldat,Papeete,naif-paris,batiment,245,59.549,158.6,162.4,772.2,1726.1,1807.6,127.4,136.7,1
+soldat,soldat,Papeete,naif-paris,sol,2451,44.010,122.3,186.6,771.5,1794.0,2294.1,97.784,161.8,1
+soldat,soldat,Papeete,naif-paris,sol-voisin,7663,37.383,104.6,158.1,821.9,1761.0,2393.1,93.502,189.7,1
+soldat,soldat,Papeete,naif-paris,soldat,25200,55.955,138.6,189.1,896.3,2019.3,2739.0,104.5,202.2,1
+soldat,soldat,Papeete,naif-ecef,batiment,245,50.672,108.5,112.1,635.0,1235.7,1320.7,102.9,141.7,1
+soldat,soldat,Papeete,naif-ecef,sol,2451,34.587,114.4,139.2,577.0,1315.1,1616.9,94.476,143.9,1
+soldat,soldat,Papeete,naif-ecef,sol-voisin,7663,29.029,99.206,125.5,654.7,1446.4,1693.9,75.088,172.5,1
+soldat,soldat,Papeete,naif-ecef,soldat,25200,33.869,99.019,141.0,531.6,1285.2,1797.2,87.960,174.5,1
+soldat,soldat,Papeete,chaque-frame,batiment,245,3.298e-4,4.600e-4,4.727e-4,0.00296,0.00431,0.00465,2.374e-4,3.349e-4,3603
+soldat,soldat,Papeete,chaque-frame,sol,2451,4.283e-4,0.00256,0.00362,0.00951,0.03138,0.03866,0.00176,0.00281,3603
+soldat,soldat,Papeete,chaque-frame,sol-voisin,7663,4.339e-4,0.00178,0.00337,0.01278,0.04560,0.05433,0.00212,0.00485,3603
+soldat,soldat,Papeete,chaque-frame,soldat,25200,2.653e-4,3.180e-4,3.617e-4,0.00342,0.00436,0.00514,1.177e-4,2.638e-4,3603
+soldat,soldat,Papeete,seuil:1000,batiment,245,2.078e-4,4.372e-4,4.514e-4,0.00227,0.00428,0.00467,2.578e-4,3.993e-4,1
+soldat,soldat,Papeete,seuil:1000,sol,2451,4.528e-4,0.00251,0.00276,0.01236,0.03187,0.03337,2.513e-4,6.197e-4,1
+soldat,soldat,Papeete,seuil:1000,sol-voisin,7663,8.402e-4,0.00309,0.00391,0.02785,0.04431,0.04967,5.431e-4,0.00114,1
+soldat,soldat,Papeete,seuil:1000,soldat,25200,2.258e-4,7.235e-4,0.00118,0.00402,0.01313,0.02140,8.556e-4,0.00127,1
+soldat,soldat,Papeete,seuil:10000,batiment,245,2.078e-4,4.372e-4,4.514e-4,0.00227,0.00428,0.00467,2.578e-4,3.993e-4,1
+soldat,soldat,Papeete,seuil:10000,sol,2451,4.528e-4,0.00251,0.00276,0.01236,0.03187,0.03337,2.513e-4,6.197e-4,1
+soldat,soldat,Papeete,seuil:10000,sol-voisin,7663,8.402e-4,0.00309,0.00391,0.02785,0.04431,0.04967,5.431e-4,0.00114,1
+soldat,soldat,Papeete,seuil:10000,soldat,25200,2.258e-4,7.235e-4,0.00118,0.00402,0.01313,0.02140,8.556e-4,0.00127,1
+soldat,soldat,Papeete,tiles,batiment,245,0.00322,0.00668,0.00684,0.03730,0.06929,0.07194,0.00537,0.00762,3603
+soldat,soldat,Papeete,tiles,sol,2451,0.00138,0.00416,0.00603,0.02449,0.05456,0.06634,0.00431,0.00873,3603
+soldat,soldat,Papeete,tiles,sol-voisin,7663,9.254e-4,0.00324,0.00463,0.02275,0.05220,0.07052,0.00271,0.00675,3603
+soldat,soldat,Papeete,tiles,soldat,25200,3.112e-4,0.00403,0.00574,0.00498,0.08051,0.11615,0.00377,0.00587,3603
+soldat,soldat,Papeete,big-space:1000,batiment,245,0.00194,0.00636,0.00683,0.02574,0.06040,0.06453,0.00640,0.00653,1
+soldat,soldat,Papeete,big-space:1000,sol,2451,0.00190,0.00659,0.00921,0.02945,0.06526,0.08013,0.00487,0.00831,1
+soldat,soldat,Papeete,big-space:1000,sol-voisin,7663,0.00180,0.00610,0.00967,0.02944,0.06538,0.09249,0.00450,0.00896,1
+soldat,soldat,Papeete,big-space:1000,soldat,25200,0.00192,0.00559,0.00801,0.02647,0.06038,0.08198,0.00600,0.01023,1
+decalage,soldat,Papeete,decalage:100,batiment,245,3.398e-4,6.557e-4,7.049e-4,0.00417,0.00934,0.00959,8.095e-4,9.583e-4,3603
+decalage,soldat,Papeete,decalage:100,sol,2451,6.485e-4,0.00350,0.00462,0.01583,0.04455,0.05466,0.00409,0.00532,3603
+decalage,soldat,Papeete,decalage:100,sol-voisin,7663,4.067e-4,0.00150,0.00347,0.01096,0.03413,0.04179,0.00190,0.00284,3603
+decalage,soldat,Papeete,decalage:100,soldat,25200,3.009e-4,5.976e-4,8.110e-4,0.00472,0.01027,0.01357,2.385e-4,7.716e-4,3603
+decalage,soldat,Papeete,decalage:1000,batiment,245,0.00303,0.00878,0.01015,0.03644,0.09819,0.11113,0.00938,0.01057,3603
+decalage,soldat,Papeete,decalage:1000,sol,2451,0.00230,0.00996,0.01420,0.04835,0.13598,0.16370,0.00968,0.01395,3603
+decalage,soldat,Papeete,decalage:1000,sol-voisin,7663,0.00188,0.00768,0.01199,0.04056,0.10650,0.15005,0.00640,0.01272,3603
+decalage,soldat,Papeete,decalage:1000,soldat,25200,0.00200,0.00717,0.00959,0.03972,0.10115,0.13116,0.00516,0.00548,3603
+decalage,soldat,Papeete,decalage:10000,batiment,245,0.05982,0.11652,0.12418,0.59144,1.256,1.312,0.10811,0.13295,3603
+decalage,soldat,Papeete,decalage:10000,sol,2451,0.03556,0.10463,0.13400,0.66434,1.316,1.440,0.08595,0.14821,3603
+decalage,soldat,Papeete,decalage:10000,sol-voisin,7663,0.01230,0.06073,0.13711,0.39758,0.96995,1.310,0.06741,0.22011,3603
+decalage,soldat,Papeete,decalage:10000,soldat,25200,0.03070,0.06217,0.06613,0.44065,0.85755,0.99659,1.226e-4,0.04316,3603
+decalage,soldat,Papeete,decalage:100000,batiment,245,0.48423,1.023,1.066,7.647,14.067,14.538,0.56832,0.90313,3603
+decalage,soldat,Papeete,decalage:100000,sol,2451,0.16509,0.50905,0.62969,5.111,11.610,12.945,0.45569,0.88219,3603
+decalage,soldat,Papeete,decalage:100000,sol-voisin,7663,0.11140,0.55509,0.95393,6.712,15.319,17.485,0.42528,0.88818,3603
+decalage,soldat,Papeete,decalage:100000,soldat,25200,0.11937,0.30621,0.32766,5.565,9.550,9.614,1.222e-4,0.34593,3603
+decalage,soldat,Papeete,decalage:1000000,batiment,245,1.836,5.722,6.208,44.293,87.058,88.683,7.251,7.445,3603
+decalage,soldat,Papeete,decalage:1000000,sol,2451,1.448,5.903,8.330,64.330,105.9,116.5,6.770,7.398,3603
+decalage,soldat,Papeete,decalage:1000000,sol-voisin,7663,1.039,4.901,7.218,55.587,88.699,99.066,6.293,7.297,3603
+decalage,soldat,Papeete,decalage:1000000,soldat,25200,2.220,4.598,4.615,27.003,60.164,60.569,1.222e-4,0.00833,3603
+soldat,soldat,Île Walpole,naif-paris,batiment,253,94.730,180.6,182.4,1081.3,2711.4,2733.0,143.4,179.8,1
+soldat,soldat,Île Walpole,naif-paris,sol,2423,67.617,241.5,297.7,937.4,2203.6,3070.6,131.7,237.5,1
+soldat,soldat,Île Walpole,naif-paris,sol-voisin,7670,52.160,211.3,283.6,968.9,2750.1,3226.9,114.0,258.8,1
+soldat,soldat,Île Walpole,naif-paris,soldat,25200,77.169,210.1,281.3,1069.4,2565.1,3406.4,167.1,346.1,1
+soldat,soldat,Île Walpole,naif-ecef,batiment,253,30.523,141.0,188.3,387.2,1187.5,1538.8,94.671,108.3,1
+soldat,soldat,Île Walpole,naif-ecef,sol,2423,28.150,111.4,155.2,493.9,1302.3,1469.5,66.676,117.6,1
+soldat,soldat,Île Walpole,naif-ecef,sol-voisin,7670,26.651,105.0,122.1,450.2,1170.8,1474.2,57.006,132.9,1
+soldat,soldat,Île Walpole,naif-ecef,soldat,25200,35.667,106.7,163.5,479.5,1239.1,1843.4,56.475,133.0,1
+soldat,soldat,Île Walpole,chaque-frame,batiment,253,2.988e-4,4.149e-4,4.271e-4,0.00405,0.00507,0.00539,1.898e-4,2.046e-4,3603
+soldat,soldat,Île Walpole,chaque-frame,sol,2423,4.720e-4,0.00282,0.00332,0.01079,0.03459,0.04020,0.00197,0.00352,3603
+soldat,soldat,Île Walpole,chaque-frame,sol-voisin,7670,4.328e-4,0.00268,0.00449,0.01270,0.04303,0.05611,0.00234,0.00445,3603
+soldat,soldat,Île Walpole,chaque-frame,soldat,25200,2.717e-4,3.052e-4,3.429e-4,0.00405,0.00570,0.00659,1.189e-4,2.298e-4,3603
+soldat,soldat,Île Walpole,seuil:1000,batiment,253,1.337e-4,3.067e-4,3.671e-4,0.00184,0.00468,0.00487,2.513e-4,3.753e-4,1
+soldat,soldat,Île Walpole,seuil:1000,sol,2423,2.872e-4,0.00199,0.00216,0.00706,0.02541,0.02652,2.590e-4,4.098e-4,1
+soldat,soldat,Île Walpole,seuil:1000,sol-voisin,7670,2.882e-4,0.00147,0.00234,0.00869,0.02386,0.03357,5.346e-4,0.00104,1
+soldat,soldat,Île Walpole,seuil:1000,soldat,25200,1.908e-4,7.668e-4,0.00132,0.00406,0.01408,0.02287,8.722e-4,0.00154,1
+soldat,soldat,Île Walpole,seuil:10000,batiment,253,1.337e-4,3.067e-4,3.671e-4,0.00184,0.00468,0.00487,2.513e-4,3.753e-4,1
+soldat,soldat,Île Walpole,seuil:10000,sol,2423,2.872e-4,0.00199,0.00216,0.00706,0.02541,0.02652,2.590e-4,4.098e-4,1
+soldat,soldat,Île Walpole,seuil:10000,sol-voisin,7670,2.882e-4,0.00147,0.00234,0.00869,0.02386,0.03357,5.346e-4,0.00104,1
+soldat,soldat,Île Walpole,seuil:10000,soldat,25200,1.908e-4,7.668e-4,0.00132,0.00406,0.01408,0.02287,8.722e-4,0.00154,1
+soldat,soldat,Île Walpole,tiles,batiment,253,0.00252,0.00572,0.00630,0.02957,0.06181,0.06943,0.00597,0.00695,3603
+soldat,soldat,Île Walpole,tiles,sol,2423,0.00290,0.00764,0.00946,0.05268,0.09019,0.10215,0.00542,0.00792,3603
+soldat,soldat,Île Walpole,tiles,sol-voisin,7670,0.00173,0.00528,0.00713,0.03935,0.08038,0.09579,0.00323,0.00622,3603
+soldat,soldat,Île Walpole,tiles,soldat,25200,0.00144,0.00531,0.00740,0.01893,0.08503,0.11009,0.00505,0.00762,3603
+soldat,soldat,Île Walpole,big-space:1000,batiment,253,0.00378,0.00970,0.01156,0.04849,0.09999,0.10559,0.00943,0.01063,1
+soldat,soldat,Île Walpole,big-space:1000,sol,2423,0.00294,0.00869,0.01222,0.04598,0.10385,0.13252,0.00895,0.01380,1
+soldat,soldat,Île Walpole,big-space:1000,sol-voisin,7670,0.00235,0.00814,0.01434,0.06528,0.13689,0.17442,0.00779,0.01311,1
+soldat,soldat,Île Walpole,big-space:1000,soldat,25200,0.00284,0.00763,0.01177,0.04720,0.10424,0.14691,0.00920,0.01440,1
+decalage,soldat,Île Walpole,decalage:100,batiment,253,3.337e-4,8.471e-4,0.00103,0.00839,0.01481,0.01494,8.577e-4,9.800e-4,3603
+decalage,soldat,Île Walpole,decalage:100,sol,2423,6.772e-4,0.00387,0.00482,0.01664,0.04968,0.05722,0.00428,0.00540,3603
+decalage,soldat,Île Walpole,decalage:100,sol-voisin,7670,3.745e-4,0.00241,0.00368,0.01140,0.03742,0.04709,0.00171,0.00232,3603
+decalage,soldat,Île Walpole,decalage:100,soldat,25200,3.331e-4,6.945e-4,8.923e-4,0.00841,0.01497,0.01799,2.304e-4,8.671e-4,3603
+decalage,soldat,Île Walpole,decalage:1000,batiment,253,0.00422,0.01147,0.01270,0.03476,0.07922,0.08800,0.00943,0.01065,3603
+decalage,soldat,Île Walpole,decalage:1000,sol,2423,0.00258,0.01101,0.01502,0.04549,0.12641,0.15552,0.00982,0.01547,3603
+decalage,soldat,Île Walpole,decalage:1000,sol-voisin,7670,0.00200,0.00813,0.01509,0.04250,0.11319,0.16355,0.00784,0.01341,3603
+decalage,soldat,Île Walpole,decalage:1000,soldat,25200,0.00205,0.00631,0.00743,0.04745,0.10454,0.13821,0.00515,0.00971,3603
+decalage,soldat,Île Walpole,decalage:10000,batiment,253,0.03410,0.10758,0.12312,0.49454,1.181,1.356,0.10212,0.12918,3603
+decalage,soldat,Île Walpole,decalage:10000,sol,2423,0.01511,0.06870,0.09829,0.35675,0.85805,1.068,0.07783,0.13130,3603
+decalage,soldat,Île Walpole,decalage:10000,sol-voisin,7670,0.01854,0.09795,0.14495,0.51082,1.372,1.756,0.06372,0.13128,3603
+decalage,soldat,Île Walpole,decalage:10000,soldat,25200,0.01213,0.04685,0.04970,0.26271,0.56823,0.62491,1.261e-4,0.04316,3603
+decalage,soldat,Île Walpole,decalage:100000,batiment,253,0.65532,1.160,1.277,5.394,10.206,11.132,0.51741,0.77970,3603
+decalage,soldat,Île Walpole,decalage:100000,sol,2423,0.32896,0.99135,1.228,7.194,13.874,15.959,0.47900,0.90466,3603
+decalage,soldat,Île Walpole,decalage:100000,sol-voisin,7670,0.21906,0.81465,1.238,6.468,13.915,16.531,0.41146,0.90167,3603
+decalage,soldat,Île Walpole,decalage:100000,soldat,25200,0.37479,0.64447,0.67165,5.103,10.274,10.665,1.258e-4,0.34604,3603
+decalage,soldat,Île Walpole,decalage:1000000,batiment,253,1.983,6.152,6.992,57.754,103.1,112.9,7.273,7.507,3603
+decalage,soldat,Île Walpole,decalage:1000000,sol,2423,1.320,6.042,9.215,60.413,95.917,105.5,6.694,7.337,3603
+decalage,soldat,Île Walpole,decalage:1000000,sol-voisin,7670,1.283,5.557,8.242,66.525,109.0,121.3,6.237,7.397,3603
+decalage,soldat,Île Walpole,decalage:1000000,soldat,25200,2.243,4.638,4.655,25.481,60.206,60.609,1.259e-4,0.00818,3603
+navire,navire,Brest-Papeete-Noumea,naif-paris,navire,32172,1.481,7.267,13.002,595.7,2200.9,3788.1,9.940,22.976,1
+navire,navire,Brest-Papeete-Noumea,naif-ecef,navire,32172,1.936,6.641,10.353,478.7,1202.7,1819.0,8.955,14.765,1
+navire,navire,Brest-Papeete-Noumea,chaque-frame,navire,32172,1.021e-4,2.555e-4,4.008e-4,0.02943,0.07366,0.10826,2.872e-4,4.708e-4,8046
+navire,navire,Brest-Papeete-Noumea,seuil:1000,navire,32172,1.021e-4,2.555e-4,4.008e-4,0.02943,0.07366,0.10826,2.872e-4,4.708e-4,8044
+navire,navire,Brest-Papeete-Noumea,big-space:1000,navire,32172,1.781e-4,6.073e-4,0.00102,0.04974,0.14006,0.22544,8.056e-4,0.00141,1
+zoom,zoom,Papeete,naif-paris,batiment,31650,0.01745,40.196,189.8,915.7,4144.9,8159.5,23.039,197.4,1
+zoom,zoom,Papeete,naif-paris,globe-morceau,6486,0.01803,47.019,115.4,883.1,4126.5,6367.1,24.341,95.876,1
+zoom,zoom,Papeete,naif-paris,globe-naif,6486,0.02692,59.019,92.487,1346.0,4127.1,8334.3,24.946,95.872,1
+zoom,zoom,Papeete,naif-paris,sol,32132,0.01927,32.275,130.0,888.2,4079.5,7893.3,20.905,106.8,1
+zoom,zoom,Papeete,naif-paris,sol-voisin,32412,0.01858,22.491,64.457,892.3,4287.1,8155.8,14.888,63.391,1
+zoom,zoom,Papeete,naif-paris,soldat,50400,0.04289,57.256,138.9,945.3,4175.4,8597.5,34.211,126.0,1
+zoom,zoom,Papeete,chaque-frame,batiment,31650,1.353e-4,3.329e-4,5.205e-4,6.398,3552.0,6984.0,4.660e-4,6.640e-4,7203
+zoom,zoom,Papeete,chaque-frame,globe-morceau,6486,5.832e-4,1.552,3.336,31.331,3550.2,6545.5,1.185,4.685,7203
+zoom,zoom,Papeete,chaque-frame,globe-naif,6486,0.01215,24.846,74.018,517.9,3604.7,7280.9,24.418,100.8,7203
+zoom,zoom,Papeete,chaque-frame,sol,32132,1.382e-4,4.598e-4,0.00150,5.800,3463.2,7243.0,5.104e-4,0.00191,7203
+zoom,zoom,Papeete,chaque-frame,sol-voisin,32412,1.390e-4,3.993e-4,8.107e-4,5.483,3431.7,7457.9,5.034e-4,0.00113,7203
+zoom,zoom,Papeete,chaque-frame,soldat,50400,1.406e-4,3.259e-4,4.171e-4,2.757,3449.0,7570.5,4.528e-4,6.694e-4,7203
+zoom,zoom,Papeete,seuil:1000,batiment,31650,1.449e-4,3.370e-4,7.367e-4,6.607,3552.0,6984.0,4.393e-4,6.640e-4,2853
+zoom,zoom,Papeete,seuil:1000,globe-morceau,6486,5.467e-4,0.58392,0.72005,27.888,3550.2,6545.5,0.00215,0.06712,2853
+zoom,zoom,Papeete,seuil:1000,globe-naif,6486,0.01241,7.199,8.871,496.9,3604.7,7280.9,0.03108,1.726,2853
+zoom,zoom,Papeete,seuil:1000,sol,32132,1.519e-4,8.668e-4,0.00167,5.884,3463.2,7243.0,4.351e-4,7.025e-4,2853
+zoom,zoom,Papeete,seuil:1000,sol-voisin,32412,1.530e-4,5.082e-4,8.334e-4,5.788,3431.7,7457.9,4.425e-4,6.649e-4,2853
+zoom,zoom,Papeete,seuil:1000,soldat,50400,1.555e-4,0.00175,0.00606,2.759,3449.0,7570.5,0.00155,0.00703,2853
+zoom,zoom,Papeete,big-space:1000,batiment,31650,1.079e-4,0.00146,0.00729,5.489,2894.7,7212.8,0.00133,0.00875,1
+zoom,zoom,Papeete,big-space:1000,globe-morceau,6486,5.123e-4,0.80062,0.98468,13.921,3158.3,6676.0,0.00315,0.00676,1
+zoom,zoom,Papeete,big-space:1000,globe-naif,6486,0.00848,14.759,18.059,250.0,3129.3,6132.1,0.04860,0.05325,1
+zoom,zoom,Papeete,big-space:1000,sol,32132,1.118e-4,0.00148,0.00476,4.740,3008.8,6922.7,0.00127,0.00671,1
+zoom,zoom,Papeete,big-space:1000,sol-voisin,32412,1.083e-4,0.00118,0.00364,4.549,2882.6,6712.5,8.183e-4,0.00439,1
+zoom,zoom,Papeete,big-space:1000,soldat,50400,1.159e-4,0.00238,0.00687,2.415,2843.9,7978.7,0.00254,0.00680,1
+zoom,zoom,Île Walpole,naif-paris,batiment,31649,0.02368,53.040,247.6,1079.3,3745.8,7195.0,23.786,194.7,1
+zoom,zoom,Île Walpole,naif-paris,globe-morceau,6486,0.02612,75.639,121.1,1029.8,3360.6,6380.0,25.481,155.3,1
+zoom,zoom,Île Walpole,naif-paris,globe-naif,6486,0.03153,103.1,188.6,1269.7,3740.1,6130.9,26.383,139.2,1
+zoom,zoom,Île Walpole,naif-paris,sol,32117,0.02638,56.749,165.3,1023.8,3573.7,6850.0,22.398,156.2,1
+zoom,zoom,Île Walpole,naif-paris,sol-voisin,32408,0.02647,38.379,85.261,1037.9,3506.7,6756.7,16.956,105.7,1
+zoom,zoom,Île Walpole,naif-paris,soldat,50400,0.06595,85.698,201.2,1102.0,3446.7,6772.8,44.526,152.8,1
+zoom,zoom,Île Walpole,chaque-frame,batiment,31649,1.329e-4,3.199e-4,4.545e-4,6.012,3338.2,9725.4,4.676e-4,6.076e-4,7203
+zoom,zoom,Île Walpole,chaque-frame,globe-morceau,6486,2.892e-4,0.51064,1.337,12.818,3324.9,7513.1,0.38159,1.502,7203
+zoom,zoom,Île Walpole,chaque-frame,globe-naif,6486,0.01314,31.818,81.570,579.5,3302.6,7961.9,22.291,103.7,7203
+zoom,zoom,Île Walpole,chaque-frame,sol,32117,1.369e-4,4.434e-4,0.00155,5.478,3301.6,8958.5,5.084e-4,0.00183,7203
+zoom,zoom,Île Walpole,chaque-frame,sol-voisin,32408,1.378e-4,3.631e-4,8.316e-4,5.278,3420.0,7416.5,4.946e-4,9.423e-4,7203
+zoom,zoom,Île Walpole,chaque-frame,soldat,50400,1.320e-4,3.147e-4,4.504e-4,2.703,3371.2,8580.3,4.592e-4,5.912e-4,7203
+zoom,zoom,Île Walpole,seuil:1000,batiment,31649,1.287e-4,3.205e-4,5.418e-4,6.006,3338.2,9725.4,4.331e-4,6.076e-4,2853
+zoom,zoom,Île Walpole,seuil:1000,globe-morceau,6486,2.817e-4,0.25442,0.31358,11.535,3324.9,7513.1,9.145e-4,0.01768,2853
+zoom,zoom,Île Walpole,seuil:1000,globe-naif,6486,0.01473,13.173,16.330,527.0,3302.6,7961.9,0.05048,1.268,2853
+zoom,zoom,Île Walpole,seuil:1000,sol,32117,1.330e-4,4.582e-4,0.00113,5.516,3301.6,8958.5,4.387e-4,6.045e-4,2853
+zoom,zoom,Île Walpole,seuil:1000,sol-voisin,32408,1.335e-4,3.828e-4,0.00135,5.131,3420.0,7416.5,4.413e-4,9.863e-4,2853
+zoom,zoom,Île Walpole,seuil:1000,soldat,50400,1.363e-4,0.00183,0.00694,2.832,3371.2,8580.3,0.00176,0.00616,2853
+zoom,zoom,Île Walpole,big-space:1000,batiment,31649,7.939e-5,0.00225,0.00884,5.515,2850.9,6843.0,0.00225,0.01114,1
+zoom,zoom,Île Walpole,big-space:1000,globe-morceau,6486,4.192e-4,0.66120,0.81607,14.461,2784.6,8174.1,0.00352,0.00973,1
+zoom,zoom,Île Walpole,big-space:1000,globe-naif,6486,0.00901,15.263,18.823,250.1,2845.5,6537.5,0.05110,0.06081,1
+zoom,zoom,Île Walpole,big-space:1000,sol,32117,8.180e-5,0.00237,0.00785,5.202,2882.5,8677.7,0.00219,0.00870,1
+zoom,zoom,Île Walpole,big-space:1000,sol-voisin,32408,7.852e-5,0.00136,0.00438,4.548,2630.3,6770.1,0.00134,0.00444,1
+zoom,zoom,Île Walpole,big-space:1000,soldat,50400,8.719e-5,0.00323,0.00807,2.320,2781.1,6237.6,0.00391,0.00955,1
+longue,soldat,Île Walpole,chaque-frame,batiment,0,nan,nan,nan,nan,nan,nan,nan,nan,3603
+longue,soldat,Île Walpole,chaque-frame,sol,14,6.681e-4,0.00246,0.00246,0.01569,0.02734,0.02734,0.00192,0.00192,3603
+longue,soldat,Île Walpole,chaque-frame,sol-voisin,70,4.324e-4,0.00239,0.00303,0.01189,0.04145,0.04478,0.00163,0.00253,3603
+longue,soldat,Île Walpole,chaque-frame,soldat,25200,2.719e-4,3.056e-4,3.417e-4,0.00407,0.00577,0.00695,1.906e-4,3.137e-4,3603
+longue,soldat,Île Walpole,seuil:1000,batiment,0,nan,nan,nan,nan,nan,nan,nan,nan,9
+longue,soldat,Île Walpole,seuil:1000,sol,14,3.059e-4,6.377e-4,6.377e-4,0.00455,0.01124,0.01124,3.694e-4,3.694e-4,9
+longue,soldat,Île Walpole,seuil:1000,sol-voisin,70,7.774e-4,0.00296,0.00299,0.03057,0.04519,0.04643,6.939e-4,8.359e-4,9
+longue,soldat,Île Walpole,seuil:1000,soldat,25200,0.00104,0.00739,0.01364,0.02496,0.11802,0.20538,0.00977,0.01667,9

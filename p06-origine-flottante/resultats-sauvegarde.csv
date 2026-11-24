@@ -1,0 +1,7 @@
+repr,octets_memoire_ou_bruts,octets_zstd
+c-u16-1/64m,4.000,3.193
+c-f32-exact,8.000,6.213
+b-i32-1/64m,8.000,3.193
+b-f64-exact,16.000,10.354
+a-i32-1/64m,12.000,4.896
+a-f64-exact,24.000,16.792

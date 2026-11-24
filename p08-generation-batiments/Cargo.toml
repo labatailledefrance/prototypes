@@ -1,0 +1,36 @@
+[package]
+name = "p08-generation-batiments"
+version = "0.1.0"
+edition = "2024"
+
+# Versions vérifiées sur crates.io le 2026-11-17, choisies vieilles d'au moins
+# deux semaines (i_overlay 9.2.0, du 2026-11-15, est écartée).
+[dependencies]
+# Bevy complet, même configuration que P-06 : sans audio ni manettes ;
+# Wayland indispensable pour la RTX 3060 (en-têtes absents : dlopen).
+bevy = { version = "0.20.1", default-features = false, features = [
+  "std", "multi_threaded", "async_executor", "default_app", "3d_bevy_render",
+  "bevy_winit", "x11", "wayland", "default_font", "ui_api", "ui_bevy_render", "sysinfo_plugin",
+] }
+wayland-sys = { version = "0.31.11", features = ["dlopen"] }
+# Triangulation des emprises (portage de l'earcut de Mapbox), sur des
+# coordonnées entières (1/16 m) : arithmétique exacte.
+earcutr = "=0.5.0"
+# Opérations booléennes sur polygones (porches : emprise moins les cases
+# percées), en arithmétique entière.
+i_overlay = "=9.1.0"
+rusqlite = { version = "=0.41.1", features = ["bundled"] }
+zstd = "=0.14.3"
+rayon = "=1.12.0"
+blake3 = "=1.8.7"
+png = "=0.18.1"
+clap = { version = "4.6.7", features = ["derive"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 16
+debug = false
+
+[profile.dev.package."*"]
+opt-level = 2

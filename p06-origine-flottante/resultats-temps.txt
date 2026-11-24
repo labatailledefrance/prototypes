@@ -1,0 +1,1 @@
+horloge f32 absolue visible (défilement 1 m/s, 0,5 px) à partir de 131072 s = 36.4 h de jeu

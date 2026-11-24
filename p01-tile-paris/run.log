@@ -1,0 +1,69 @@
+warning: field `moyenne_ms` is never read
+ --> src/mesure.rs:9:9
+  |
+5 | pub struct Stats {
+  |            ----- field in this struct
+...
+9 |     pub moyenne_ms: f64,
+  |         ^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+Calme ×1 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 1.235 ms (p99 3.018) — grilles 0.381 / perception 0.520 / deplacement 0.333 — poursuite 1790 attirés 0 errance 18210 — densité max 25 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 1.568 ms (p99 2.100) — grilles 0.325 / perception 0.778 / deplacement 0.462 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Assaut ×1 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 2.169 ms (p99 3.295) — grilles 0.305 / perception 1.486 / deplacement 0.374 — poursuite 15233 attirés 3716 errance 1051 — densité max 33 / 4 m²
+Calme ×2 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 1.818 ms (p99 2.417) — grilles 0.417 / perception 0.870 / deplacement 0.530 — poursuite 3250 attirés 0 errance 36750 — densité max 26 / 4 m²
+Disperse ×2 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 2.678 ms (p99 4.157) — grilles 0.374 / perception 1.461 / deplacement 0.837 — poursuite 39990 attirés 0 errance 10 — densité max 26 / 4 m²
+Assaut ×2 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 3.818 ms (p99 5.347) — grilles 0.357 / perception 2.811 / deplacement 0.648 — poursuite 23057 attirés 14653 errance 2290 — densité max 56 / 4 m²
+Calme ×4 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 3.360 ms (p99 4.045) — grilles 0.624 / perception 1.781 / deplacement 0.953 — poursuite 7548 attirés 0 errance 72452 — densité max 26 / 4 m²
+Disperse ×4 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 4.944 ms (p99 7.041) — grilles 0.556 / perception 2.839 / deplacement 1.528 — poursuite 79948 attirés 0 errance 52 — densité max 27 / 4 m²
+Assaut ×4 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 7.234 ms (p99 10.016) — grilles 0.543 / perception 5.526 / deplacement 1.163 — poursuite 48202 attirés 27308 errance 4490 — densité max 56 / 4 m²
+Calme ×8 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 5.936 ms (p99 8.078) — grilles 0.728 / perception 3.402 / deplacement 1.795 — poursuite 13536 attirés 0 errance 146464 — densité max 29 / 4 m²
+Disperse ×8 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 9.221 ms (p99 13.600) — grilles 0.741 / perception 5.548 / deplacement 2.905 — poursuite 159863 attirés 0 errance 137 — densité max 28 / 4 m²
+Assaut ×8 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 13.905 ms (p99 18.625) — grilles 0.855 / perception 10.843 / deplacement 2.182 — poursuite 91147 attirés 59957 errance 8896 — densité max 56 / 4 m²
+Calme ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 12.789 ms (p99 16.730) — grilles 2.182 / perception 6.730 / deplacement 3.789 — poursuite 28600 attirés 0 errance 291400 — densité max 29 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.809 ms (p99 27.514) — grilles 1.952 / perception 11.002 / deplacement 5.732 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Assaut ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 28.005 ms (p99 34.721) — grilles 2.023 / perception 21.426 / deplacement 4.301 — poursuite 183825 attirés 118429 errance 17746 — densité max 70 / 4 m²
+Calme ×24 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 20.494 ms (p99 25.057) — grilles 3.660 / perception 9.881 / deplacement 6.887 — poursuite 42518 attirés 0 errance 437482 — densité max 29 / 4 m²
+Disperse ×24 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 29.179 ms (p99 37.895) — grilles 3.669 / perception 16.421 / deplacement 8.940 — poursuite 479440 attirés 0 errance 560 — densité max 33 / 4 m²
+Assaut ×24 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 41.862 ms (p99 51.324) — grilles 3.873 / perception 31.237 / deplacement 6.643 — poursuite 280229 attirés 172549 errance 27222 — densité max 70 / 4 m²
+Calme ×32 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 27.584 ms (p99 34.568) — grilles 5.615 / perception 13.055 / deplacement 8.809 — poursuite 56174 attirés 0 errance 583826 — densité max 29 / 4 m²
+Disperse ×32 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 39.551 ms (p99 49.691) — grilles 5.321 / perception 21.826 / deplacement 11.873 — poursuite 639293 attirés 0 errance 707 — densité max 33 / 4 m²
+Assaut ×32 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 56.293 ms (p99 72.042) — grilles 5.416 / perception 41.530 / deplacement 8.876 — poursuite 374679 attirés 229066 errance 36255 — densité max 77 / 4 m²
+Calme ×64 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 55.448 ms (p99 68.367) — grilles 12.647 / perception 25.045 / deplacement 17.617 — poursuite 111565 attirés 0 errance 1168435 — densité max 29 / 4 m²
+Disperse ×64 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 79.217 ms (p99 97.652) — grilles 11.757 / perception 43.237 / deplacement 23.725 — poursuite 1278366 attirés 0 errance 1634 — densité max 33 / 4 m²
+Assaut ×64 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 112.125 ms (p99 129.584) — grilles 11.655 / perception 81.174 / deplacement 17.944 — poursuite 734260 attirés 474119 errance 71621 — densité max 107 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 64, perception 1/5 : médiane 1.565 ms (p99 2.245) — grilles 0.323 / perception 0.776 / deplacement 0.462 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 256, perception 1/5 : médiane 1.565 ms (p99 2.136) — grilles 0.325 / perception 0.777 / deplacement 0.461 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 1.566 ms (p99 2.252) — grilles 0.323 / perception 0.778 / deplacement 0.461 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 4096, perception 1/5 : médiane 3.026 ms (p99 3.173) — grilles 0.321 / perception 1.767 / deplacement 0.937 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 16384, perception 1/5 : médiane 10.638 ms (p99 10.857) — grilles 0.314 / perception 6.826 / deplacement 3.496 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 64, perception 1/5 : médiane 18.974 ms (p99 25.944) — grilles 1.983 / perception 10.995 / deplacement 5.742 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 256, perception 1/5 : médiane 18.749 ms (p99 27.094) — grilles 1.953 / perception 11.000 / deplacement 5.711 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.819 ms (p99 26.898) — grilles 1.971 / perception 11.006 / deplacement 5.736 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 4096, perception 1/5 : médiane 18.890 ms (p99 27.469) — grilles 1.964 / perception 11.008 / deplacement 5.746 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 16384, perception 1/5 : médiane 18.807 ms (p99 25.766) — grilles 1.958 / perception 10.995 / deplacement 5.733 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/1 : médiane 4.107 ms (p99 6.254) — grilles 0.327 / perception 3.302 / deplacement 0.469 — poursuite 19995 attirés 0 errance 5 — densité max 29 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/2 : médiane 2.529 ms (p99 3.661) — grilles 0.325 / perception 1.732 / deplacement 0.465 — poursuite 19995 attirés 0 errance 5 — densité max 27 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 1.568 ms (p99 2.182) — grilles 0.325 / perception 0.781 / deplacement 0.461 — poursuite 19995 attirés 0 errance 5 — densité max 26 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/10 : médiane 1.254 ms (p99 1.731) — grilles 0.327 / perception 0.464 / deplacement 0.462 — poursuite 19996 attirés 0 errance 4 — densité max 29 / 4 m²
+Disperse ×1 tiles, 16 threads, lot ≥ 1024, perception 1/20 : médiane 1.086 ms (p99 1.407) — grilles 0.325 / perception 0.302 / deplacement 0.457 — poursuite 19994 attirés 0 errance 6 — densité max 28 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/1 : médiane 62.855 ms (p99 78.550) — grilles 2.138 / perception 53.897 / deplacement 5.986 — poursuite 319607 attirés 0 errance 393 — densité max 29 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/2 : médiane 35.170 ms (p99 46.303) — grilles 2.090 / perception 27.107 / deplacement 5.802 — poursuite 319607 attirés 0 errance 393 — densité max 36 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.845 ms (p99 26.192) — grilles 1.977 / perception 11.022 / deplacement 5.730 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/10 : médiane 13.428 ms (p99 20.291) — grilles 1.943 / perception 5.680 / deplacement 5.726 — poursuite 319622 attirés 0 errance 378 — densité max 30 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/20 : médiane 10.427 ms (p99 15.890) — grilles 1.732 / perception 2.989 / deplacement 5.668 — poursuite 319623 attirés 0 errance 377 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 9.546 ms (p99 14.572) — grilles 1.897 / perception 1.923 / deplacement 5.699 — poursuite 318135 attirés 0 errance 1865 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 12.301 ms (p99 18.582) — grilles 1.939 / perception 4.551 / deplacement 5.717 — poursuite 319522 attirés 0 errance 478 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.923 ms (p99 25.217) — grilles 2.031 / perception 11.001 / deplacement 5.756 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 34.570 ms (p99 45.576) — grilles 2.105 / perception 26.428 / deplacement 5.784 — poursuite 319609 attirés 0 errance 391 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 14.174 ms (p99 19.217) — grilles 1.972 / perception 6.444 / deplacement 5.724 — poursuite 317354 attirés 0 errance 2646 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.218 ms (p99 25.684) — grilles 2.036 / perception 10.359 / deplacement 5.747 — poursuite 319001 attirés 0 errance 999 — densité max 34 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.921 ms (p99 27.689) — grilles 2.037 / perception 11.022 / deplacement 5.769 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 19.508 ms (p99 26.857) — grilles 2.006 / perception 11.636 / deplacement 5.758 — poursuite 319802 attirés 0 errance 198 — densité max 33 / 4 m²
+Disperse ×16 tiles, 1 threads, lot ≥ 1024, perception 1/5 : médiane 208.303 ms (p99 210.203) — grilles 6.219 / perception 131.694 / deplacement 70.300 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 2 threads, lot ≥ 1024, perception 1/5 : médiane 105.206 ms (p99 107.539) — grilles 3.610 / perception 66.575 / deplacement 34.668 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 4 threads, lot ≥ 1024, perception 1/5 : médiane 53.469 ms (p99 58.949) — grilles 2.492 / perception 33.444 / deplacement 17.493 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 8 threads, lot ≥ 1024, perception 1/5 : médiane 27.871 ms (p99 33.139) — grilles 2.016 / perception 17.005 / deplacement 8.792 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Disperse ×16 tiles, 16 threads, lot ≥ 1024, perception 1/5 : médiane 18.876 ms (p99 27.391) — grilles 1.949 / perception 11.011 / deplacement 5.730 — poursuite 319608 attirés 0 errance 392 — densité max 33 / 4 m²
+Résultats : resultats.csv, resultats-chronologie.csv

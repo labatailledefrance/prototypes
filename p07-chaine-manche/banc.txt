@@ -1,0 +1,4 @@
+banc relief : pas 1 m, décodage 4.267 ms
+banc relief : pas 2 m, décodage 1.032 ms
+banc relief : pas 5 m, décodage 0.168 ms
+banc asc : 8.25 ms par dalle, 818 Mo/s

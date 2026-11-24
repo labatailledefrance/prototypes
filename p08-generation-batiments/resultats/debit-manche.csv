@@ -1,0 +1,10 @@
+etiquette,threads,mode,tiles,batiments,s,batiments_par_s
+manche,1,tiles_en_parallele_r0,400,33123,0.399,82947
+manche,1,tiles_en_parallele_r1,400,33123,0.381,86937
+manche,1,tile_seule_x367_y6837,1,1853,0.0274,67586
+manche,8,tiles_en_parallele_r0,400,33123,0.080,411769
+manche,8,tiles_en_parallele_r1,400,33123,0.092,361644
+manche,8,tile_seule_x367_y6837,1,1853,0.0052,356983
+manche,16,tiles_en_parallele_r0,400,33123,0.077,430736
+manche,16,tiles_en_parallele_r1,400,33123,0.073,453359
+manche,16,tile_seule_x367_y6837,1,1853,0.0040,463025

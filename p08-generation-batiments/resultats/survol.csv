@@ -1,0 +1,13 @@
+etiquette,organisation,lod,pregenere,octets_par_frame,dalles,vitesse_ms,altitude_m,rayon_m,frames,frame_med_ms,frame_p99_ms,frame_max_ms,sans_gen_med,sans_gen_p99,avec_gen_med,avec_gen_p99,frames_avec_gen,frames_au_dessus_16_6,recalages,frame_recalage_max_ms,frames_proches_manquantes,tiles_generees,gen_tile_med_ms,gen_tile_max_ms,envoi_med_ms,envoi_max_ms
+paris-basse-false,morceaux,iso,false,2000000,defaut,50,250,1500,135384,1.75,2.75,13.38,1.75,2.73,1.88,4.21,866,0,2,2.09,0,39,58.4,103.9,NaN,NaN
+paris-haute-false,morceaux,loin,false,2000000,defaut,400,3000,6000,8066,3.91,6.86,25.25,3.89,6.77,4.46,7.09,322,3,1,2.48,0,105,26.1,67.8,NaN,NaN
+manche-basse-false,morceaux,iso,false,2000000,defaut,200,300,1500,61256,1.49,2.01,5.90,1.49,2.00,1.57,3.05,220,0,3,1.61,0,63,7.5,158.0,NaN,NaN
+manche-haute-false,morceaux,loin,false,2000000,defaut,1000,5000,8000,13969,5.11,10.41,23.73,5.11,10.36,5.13,10.56,1372,1,14,5.68,0,1306,3.6,109.6,NaN,NaN
+paris-basse-true,morceaux,iso,true,2000000,defaut,50,250,1500,136896,1.72,2.75,11.16,1.72,2.75,1.93,3.85,133,0,2,1.84,0,39,NaN,NaN,NaN,NaN
+paris-haute-true,morceaux,loin,true,2000000,defaut,400,3000,6000,8015,3.96,7.04,25.01,3.95,7.04,4.63,6.73,88,2,1,4.85,0,105,NaN,NaN,NaN,NaN
+manche-basse-true,morceaux,iso,true,2000000,defaut,200,300,1500,61988,1.48,1.88,5.07,1.48,1.88,1.58,3.63,44,0,3,1.51,0,63,NaN,NaN,NaN,NaN
+manche-haute-true,morceaux,loin,true,2000000,defaut,1000,5000,8000,13921,5.13,10.46,25.08,5.13,10.44,5.16,10.50,1066,1,14,10.86,0,1306,NaN,NaN,NaN,NaN
+paris-basse-tuile-bloc,tuile,iso,false,0,defaut,50,250,1500,114877,2.02,3.27,30.51,2.02,3.27,2.13,4.01,701,20,2,2.16,0,39,53.8,95.3,0.00,0.01
+paris-basse-tuile-file,tuile,iso,false,2000000,defaut,50,250,1500,113780,2.03,3.40,30.61,2.03,3.40,2.09,3.49,706,21,2,2.87,0,39,52.7,96.7,NaN,NaN
+paris-basse-batiment,batiment,iso,false,2000000,defaut,50,250,1500,136918,1.74,2.84,11.35,1.74,2.76,1.85,5.33,757,0,2,2.12,0,39,50.4,91.0,NaN,NaN
+paris-basse-rapide,morceaux,iso,false,2000000,defaut,200,250,1500,35851,1.68,3.53,12.90,1.68,3.46,1.85,4.46,846,0,2,1.78,0,39,56.3,107.7,NaN,NaN

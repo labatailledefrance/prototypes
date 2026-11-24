@@ -1,0 +1,11 @@
+ensemble,comparaison,paires_finies_ref,chemins_differents,impossibles,detour_km_moyen,detour_km_p99,detour_duree_moyen,detour_duree_p99
+toutes,camion>leclerc,9645,3610,262,-0.0135,0.1828,0.0289,0.3651
+toutes,camion>porte-char,9645,3146,5851,0.0469,0.7319,0.1385,0.8258
+toutes,leclerc-libre>leclerc,9967,4668,446,0.0174,0.3295,0.0217,0.2580
+toutes,porte-char-libre>porte-char,6603,1827,2809,0.0377,0.6231,0.0543,0.5406
+toutes,voiture>voiture-code,10000,9316,275,0.0750,0.6409,0.1074,0.5829
+principal,camion>leclerc,6519,2466,95,-0.0149,0.1869,0.0316,0.3875
+principal,camion>porte-char,6519,3146,2725,0.0469,0.7319,0.1385,0.8258
+principal,leclerc-libre>leclerc,6603,3096,178,0.0172,0.3313,0.0213,0.2742
+principal,porte-char-libre>porte-char,6603,1827,2809,0.0377,0.6231,0.0543,0.5406
+principal,voiture>voiture-code,6603,6147,163,0.0715,0.6312,0.1031,0.5530

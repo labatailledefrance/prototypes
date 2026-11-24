@@ -1,0 +1,6 @@
+etiquette,regle,batiments,erreur_med_m,erreur_p90_m,biais_moyen_m,part_sous_2m
+manche,constante_6m,577312,1.90,3.70,1.44,0.523
+manche,constante_usage,577312,1.60,3.50,0.75,0.585
+manche,mediane_tile,577312,0.80,2.40,-0.12,0.839
+manche,etages_x3,277583,1.30,3.00,-0.21,0.708
+manche,regle_p08,577312,0.20,2.40,-0.11,0.846

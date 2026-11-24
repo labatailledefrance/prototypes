@@ -1,0 +1,746 @@
+[19:18:54] A. banc des champs
+x652_y6863 1 m Majorite                terrain :   12.325 ms,  386619 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 1 m Majorite         complet_centre :    8.712 ms,  288330 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 1 m Majorite         complet_groupe :    8.597 ms,  288330 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 1 m Majorite       complet_disperse :   11.741 ms,  288330 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 42 ns
+x652_y6863 1 m Majorite            rue_partiel :    1.832 ms,   34662 fixées,   34662 invalidées oui perte 0.00 % 0 ns
+x652_y6863 1 m Majorite            rue_complet :    8.764 ms,  288330 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 1 m Majorite   rue_detruite_partiel :    0.851 ms,   30267 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 1 m Majorite         anneau_partiel :    8.793 ms,  171809 fixées,  171809 invalidées oui perte 0.00 % 0 ns
+x652_y6863 1 m Majorite         anneau_complet :    8.579 ms,  288330 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 1 m Majorite anneau_detruite_partiel :    5.033 ms,  171694 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Majorite                terrain :    4.506 ms,  102515 fixées,       0 invalidées  perte 1.00 % 0 ns
+x652_y6863 2 m Majorite         complet_centre :    2.232 ms,   75080 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Majorite         complet_groupe :    2.241 ms,   75087 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Majorite       complet_disperse :    2.667 ms,   75090 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x652_y6863 2 m Majorite            rue_partiel :    0.492 ms,    9096 fixées,    9096 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Majorite            rue_complet :    2.258 ms,   75087 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Majorite   rue_detruite_partiel :    0.221 ms,    7835 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Majorite         anneau_partiel :    1.872 ms,   33542 fixées,   33542 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Majorite         anneau_complet :    2.245 ms,   75087 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Majorite anneau_detruite_partiel :    0.989 ms,   33480 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Toute                terrain :    4.586 ms,  109730 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Toute         complet_centre :    2.350 ms,   78851 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Toute         complet_groupe :    2.348 ms,   78851 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Toute       complet_disperse :    2.783 ms,   78851 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x652_y6863 2 m Toute            rue_partiel :    0.511 ms,    9561 fixées,    9561 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Toute            rue_complet :    2.356 ms,   78851 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Toute   rue_detruite_partiel :    0.229 ms,    8306 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Toute         anneau_partiel :    1.957 ms,   35424 fixées,   35424 invalidées oui perte 0.00 % 0 ns
+x652_y6863 2 m Toute         anneau_complet :    2.334 ms,   78851 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 2 m Toute anneau_detruite_partiel :    1.037 ms,   35363 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 4 m Majorite                terrain :    2.165 ms,   24349 fixées,       0 invalidées  perte 6.64 % 0 ns
+x652_y6863 4 m Majorite         complet_centre :    0.514 ms,   18104 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 4 m Majorite         complet_groupe :    0.506 ms,   18130 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 4 m Majorite       complet_disperse :    0.506 ms,   18405 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6863 4 m Majorite            rue_partiel :    0.291 ms,    4298 fixées,    4298 invalidées oui perte 0.00 % 0 ns
+x652_y6863 4 m Majorite            rue_complet :    0.514 ms,   18130 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 4 m Majorite   rue_detruite_partiel :    0.128 ms,    4286 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 4 m Majorite         anneau_partiel :    0.443 ms,    6362 fixées,    6362 invalidées oui perte 0.00 % 0 ns
+x652_y6863 4 m Majorite         anneau_complet :    0.504 ms,   18130 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 4 m Majorite anneau_detruite_partiel :    0.194 ms,    6341 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Majorite                terrain :    1.848 ms,   15082 fixées,       0 invalidées  perte 9.32 % 0 ns
+x652_y6863 5 m Majorite         complet_centre :    0.314 ms,   11449 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Majorite         complet_groupe :    0.315 ms,   11476 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Majorite       complet_disperse :    0.299 ms,   11706 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6863 5 m Majorite            rue_partiel :    0.177 ms,    2549 fixées,    2549 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Majorite            rue_complet :    0.317 ms,   11476 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Majorite   rue_detruite_partiel :    0.071 ms,    2539 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Majorite         anneau_partiel :    0.218 ms,    2864 fixées,    2864 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Majorite         anneau_complet :    0.314 ms,   11476 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Majorite anneau_detruite_partiel :    0.091 ms,    2849 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Toute                terrain :    2.016 ms,   24045 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Toute         complet_centre :    0.557 ms,   19817 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Toute         complet_groupe :    0.546 ms,   19817 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Toute       complet_disperse :    0.531 ms,   19817 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6863 5 m Toute            rue_partiel :    0.171 ms,    2356 fixées,    2356 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Toute            rue_complet :    0.557 ms,   19817 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Toute   rue_detruite_partiel :    0.062 ms,    2345 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Toute         anneau_partiel :    0.803 ms,    9993 fixées,    9993 invalidées oui perte 0.00 % 0 ns
+x652_y6863 5 m Toute         anneau_complet :    0.555 ms,   19817 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6863 5 m Toute anneau_detruite_partiel :    0.287 ms,    9890 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 1 m Majorite                terrain :   12.132 ms,  398456 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 1 m Majorite         complet_centre :    9.990 ms,  329135 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 1 m Majorite         complet_groupe :    9.991 ms,  329135 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 1 m Majorite       complet_disperse :   13.772 ms,  329135 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 46 ns
+x651_y6863 1 m Majorite            rue_partiel :    0.413 ms,    6864 fixées,    6864 invalidées oui perte 0.00 % 0 ns
+x651_y6863 1 m Majorite            rue_complet :    9.998 ms,  329135 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 1 m Majorite   rue_detruite_partiel :    0.187 ms,    6840 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 1 m Majorite         anneau_partiel :    9.935 ms,  191269 fixées,  191269 invalidées oui perte 0.00 % 0 ns
+x651_y6863 1 m Majorite         anneau_complet :    9.978 ms,  329135 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 1 m Majorite anneau_detruite_partiel :    5.854 ms,  191112 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Majorite                terrain :    4.405 ms,  104705 fixées,       0 invalidées  perte 0.90 % 0 ns
+x651_y6863 2 m Majorite         complet_centre :    2.555 ms,   85487 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Majorite         complet_groupe :    2.565 ms,   85489 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Majorite       complet_disperse :    3.039 ms,   85495 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 38 ns
+x651_y6863 2 m Majorite            rue_partiel :    0.109 ms,    1827 fixées,    1827 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Majorite            rue_complet :    2.564 ms,   85489 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Majorite   rue_detruite_partiel :    0.054 ms,    1812 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Majorite         anneau_partiel :    2.642 ms,   47878 fixées,   47878 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Majorite         anneau_complet :    2.548 ms,   85489 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Majorite anneau_detruite_partiel :    1.410 ms,   47781 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Toute                terrain :    4.449 ms,  110222 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Toute         complet_centre :    2.661 ms,   88554 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Toute         complet_groupe :    2.662 ms,   88554 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Toute       complet_disperse :    3.157 ms,   88554 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 38 ns
+x651_y6863 2 m Toute            rue_partiel :    0.116 ms,    1911 fixées,    1911 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Toute            rue_complet :    2.663 ms,   88554 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Toute   rue_detruite_partiel :    0.058 ms,    1893 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Toute         anneau_partiel :    2.741 ms,   49912 fixées,   49912 invalidées oui perte 0.00 % 0 ns
+x651_y6863 2 m Toute         anneau_complet :    2.656 ms,   88554 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 2 m Toute anneau_detruite_partiel :    1.461 ms,   49804 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 4 m Majorite                terrain :    2.142 ms,   25167 fixées,       0 invalidées  perte 5.08 % 0 ns
+x651_y6863 4 m Majorite         complet_centre :    0.608 ms,   20891 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 4 m Majorite         complet_groupe :    0.591 ms,   20922 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 4 m Majorite       complet_disperse :    0.582 ms,   21003 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x651_y6863 4 m Majorite            rue_partiel :    0.046 ms,     659 fixées,     659 invalidées oui perte 0.00 % 0 ns
+x651_y6863 4 m Majorite            rue_complet :    0.604 ms,   20922 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 4 m Majorite   rue_detruite_partiel :    0.019 ms,     651 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 4 m Majorite         anneau_partiel :    0.785 ms,   11527 fixées,   11527 invalidées oui perte 0.00 % 0 ns
+x651_y6863 4 m Majorite         anneau_complet :    0.589 ms,   20922 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 4 m Majorite anneau_detruite_partiel :    0.335 ms,   11494 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Majorite                terrain :    1.835 ms,   15626 fixées,       0 invalidées  perte 7.40 % 0 ns
+x651_y6863 5 m Majorite         complet_centre :    0.382 ms,   13132 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Majorite         complet_groupe :    0.371 ms,   13167 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Majorite       complet_disperse :    0.345 ms,   13264 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x651_y6863 5 m Majorite            rue_partiel :    0.031 ms,     423 fixées,     423 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Majorite            rue_complet :    0.379 ms,   13167 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Majorite   rue_detruite_partiel :    0.013 ms,     418 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Majorite         anneau_partiel :    0.546 ms,    7415 fixées,    7415 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Majorite         anneau_complet :    0.366 ms,   13167 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Majorite anneau_detruite_partiel :    0.218 ms,    7386 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Toute                terrain :    1.968 ms,   22928 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Toute         complet_centre :    0.539 ms,   18584 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Toute         complet_groupe :    0.528 ms,   18584 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Toute       complet_disperse :    0.502 ms,   18584 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x651_y6863 5 m Toute            rue_partiel :    0.051 ms,     667 fixées,     667 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Toute            rue_complet :    0.541 ms,   18584 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Toute   rue_detruite_partiel :    0.022 ms,     661 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Toute         anneau_partiel :    0.787 ms,   10660 fixées,   10660 invalidées oui perte 0.00 % 0 ns
+x651_y6863 5 m Toute         anneau_complet :    0.526 ms,   18584 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6863 5 m Toute anneau_detruite_partiel :    0.313 ms,   10629 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 1 m Majorite                terrain :   12.604 ms,  424493 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 1 m Majorite         complet_centre :    9.000 ms,  300529 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 1 m Majorite         complet_groupe :    9.145 ms,  300529 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 1 m Majorite       complet_disperse :   12.305 ms,  300529 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 42 ns
+x651_y6864 1 m Majorite            rue_partiel :    0.012 ms,     161 fixées,     161 invalidées oui perte 0.00 % 0 ns
+x651_y6864 1 m Majorite            rue_complet :    9.342 ms,  300529 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 1 m Majorite   rue_detruite_partiel :    0.000 ms,       1 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 1 m Majorite         anneau_partiel :    6.440 ms,  123050 fixées,  123050 invalidées oui perte 0.00 % 0 ns
+x651_y6864 1 m Majorite         anneau_complet :    9.266 ms,  300529 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 1 m Majorite anneau_detruite_partiel :    3.974 ms,  122964 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Majorite                terrain :    4.631 ms,  112898 fixées,       0 invalidées  perte 0.97 % 0 ns
+x651_y6864 2 m Majorite         complet_centre :    2.377 ms,   78567 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Majorite         complet_groupe :    2.377 ms,   78575 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Majorite       complet_disperse :    2.805 ms,   78581 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x651_y6864 2 m Majorite            rue_partiel :    0.001 ms,       0 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Majorite            rue_complet :    2.384 ms,   78575 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Majorite   rue_detruite_partiel :    0.000 ms,       0 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Majorite         anneau_partiel :    1.808 ms,   32065 fixées,   32065 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Majorite         anneau_complet :    2.387 ms,   78575 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Majorite anneau_detruite_partiel :    0.979 ms,   32017 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Toute                terrain :    4.717 ms,  120325 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Toute         complet_centre :    2.460 ms,   81588 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Toute         complet_groupe :    2.449 ms,   81588 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Toute       complet_disperse :    2.889 ms,   81588 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x651_y6864 2 m Toute            rue_partiel :    0.024 ms,     385 fixées,     385 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Toute            rue_complet :    2.454 ms,   81588 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Toute   rue_detruite_partiel :    0.000 ms,       1 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Toute         anneau_partiel :    1.886 ms,   33425 fixées,   33425 invalidées oui perte 0.00 % 0 ns
+x651_y6864 2 m Toute         anneau_complet :    2.470 ms,   81588 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 2 m Toute anneau_detruite_partiel :    0.991 ms,   33370 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 4 m Majorite                terrain :    2.247 ms,   26795 fixées,       0 invalidées  perte 6.74 % 0 ns
+x651_y6864 4 m Majorite         complet_centre :    0.548 ms,   18957 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 4 m Majorite         complet_groupe :    0.547 ms,   18980 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 4 m Majorite       complet_disperse :    0.529 ms,   19300 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 33 ns
+x651_y6864 4 m Majorite            rue_partiel :    0.009 ms,     122 fixées,     122 invalidées oui perte 0.00 % 0 ns
+x651_y6864 4 m Majorite            rue_complet :    0.543 ms,   18980 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 4 m Majorite   rue_detruite_partiel :    0.000 ms,       1 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 4 m Majorite         anneau_partiel :    0.454 ms,    6751 fixées,    6751 invalidées oui perte 0.00 % 0 ns
+x651_y6864 4 m Majorite         anneau_complet :    0.549 ms,   18980 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 4 m Majorite anneau_detruite_partiel :    0.202 ms,    6725 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Majorite                terrain :    1.901 ms,   16537 fixées,       0 invalidées  perte 10.13 % 0 ns
+x651_y6864 5 m Majorite         complet_centre :    0.332 ms,   11761 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Majorite         complet_groupe :    0.326 ms,   11797 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Majorite       complet_disperse :    0.313 ms,   12123 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 33 ns
+x651_y6864 5 m Majorite            rue_partiel :    0.002 ms,       9 fixées,       9 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Majorite            rue_complet :    0.325 ms,   11797 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Majorite   rue_detruite_partiel :    0.000 ms,       1 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Majorite         anneau_partiel :    0.298 ms,    4134 fixées,    4134 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Majorite         anneau_complet :    0.332 ms,   11797 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Majorite anneau_detruite_partiel :    0.124 ms,    4118 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Toute                terrain :    2.068 ms,   26330 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Toute         complet_centre :    0.650 ms,   22842 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Toute         complet_groupe :    0.649 ms,   22842 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Toute       complet_disperse :    0.621 ms,   22842 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x651_y6864 5 m Toute            rue_partiel :    0.063 ms,     754 fixées,     754 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Toute            rue_complet :    0.647 ms,   22842 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Toute   rue_detruite_partiel :    0.000 ms,       1 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Toute         anneau_partiel :    0.735 ms,    9187 fixées,    9187 invalidées oui perte 0.00 % 0 ns
+x651_y6864 5 m Toute         anneau_complet :    0.651 ms,   22842 fixées,       0 invalidées  perte 0.00 % 0 ns
+x651_y6864 5 m Toute anneau_detruite_partiel :    0.265 ms,    9165 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 1 m Majorite                terrain :   12.467 ms,  448008 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 1 m Majorite         complet_centre :   11.457 ms,  382404 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 1 m Majorite         complet_groupe :   11.534 ms,  382404 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 1 m Majorite       complet_disperse :   15.546 ms,  382404 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 42 ns
+x652_y6862 1 m Majorite            rue_partiel :    0.289 ms,    5119 fixées,    5119 invalidées oui perte 0.00 % 0 ns
+x652_y6862 1 m Majorite            rue_complet :   11.417 ms,  382404 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 1 m Majorite   rue_detruite_partiel :    0.147 ms,    5099 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 1 m Majorite         anneau_partiel :   18.185 ms,  344658 fixées,  344658 invalidées oui perte 0.00 % 0 ns
+x652_y6862 1 m Majorite         anneau_complet :   11.447 ms,  382404 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 1 m Majorite anneau_detruite_partiel :   10.351 ms,  344519 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Majorite                terrain :    4.482 ms,  115602 fixées,       0 invalidées  perte 1.09 % 0 ns
+x652_y6862 2 m Majorite         complet_centre :    2.935 ms,   98166 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Majorite         complet_groupe :    2.933 ms,   98172 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Majorite       complet_disperse :    3.507 ms,   98170 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x652_y6862 2 m Majorite            rue_partiel :    0.311 ms,    5284 fixées,    5284 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Majorite            rue_complet :    2.937 ms,   98172 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Majorite   rue_detruite_partiel :    0.164 ms,    5274 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Majorite         anneau_partiel :    5.023 ms,   91345 fixées,   91345 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Majorite         anneau_complet :    2.922 ms,   98172 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Majorite anneau_detruite_partiel :    2.716 ms,   91266 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Toute                terrain :    4.558 ms,  123387 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Toute         complet_centre :    3.083 ms,  102592 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Toute         complet_groupe :    3.080 ms,  102592 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Toute       complet_disperse :    3.650 ms,  102592 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 36 ns
+x652_y6862 2 m Toute            rue_partiel :    0.272 ms,    4617 fixées,    4617 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Toute            rue_complet :    3.082 ms,  102592 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Toute   rue_detruite_partiel :    0.134 ms,    4553 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Toute         anneau_partiel :    5.084 ms,   92562 fixées,   92562 invalidées oui perte 0.00 % 0 ns
+x652_y6862 2 m Toute         anneau_complet :    3.089 ms,  102592 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 2 m Toute anneau_detruite_partiel :    2.759 ms,   92475 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 4 m Majorite                terrain :    2.182 ms,   28145 fixées,       0 invalidées  perte 4.95 % 0 ns
+x652_y6862 4 m Majorite         complet_centre :    0.702 ms,   24078 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 4 m Majorite         complet_groupe :    0.698 ms,   24101 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 4 m Majorite       complet_disperse :    0.680 ms,   24235 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6862 4 m Majorite            rue_partiel :    0.139 ms,    1871 fixées,    1871 invalidées oui perte 0.00 % 0 ns
+x652_y6862 4 m Majorite            rue_complet :    0.701 ms,   24101 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 4 m Majorite   rue_detruite_partiel :    0.051 ms,    1867 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 4 m Majorite         anneau_partiel :    1.530 ms,   23760 fixées,   23760 invalidées oui perte 0.00 % 0 ns
+x652_y6862 4 m Majorite         anneau_complet :    0.700 ms,   24101 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 4 m Majorite anneau_detruite_partiel :    0.699 ms,   23731 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Majorite                terrain :    1.874 ms,   17634 fixées,       0 invalidées  perte 7.65 % 0 ns
+x652_y6862 5 m Majorite         complet_centre :    0.423 ms,   15055 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Majorite         complet_groupe :    0.429 ms,   15081 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Majorite       complet_disperse :    0.406 ms,   15246 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6862 5 m Majorite            rue_partiel :    0.107 ms,    1400 fixées,    1400 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Majorite            rue_complet :    0.421 ms,   15081 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Majorite   rue_detruite_partiel :    0.034 ms,    1397 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Majorite         anneau_partiel :    1.008 ms,   14895 fixées,   14895 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Majorite         anneau_complet :    0.420 ms,   15081 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Majorite anneau_detruite_partiel :    0.424 ms,   14874 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Toute                terrain :    1.990 ms,   25340 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Toute         complet_centre :    0.657 ms,   22974 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Toute         complet_groupe :    0.652 ms,   22974 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Toute       complet_disperse :    0.628 ms,   22974 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 33 ns
+x652_y6862 5 m Toute            rue_partiel :    0.148 ms,    1869 fixées,    1869 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Toute            rue_complet :    0.657 ms,   22974 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Toute   rue_detruite_partiel :    0.047 ms,    1861 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Toute         anneau_partiel :    1.648 ms,   22687 fixées,   22687 invalidées oui perte 0.00 % 0 ns
+x652_y6862 5 m Toute         anneau_complet :    0.653 ms,   22974 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6862 5 m Toute anneau_detruite_partiel :    0.654 ms,   22657 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 1 m Majorite                terrain :   12.950 ms,  454643 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 1 m Majorite         complet_centre :   10.656 ms,  351169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 1 m Majorite         complet_groupe :   10.522 ms,  351169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 1 m Majorite       complet_disperse :   14.328 ms,  351169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 43 ns
+x653_y6862 1 m Majorite            rue_partiel :    1.378 ms,   28388 fixées,   28388 invalidées oui perte 0.00 % 0 ns
+x653_y6862 1 m Majorite            rue_complet :   10.543 ms,  351169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 1 m Majorite   rue_detruite_partiel :    0.785 ms,   28362 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 1 m Majorite         anneau_partiel :   11.834 ms,  220938 fixées,  220938 invalidées oui perte 0.00 % 0 ns
+x653_y6862 1 m Majorite         anneau_complet :   10.542 ms,  351169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 1 m Majorite anneau_detruite_partiel :    6.687 ms,  220740 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Majorite                terrain :    4.640 ms,  118150 fixées,       0 invalidées  perte 1.44 % 0 ns
+x653_y6862 2 m Majorite         complet_centre :    2.739 ms,   90553 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Majorite         complet_groupe :    2.722 ms,   90563 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Majorite       complet_disperse :    3.248 ms,   90791 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x653_y6862 2 m Majorite            rue_partiel :    0.402 ms,    7804 fixées,    7804 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Majorite            rue_complet :    2.752 ms,   90563 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Majorite   rue_detruite_partiel :    0.212 ms,    7797 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Majorite         anneau_partiel :    3.225 ms,   56337 fixées,   56337 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Majorite         anneau_complet :    2.760 ms,   90563 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Majorite anneau_detruite_partiel :    1.708 ms,   56254 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Toute                terrain :    4.727 ms,  126684 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Toute         complet_centre :    2.879 ms,   95521 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Toute         complet_groupe :    2.885 ms,   95521 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Toute       complet_disperse :    3.455 ms,   95521 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x653_y6862 2 m Toute            rue_partiel :    0.430 ms,    8239 fixées,    8239 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Toute            rue_complet :    2.899 ms,   95521 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Toute   rue_detruite_partiel :    0.229 ms,    8217 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Toute         anneau_partiel :    3.438 ms,   59882 fixées,   59882 invalidées oui perte 0.00 % 0 ns
+x653_y6862 2 m Toute         anneau_complet :    2.885 ms,   95521 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 2 m Toute anneau_detruite_partiel :    1.817 ms,   59786 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 4 m Majorite                terrain :    2.250 ms,   28676 fixées,       0 invalidées  perte 6.31 % 0 ns
+x653_y6862 4 m Majorite         complet_centre :    0.644 ms,   22047 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 4 m Majorite         complet_groupe :    0.639 ms,   22078 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 4 m Majorite       complet_disperse :    0.621 ms,   22335 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x653_y6862 4 m Majorite            rue_partiel :    0.149 ms,    2371 fixées,    2371 invalidées oui perte 0.00 % 0 ns
+x653_y6862 4 m Majorite            rue_complet :    0.653 ms,   22078 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 4 m Majorite   rue_detruite_partiel :    0.062 ms,    2368 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 4 m Majorite         anneau_partiel :    0.946 ms,   13586 fixées,   13586 invalidées oui perte 0.00 % 0 ns
+x653_y6862 4 m Majorite         anneau_complet :    0.639 ms,   22078 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 4 m Majorite anneau_detruite_partiel :    0.404 ms,   13553 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Majorite                terrain :    1.910 ms,   17812 fixées,       0 invalidées  perte 9.68 % 0 ns
+x653_y6862 5 m Majorite         complet_centre :    0.388 ms,   13786 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Majorite         complet_groupe :    0.399 ms,   13816 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Majorite       complet_disperse :    0.374 ms,   14153 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x653_y6862 5 m Majorite            rue_partiel :    0.081 ms,    1359 fixées,    1359 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Majorite            rue_complet :    0.389 ms,   13816 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Majorite   rue_detruite_partiel :    0.035 ms,    1356 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Majorite         anneau_partiel :    0.612 ms,    8501 fixées,    8501 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Majorite         anneau_complet :    0.392 ms,   13816 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Majorite anneau_detruite_partiel :    0.246 ms,    8476 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Toute                terrain :    2.035 ms,   26731 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Toute         complet_centre :    0.700 ms,   24062 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Toute         complet_groupe :    0.693 ms,   24062 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Toute       complet_disperse :    0.655 ms,   24062 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x653_y6862 5 m Toute            rue_partiel :    0.071 ms,    1014 fixées,    1014 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Toute            rue_complet :    0.704 ms,   24062 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Toute   rue_detruite_partiel :    0.028 ms,    1007 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Toute         anneau_partiel :    1.322 ms,   16179 fixées,   16179 invalidées oui perte 0.00 % 0 ns
+x653_y6862 5 m Toute         anneau_complet :    0.696 ms,   24062 fixées,       0 invalidées  perte 0.00 % 0 ns
+x653_y6862 5 m Toute anneau_detruite_partiel :    0.451 ms,   15367 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 1 m Majorite                terrain :   12.770 ms,  456872 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 1 m Majorite         complet_centre :   10.458 ms,  347321 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 1 m Majorite         complet_groupe :   10.544 ms,  347321 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 1 m Majorite       complet_disperse :   14.380 ms,  347321 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 44 ns
+x654_y6861 1 m Majorite            rue_partiel :    0.022 ms,     307 fixées,     307 invalidées oui perte 0.00 % 0 ns
+x654_y6861 1 m Majorite            rue_complet :   10.475 ms,  347321 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 1 m Majorite   rue_detruite_partiel :    0.011 ms,     291 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 1 m Majorite         anneau_partiel :    5.955 ms,  118149 fixées,  118149 invalidées oui perte 0.00 % 0 ns
+x654_y6861 1 m Majorite         anneau_complet :   10.507 ms,  347321 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 1 m Majorite anneau_detruite_partiel :    3.357 ms,  118006 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Majorite                terrain :    4.685 ms,  119671 fixées,       0 invalidées  perte 1.09 % 0 ns
+x654_y6861 2 m Majorite         complet_centre :    2.736 ms,   90525 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Majorite         complet_groupe :    2.725 ms,   90536 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Majorite       complet_disperse :    3.261 ms,   90534 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 39 ns
+x654_y6861 2 m Majorite            rue_partiel :    0.012 ms,     128 fixées,     128 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Majorite            rue_complet :    2.714 ms,   90536 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Majorite   rue_detruite_partiel :    0.004 ms,     119 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Majorite         anneau_partiel :    1.701 ms,   30783 fixées,   30783 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Majorite         anneau_complet :    2.716 ms,   90536 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Majorite anneau_detruite_partiel :    0.877 ms,   30700 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Toute                terrain :    4.779 ms,  127594 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Toute         complet_centre :    2.826 ms,   94393 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Toute         complet_groupe :    2.832 ms,   94393 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Toute       complet_disperse :    3.417 ms,   94393 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 40 ns
+x654_y6861 2 m Toute            rue_partiel :    0.013 ms,     131 fixées,     131 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Toute            rue_complet :    2.932 ms,   94393 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Toute   rue_detruite_partiel :    0.005 ms,     122 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Toute         anneau_partiel :    1.756 ms,   32046 fixées,   32046 invalidées oui perte 0.00 % 0 ns
+x654_y6861 2 m Toute         anneau_complet :    2.814 ms,   94393 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 2 m Toute anneau_detruite_partiel :    0.913 ms,   31973 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 4 m Majorite                terrain :    2.270 ms,   29034 fixées,       0 invalidées  perte 6.21 % 0 ns
+x654_y6861 4 m Majorite         complet_centre :    0.639 ms,   21966 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 4 m Majorite         complet_groupe :    0.632 ms,   22006 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 4 m Majorite       complet_disperse :    0.631 ms,   22296 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x654_y6861 4 m Majorite            rue_partiel :    0.006 ms,      30 fixées,      30 invalidées oui perte 0.00 % 0 ns
+x654_y6861 4 m Majorite            rue_complet :    0.633 ms,   22006 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 4 m Majorite   rue_detruite_partiel :    0.001 ms,      26 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 4 m Majorite         anneau_partiel :    0.704 ms,   10640 fixées,   10640 invalidées oui perte 0.00 % 0 ns
+x654_y6861 4 m Majorite         anneau_complet :    0.625 ms,   22006 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 4 m Majorite anneau_detruite_partiel :    0.306 ms,   10599 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Majorite                terrain :    1.920 ms,   17988 fixées,       0 invalidées  perte 11.60 % 0 ns
+x654_y6861 5 m Majorite         complet_centre :    0.381 ms,   13298 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Majorite         complet_groupe :    0.373 ms,   13351 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Majorite       complet_disperse :    0.368 ms,   14024 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x654_y6861 5 m Majorite            rue_partiel :    0.000 ms,       0 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Majorite            rue_complet :    0.371 ms,   13351 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Majorite   rue_detruite_partiel :    0.000 ms,       0 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Majorite         anneau_partiel :    0.486 ms,    6931 fixées,    6931 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Majorite         anneau_complet :    0.374 ms,   13351 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Majorite anneau_detruite_partiel :    0.191 ms,    6755 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Toute                terrain :    2.042 ms,   26775 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Toute         complet_centre :    0.693 ms,   24371 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Toute         complet_groupe :    0.695 ms,   24371 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Toute       complet_disperse :    0.671 ms,   24371 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x654_y6861 5 m Toute            rue_partiel :    0.006 ms,      55 fixées,      55 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Toute            rue_complet :    0.694 ms,   24371 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Toute   rue_detruite_partiel :    0.002 ms,      36 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Toute         anneau_partiel :    0.673 ms,    8672 fixées,    8672 invalidées oui perte 0.00 % 0 ns
+x654_y6861 5 m Toute         anneau_complet :    0.696 ms,   24371 fixées,       0 invalidées  perte 0.00 % 0 ns
+x654_y6861 5 m Toute anneau_detruite_partiel :    0.249 ms,    8634 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 1 m Majorite                terrain :   12.545 ms,  460556 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 1 m Majorite         complet_centre :   10.649 ms,  353844 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 1 m Majorite         complet_groupe :   10.631 ms,  353844 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 1 m Majorite       complet_disperse :   14.321 ms,  353844 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 44 ns
+x652_y6864 1 m Majorite            rue_partiel :    0.659 ms,   13374 fixées,   13374 invalidées oui perte 0.00 % 0 ns
+x652_y6864 1 m Majorite            rue_complet :   10.466 ms,  353844 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 1 m Majorite   rue_detruite_partiel :    0.358 ms,   13344 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 1 m Majorite         anneau_partiel :    4.683 ms,   93935 fixées,   93935 invalidées oui perte 0.00 % 0 ns
+x652_y6864 1 m Majorite         anneau_complet :   10.468 ms,  353844 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 1 m Majorite anneau_detruite_partiel :    2.713 ms,   93524 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Majorite                terrain :    4.569 ms,  120912 fixées,       0 invalidées  perte 0.70 % 0 ns
+x652_y6864 2 m Majorite         complet_centre :    2.711 ms,   91410 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Majorite         complet_groupe :    2.712 ms,   91416 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Majorite       complet_disperse :    3.213 ms,   91414 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 36 ns
+x652_y6864 2 m Majorite            rue_partiel :    0.203 ms,    3881 fixées,    3881 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Majorite            rue_complet :    2.704 ms,   91416 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Majorite   rue_detruite_partiel :    0.107 ms,    3866 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Majorite         anneau_partiel :    1.453 ms,   26420 fixées,   26420 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Majorite         anneau_complet :    2.709 ms,   91416 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Majorite anneau_detruite_partiel :    0.765 ms,   26237 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Toute                terrain :    4.619 ms,  126925 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Toute         complet_centre :    2.768 ms,   94007 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Toute         complet_groupe :    2.772 ms,   94007 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Toute       complet_disperse :    3.337 ms,   94007 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 36 ns
+x652_y6864 2 m Toute            rue_partiel :    0.190 ms,    3575 fixées,    3575 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Toute            rue_complet :    2.792 ms,   94007 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Toute   rue_detruite_partiel :    0.101 ms,    3557 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Toute         anneau_partiel :    1.480 ms,   27295 fixées,   27295 invalidées oui perte 0.00 % 0 ns
+x652_y6864 2 m Toute         anneau_complet :    2.799 ms,   94007 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 2 m Toute anneau_detruite_partiel :    0.794 ms,   27099 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 4 m Majorite                terrain :    2.175 ms,   29048 fixées,       0 invalidées  perte 4.66 % 0 ns
+x652_y6864 4 m Majorite         complet_centre :    0.632 ms,   22278 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 4 m Majorite         complet_groupe :    0.629 ms,   22303 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 4 m Majorite       complet_disperse :    0.627 ms,   22461 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6864 4 m Majorite            rue_partiel :    0.102 ms,    1505 fixées,    1505 invalidées oui perte 0.00 % 0 ns
+x652_y6864 4 m Majorite            rue_complet :    0.628 ms,   22303 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 4 m Majorite   rue_detruite_partiel :    0.044 ms,    1499 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 4 m Majorite         anneau_partiel :    0.403 ms,    6392 fixées,    6392 invalidées oui perte 0.00 % 0 ns
+x652_y6864 4 m Majorite         anneau_complet :    0.632 ms,   22303 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 4 m Majorite anneau_detruite_partiel :    0.192 ms,    6328 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Majorite                terrain :    1.870 ms,   18052 fixées,       0 invalidées  perte 8.01 % 0 ns
+x652_y6864 5 m Majorite         complet_centre :    0.390 ms,   13836 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Majorite         complet_groupe :    0.391 ms,   13860 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Majorite       complet_disperse :    0.377 ms,   14195 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 33 ns
+x652_y6864 5 m Majorite            rue_partiel :    0.079 ms,    1157 fixées,    1157 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Majorite            rue_complet :    0.399 ms,   13860 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Majorite   rue_detruite_partiel :    0.031 ms,    1150 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Majorite         anneau_partiel :    0.275 ms,    3836 fixées,    3836 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Majorite         anneau_complet :    0.394 ms,   13860 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Majorite anneau_detruite_partiel :    0.118 ms,    3803 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Toute                terrain :    2.016 ms,   26183 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Toute         complet_centre :    0.639 ms,   22252 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Toute         complet_groupe :    0.639 ms,   22252 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Toute       complet_disperse :    0.607 ms,   22252 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x652_y6864 5 m Toute            rue_partiel :    0.059 ms,     864 fixées,     864 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Toute            rue_complet :    0.641 ms,   22252 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Toute   rue_detruite_partiel :    0.022 ms,     853 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Toute         anneau_partiel :    0.465 ms,    6126 fixées,    6126 invalidées oui perte 0.00 % 0 ns
+x652_y6864 5 m Toute         anneau_complet :    0.631 ms,   22252 fixées,       0 invalidées  perte 0.00 % 0 ns
+x652_y6864 5 m Toute anneau_detruite_partiel :    0.177 ms,    6068 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 1 m Majorite                terrain :   12.494 ms,  461899 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 1 m Majorite         complet_centre :   10.573 ms,  356841 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 1 m Majorite         complet_groupe :   10.646 ms,  356841 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 1 m Majorite       complet_disperse :   14.547 ms,  356841 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 1 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 43 ns
+x650_y6864 1 m Majorite            rue_partiel :    0.150 ms,    3017 fixées,    3017 invalidées oui perte 0.00 % 0 ns
+x650_y6864 1 m Majorite            rue_complet :   10.811 ms,  356841 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 1 m Majorite   rue_detruite_partiel :    0.080 ms,    3002 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 1 m Majorite         anneau_partiel :    0.014 ms,     147 fixées,     147 invalidées oui perte 0.00 % 0 ns
+x650_y6864 1 m Majorite         anneau_complet :   10.557 ms,  356841 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 1 m Majorite anneau_detruite_partiel :    0.008 ms,     130 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Majorite                terrain :    4.511 ms,  120881 fixées,       0 invalidées  perte 0.69 % 0 ns
+x650_y6864 2 m Majorite         complet_centre :    2.677 ms,   92141 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Majorite         complet_groupe :    2.719 ms,   92169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Majorite       complet_disperse :    3.220 ms,   92149 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 36 ns
+x650_y6864 2 m Majorite            rue_partiel :    0.043 ms,     797 fixées,     797 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Majorite            rue_complet :    2.712 ms,   92169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Majorite   rue_detruite_partiel :    0.023 ms,     787 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Majorite         anneau_partiel :    0.007 ms,      50 fixées,      50 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Majorite         anneau_complet :    2.726 ms,   92169 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Majorite anneau_detruite_partiel :    0.004 ms,      40 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Toute                terrain :    4.566 ms,  126654 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Toute         complet_centre :    2.760 ms,   94876 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Toute         complet_groupe :    2.786 ms,   94876 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Toute       complet_disperse :    3.317 ms,   94876 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 37 ns
+x650_y6864 2 m Toute            rue_partiel :    0.048 ms,     816 fixées,     816 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Toute            rue_complet :    2.789 ms,   94876 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Toute   rue_detruite_partiel :    0.023 ms,     807 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Toute         anneau_partiel :    0.008 ms,      54 fixées,      54 invalidées oui perte 0.00 % 0 ns
+x650_y6864 2 m Toute         anneau_complet :    2.781 ms,   94876 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 2 m Toute anneau_detruite_partiel :    0.003 ms,      44 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 4 m Majorite                terrain :    2.180 ms,   29270 fixées,       0 invalidées  perte 3.74 % 0 ns
+x650_y6864 4 m Majorite         complet_centre :    0.640 ms,   22720 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 4 m Majorite         complet_groupe :    0.636 ms,   22769 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 4 m Majorite       complet_disperse :    0.632 ms,   22765 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 4 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x650_y6864 4 m Majorite            rue_partiel :    0.014 ms,     219 fixées,     219 invalidées oui perte 0.00 % 0 ns
+x650_y6864 4 m Majorite            rue_complet :    0.646 ms,   22769 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 4 m Majorite   rue_detruite_partiel :    0.007 ms,     214 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 4 m Majorite         anneau_partiel :    0.006 ms,      36 fixées,      36 invalidées oui perte 0.00 % 0 ns
+x650_y6864 4 m Majorite         anneau_complet :    0.631 ms,   22769 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 4 m Majorite anneau_detruite_partiel :    0.001 ms,      11 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Majorite                terrain :    1.851 ms,   18132 fixées,       0 invalidées  perte 6.23 % 0 ns
+x650_y6864 5 m Majorite         complet_centre :    0.400 ms,   14200 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Majorite         complet_groupe :    0.397 ms,   14287 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Majorite       complet_disperse :    0.372 ms,   14304 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Majorite              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x650_y6864 5 m Majorite            rue_partiel :    0.009 ms,     121 fixées,     121 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Majorite            rue_complet :    0.396 ms,   14287 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Majorite   rue_detruite_partiel :    0.004 ms,     118 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Majorite         anneau_partiel :    0.005 ms,      21 fixées,      21 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Majorite         anneau_complet :    0.394 ms,   14287 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Majorite anneau_detruite_partiel :    0.001 ms,       6 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Toute                terrain :    1.991 ms,   25794 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Toute         complet_centre :    0.616 ms,   21916 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Toute         complet_groupe :    0.627 ms,   21916 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Toute       complet_disperse :    0.599 ms,   21916 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Toute              direction :    0.000 ms,       0 fixées,       0 invalidées  perte 0.00 % 34 ns
+x650_y6864 5 m Toute            rue_partiel :    0.024 ms,     339 fixées,     339 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Toute            rue_complet :    0.613 ms,   21916 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Toute   rue_detruite_partiel :    0.010 ms,     336 fixées,       0 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Toute         anneau_partiel :    0.006 ms,      48 fixées,      48 invalidées oui perte 0.00 % 0 ns
+x650_y6864 5 m Toute         anneau_complet :    0.608 ms,   21916 fixées,       0 invalidées  perte 0.00 % 0 ns
+x650_y6864 5 m Toute anneau_detruite_partiel :    0.002 ms,      37 fixées,       0 invalidées oui perte 0.00 % 0 ns
+[19:19:01] A. banc des frontières
+frontières 1 m                ronde_0 : 0 rondes, 18.87 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 3526553 écarts (max 6098.9 m), 0 cases finies (min 0.0 m)
+frontières 1 m                ronde_1 : 1 rondes, 81.50 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 1764037 écarts (max 5940.5 m), 0 cases finies (min 0.0 m)
+frontières 1 m                ronde_2 : 2 rondes, 134.36 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 47639 écarts (max 5578.4 m), 0 cases finies (min 0.0 m)
+frontières 1 m                ronde_3 : 3 rondes, 128.39 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 16309 écarts (max 121.0 m), 0 cases finies (min 0.0 m)
+frontières 1 m                ronde_4 : 4 rondes, 128.87 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 3329 écarts (max 121.0 m), 0 cases finies (min 0.0 m)
+frontières 1 m                ronde_5 : 5 rondes, 129.19 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 1 m            convergence : 5 rondes, 128.87 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 1 m   expiration_horodatee : 1 rondes, 1.06 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 1 m       expiration_naive : 200 rondes, 128.81 ms par ronde (9 tiles) contre 240.49 ms d'un tenant, 0 écarts (max 0.0 m), 4005088 cases finies (min 653.6 m)
+frontières 2 m                ronde_0 : 0 rondes, 4.74 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 902341 écarts (max 12649.0 m), 0 cases finies (min 0.0 m)
+frontières 2 m                ronde_1 : 1 rondes, 19.28 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 451647 écarts (max 12399.8 m), 0 cases finies (min 0.0 m)
+frontières 2 m                ronde_2 : 2 rondes, 31.36 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 12222 écarts (max 11637.6 m), 0 cases finies (min 0.0 m)
+frontières 2 m                ronde_3 : 3 rondes, 29.37 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 3956 écarts (max 125.2 m), 0 cases finies (min 0.0 m)
+frontières 2 m                ronde_4 : 4 rondes, 29.28 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 830 écarts (max 27.6 m), 0 cases finies (min 0.0 m)
+frontières 2 m                ronde_5 : 5 rondes, 29.36 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 2 m            convergence : 5 rondes, 29.36 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 2 m   expiration_horodatee : 1 rondes, 0.09 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 2 m       expiration_naive : 200 rondes, 30.95 ms par ronde (9 tiles) contre 37.33 ms d'un tenant, 0 écarts (max 0.0 m), 1023510 cases finies (min 856.0 m)
+frontières 5 m                ronde_0 : 0 rondes, 0.87 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 139964 écarts (max 32289.0 m), 0 cases finies (min 0.0 m)
+frontières 5 m                ronde_1 : 1 rondes, 3.26 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 69360 écarts (max 32007.5 m), 0 cases finies (min 0.0 m)
+frontières 5 m                ronde_2 : 2 rondes, 5.26 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 1408 écarts (max 31551.5 m), 0 cases finies (min 0.0 m)
+frontières 5 m                ronde_3 : 3 rondes, 4.62 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 526 écarts (max 81.0 m), 0 cases finies (min 0.0 m)
+frontières 5 m                ronde_4 : 4 rondes, 4.59 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 25 écarts (max 11.0 m), 0 cases finies (min 0.0 m)
+frontières 5 m                ronde_5 : 5 rondes, 4.57 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 5 m            convergence : 5 rondes, 4.59 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 5 m   expiration_horodatee : 1 rondes, 0.02 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 0 écarts (max 0.0 m), 0 cases finies (min 0.0 m)
+frontières 5 m       expiration_naive : 200 rondes, 4.57 ms par ronde (9 tiles) contre 5.48 ms d'un tenant, 0 écarts (max 0.0 m), 158948 cases finies (min 1481.0 m)
+[19:19:38] A. banc des index de zombies
+Calme Dense32 2 m : reconstruction 704 µs par tile, requête 79 ns, 2031260 octets, empreinte fb285075e8093b92
+Calme Dense16 2 m : reconstruction 474 µs par tile, requête 71 ns, 531258 octets, empreinte fb285075e8093b92
+Calme Triee 2 m : reconstruction 305 µs par tile, requête 198 ns, 393260 octets, empreinte fb285075e8093b92
+Calme Creuse 2 m : reconstruction 701 µs par tile, requête 155 ns, 369480 octets, empreinte fb285075e8093b92
+Calme Dense16 4 m : reconstruction 328 µs par tile, requête 82 ns, 132818 octets, empreinte 49151f0a35dbdcc5
+Calme Triee 4 m : reconstruction 300 µs par tile, requête 237 ns, 368820 octets, empreinte 49151f0a35dbdcc5
+Disperse Dense32 2 m : reconstruction 649 µs par tile, requête 78 ns, 2031260 octets, empreinte 90246716a9b3b5e3
+Disperse Dense16 2 m : reconstruction 440 µs par tile, requête 76 ns, 531258 octets, empreinte 90246716a9b3b5e3
+Disperse Triee 2 m : reconstruction 329 µs par tile, requête 195 ns, 393260 octets, empreinte 90246716a9b3b5e3
+Disperse Creuse 2 m : reconstruction 379 µs par tile, requête 127 ns, 156568 octets, empreinte 90246716a9b3b5e3
+Disperse Dense16 4 m : reconstruction 343 µs par tile, requête 64 ns, 132818 octets, empreinte 45bcf977f2123ad3
+Disperse Triee 4 m : reconstruction 329 µs par tile, requête 197 ns, 368820 octets, empreinte 45bcf977f2123ad3
+Assaut Dense32 2 m : reconstruction 590 µs par tile, requête 53 ns, 2031260 octets, empreinte 9764d05b4f3e9c89
+Assaut Dense16 2 m : reconstruction 409 µs par tile, requête 50 ns, 531258 octets, empreinte 9764d05b4f3e9c89
+Assaut Triee 2 m : reconstruction 321 µs par tile, requête 181 ns, 393260 octets, empreinte 9764d05b4f3e9c89
+Assaut Creuse 2 m : reconstruction 334 µs par tile, requête 72 ns, 142792 octets, empreinte 9764d05b4f3e9c89
+Assaut Dense16 4 m : reconstruction 307 µs par tile, requête 45 ns, 132818 octets, empreinte 110fb49adcad51e1
+Assaut Triee 4 m : reconstruction 323 µs par tile, requête 196 ns, 368820 octets, empreinte 110fb49adcad51e1
+[19:20:30] B. index des zombies, calme, 16 tiles
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense32 2 m réservation Partout ×16 : médiane 10.671 ms (p99 14.231, max 14.634) — humains 0.321 / grilles 4.000 / champs 0.593 / perception 2.333 / deplacement 2.922 / admission 0.407 — champs 0.80 recalculs/tick à 6706 µs (max 7919), obstacle 0 µs — réservations 12591/12852 — poursuite 7311 relayés 28192 attirés 0 perdus 3031 errance 281466 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 7.104 ms (p99 10.790, max 11.734) — humains 0.321 / grilles 1.111 / champs 0.535 / perception 2.121 / deplacement 2.426 / admission 0.384 — champs 0.80 recalculs/tick à 6247 µs (max 7454), obstacle 0 µs — réservations 12591/12852 — poursuite 7311 relayés 28192 attirés 0 perdus 3031 errance 281466 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Triee 2 m réservation Partout ×16 : médiane 8.322 ms (p99 12.408, max 13.989) — humains 0.325 / grilles 1.272 / champs 0.547 / perception 2.352 / deplacement 3.073 / admission 0.423 — champs 0.80 recalculs/tick à 6384 µs (max 7619), obstacle 0 µs — réservations 12591/12852 — poursuite 7311 relayés 28192 attirés 0 perdus 3031 errance 281466 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Creuse 2 m réservation Partout ×16 : médiane 9.806 ms (p99 18.384, max 23.368) — humains 0.330 / grilles 1.646 / champs 0.554 / perception 2.603 / deplacement 3.629 / admission 0.498 — champs 0.80 recalculs/tick à 6459 µs (max 7673), obstacle 0 µs — réservations 12591/12852 — poursuite 7311 relayés 28192 attirés 0 perdus 3031 errance 281466 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 4 m réservation Partout ×16 : médiane 6.600 ms (p99 9.814, max 10.431) — humains 0.315 / grilles 0.801 / champs 0.516 / perception 2.197 / deplacement 2.402 / admission 0.300 — champs 0.80 recalculs/tick à 5984 µs (max 7025), obstacle 0 µs — réservations 6743/6763 — poursuite 9021 relayés 26700 attirés 0 perdus 3372 errance 280907 profonds 0 — densité 96 (contact 96) — murs 0
+[19:20:51] B. index des zombies, disperse, 16 tiles
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense32 2 m réservation Partout ×16 : médiane 16.744 ms (p99 21.864, max 22.170) — humains 0.398 / grilles 3.258 / champs 1.395 / perception 3.953 / deplacement 5.966 / admission 0.569 — champs 0.80 recalculs/tick à 14851 µs (max 17561), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 13.759 ms (p99 20.459, max 24.921) — humains 0.394 / grilles 1.011 / champs 1.468 / perception 3.670 / deplacement 5.907 / admission 0.595 — champs 0.80 recalculs/tick à 15046 µs (max 17717), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Triee 2 m réservation Partout ×16 : médiane 17.242 ms (p99 22.516, max 22.584) — humains 0.394 / grilles 1.302 / champs 1.434 / perception 4.841 / deplacement 7.007 / admission 0.591 — champs 0.80 recalculs/tick à 14847 µs (max 18337), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Creuse 2 m réservation Partout ×16 : médiane 17.411 ms (p99 23.365, max 24.245) — humains 0.407 / grilles 0.999 / champs 1.399 / perception 5.175 / deplacement 7.140 / admission 0.671 — champs 0.80 recalculs/tick à 14069 µs (max 18367), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 4 m réservation Partout ×16 : médiane 13.029 ms (p99 20.201, max 21.272) — humains 0.395 / grilles 0.768 / champs 1.355 / perception 3.386 / deplacement 5.740 / admission 0.440 — champs 0.80 recalculs/tick à 13810 µs (max 17996), obstacle 0 µs — réservations 17710/17718 — poursuite 61184 relayés 258080 attirés 0 perdus 466 errance 270 profonds 0 — densité 96 (contact 96) — murs 0
+[19:21:26] B. index des zombies, assaut, 16 tiles
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense32 2 m réservation Partout ×16 : médiane 14.393 ms (p99 17.818, max 19.374) — humains 0.316 / grilles 3.426 / champs 0.567 / perception 3.909 / deplacement 5.694 / admission 0.365 — champs 0.80 recalculs/tick à 6563 µs (max 7781), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.530 ms (p99 14.596, max 15.939) — humains 0.315 / grilles 1.017 / champs 0.535 / perception 3.791 / deplacement 5.439 / admission 0.355 — champs 0.80 recalculs/tick à 6272 µs (max 7374), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Triee 2 m réservation Partout ×16 : médiane 14.892 ms (p99 19.136, max 20.240) — humains 0.314 / grilles 1.281 / champs 0.542 / perception 4.609 / deplacement 7.720 / admission 0.376 — champs 0.80 recalculs/tick à 6323 µs (max 7515), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Creuse 2 m réservation Partout ×16 : médiane 12.729 ms (p99 15.390, max 18.138) — humains 0.314 / grilles 0.894 / champs 0.527 / perception 4.072 / deplacement 6.506 / admission 0.367 — champs 0.80 recalculs/tick à 6254 µs (max 7413), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 4 m réservation Partout ×16 : médiane 11.002 ms (p99 13.860, max 14.698) — humains 0.313 / grilles 0.766 / champs 0.517 / perception 4.035 / deplacement 5.044 / admission 0.292 — champs 0.80 recalculs/tick à 6087 µs (max 7020), obstacle 0 µs — réservations 3421/11367 — poursuite 206258 relayés 70611 attirés 30065 perdus 1554 errance 11512 profonds 0 — densité 96 (contact 96) — murs 0
+[19:24:41] B. index des zombies, calme, 64 tiles
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense32 2 m réservation Partout ×64 : médiane 44.941 ms (p99 51.078, max 52.336) — humains 0.930 / grilles 16.871 / champs 2.220 / perception 9.854 / deplacement 13.103 / admission 1.746 — champs 3.20 recalculs/tick à 9151 µs (max 13061), obstacle 0 µs — réservations 54250/55037 — poursuite 36183 relayés 126410 attirés 0 perdus 12206 errance 1105201 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×64 : médiane 35.258 ms (p99 41.292, max 53.590) — humains 0.936 / grilles 7.356 / champs 2.183 / perception 9.581 / deplacement 13.290 / admission 1.739 — champs 3.20 recalculs/tick à 9026 µs (max 12421), obstacle 0 µs — réservations 54250/55037 — poursuite 36183 relayés 126410 attirés 0 perdus 12206 errance 1105201 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Triee 2 m réservation Partout ×64 : médiane 35.052 ms (p99 41.155, max 42.914) — humains 0.924 / grilles 5.939 / champs 2.190 / perception 10.629 / deplacement 13.502 / admission 1.712 — champs 3.20 recalculs/tick à 9016 µs (max 12952), obstacle 0 µs — réservations 54250/55037 — poursuite 36183 relayés 126410 attirés 0 perdus 12206 errance 1105201 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Creuse 2 m réservation Partout ×64 : médiane 44.683 ms (p99 49.965, max 53.171) — humains 0.927 / grilles 10.054 / champs 2.203 / perception 12.671 / deplacement 16.959 / admission 1.793 — champs 3.20 recalculs/tick à 9054 µs (max 12745), obstacle 0 µs — réservations 54250/55037 — poursuite 36183 relayés 126410 attirés 0 perdus 12206 errance 1105201 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 4 m réservation Partout ×64 : médiane 29.706 ms (p99 36.482, max 45.701) — humains 0.916 / grilles 4.197 / champs 2.166 / perception 9.849 / deplacement 11.172 / admission 1.271 — champs 3.20 recalculs/tick à 8924 µs (max 12687), obstacle 0 µs — réservations 28513/28545 — poursuite 42466 relayés 121447 attirés 0 perdus 12830 errance 1103257 profonds 0 — densité 96 (contact 96) — murs 0
+[19:26:13] C. champs, calme, 16 tiles
+Calme Reelle Flow 1 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 9.209 ms (p99 14.038, max 15.490) — humains 0.326 / grilles 1.228 / champs 1.782 / perception 2.186 / deplacement 2.796 / admission 0.418 — champs 0.78 recalculs/tick à 22794 µs (max 44930), obstacle 0 µs — réservations 12375/12627 — poursuite 7064 relayés 28628 attirés 0 perdus 3275 errance 281033 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 7.035 ms (p99 12.796, max 22.361) — humains 0.318 / grilles 1.136 / champs 0.540 / perception 2.112 / deplacement 2.426 / admission 0.386 — champs 0.80 recalculs/tick à 6279 µs (max 7607), obstacle 0 µs — réservations 12591/12852 — poursuite 7311 relayés 28192 attirés 0 perdus 3031 errance 281466 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 4 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.390 ms (p99 7.744, max 9.147) — humains 0.312 / grilles 1.077 / champs 0.216 / perception 2.059 / deplacement 2.322 / admission 0.364 — champs 0.80 recalculs/tick à 1723 µs (max 2054), obstacle 0 µs — réservations 12796/13062 — poursuite 6643 relayés 28895 attirés 0 perdus 2540 errance 281922 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 5 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.285 ms (p99 8.451, max 9.442) — humains 0.311 / grilles 1.060 / champs 0.168 / perception 2.051 / deplacement 2.285 / admission 0.361 — champs 0.80 recalculs/tick à 1063 µs (max 1313), obstacle 0 µs — réservations 12426/12666 — poursuite 6711 relayés 28427 attirés 0 perdus 2788 errance 282074 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Toute /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.835 ms (p99 9.856, max 11.399) — humains 0.315 / grilles 1.062 / champs 0.542 / perception 2.085 / deplacement 2.393 / admission 0.375 — champs 0.80 recalculs/tick à 6352 µs (max 7393), obstacle 0 µs — réservations 12579/12844 — poursuite 7126 relayés 28281 attirés 0 perdus 3166 errance 281427 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /1 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.998 ms (p99 15.986, max 17.287) — humains 0.314 / grilles 1.102 / champs 5.959 / perception 2.344 / deplacement 2.769 / admission 0.369 — champs 16.00 recalculs/tick à 5223 µs (max 8142), obstacle 0 µs — réservations 12613/12868 — poursuite 6849 relayés 28585 attirés 0 perdus 3016 errance 281550 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 8.013 ms (p99 10.186, max 11.144) — humains 0.311 / grilles 1.064 / champs 1.655 / perception 2.115 / deplacement 2.436 / admission 0.386 — champs 3.20 recalculs/tick à 5449 µs (max 6509), obstacle 0 µs — réservations 12643/12908 — poursuite 6851 relayés 28806 attirés 0 perdus 2997 errance 281346 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /60 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.571 ms (p99 9.472, max 11.901) — humains 0.313 / grilles 1.082 / champs 0.290 / perception 2.079 / deplacement 2.397 / admission 0.372 — champs 0.28 recalculs/tick à 7819 µs (max 9121), obstacle 0 µs — réservations 12650/12859 — poursuite 7070 relayés 28722 attirés 0 perdus 3041 errance 281167 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 10.320 ms (p99 13.286, max 15.628) — humains 0.312 / grilles 1.077 / champs 3.918 / perception 2.107 / deplacement 2.419 / admission 0.389 — champs 3.20 recalculs/tick à 3733 µs (max 5516), obstacle 0 µs — réservations 12575/12815 — poursuite 7061 relayés 28399 attirés 0 perdus 2989 errance 281551 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 9.679 ms (p99 15.121, max 15.604) — humains 0.314 / grilles 1.067 / champs 3.373 / perception 2.099 / deplacement 2.371 / admission 0.378 — champs 0.80 recalculs/tick à 3461 µs (max 5260), obstacle 0 µs — réservations 12600/12846 — poursuite 7010 relayés 28446 attirés 0 perdus 3018 errance 281526 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Aucun 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.026 ms (p99 7.988, max 10.606) — humains 0.310 / grilles 1.061 / champs 0.019 / perception 2.091 / deplacement 2.125 / admission 0.352 — champs 0.00 recalculs/tick à 0 µs (max 0), obstacle 0 µs — réservations 11858/12075 — poursuite 7085 relayés 28052 attirés 0 perdus 4478 errance 280385 profonds 0 — densité 24 (contact 24) — murs 0
+[19:27:00] C. champs, disperse, 16 tiles
+Disperse Reelle Flow 1 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 16.966 ms (p99 22.543, max 24.014) — humains 0.388 / grilles 1.012 / champs 4.828 / perception 4.010 / deplacement 5.785 / admission 0.538 — champs 0.80 recalculs/tick à 55574 µs (max 66162), obstacle 0 µs — réservations 28239/33044 — poursuite 55856 relayés 263810 attirés 0 perdus 43 errance 291 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.831 ms (p99 18.382, max 18.650) — humains 0.389 / grilles 0.994 / champs 1.411 / perception 3.579 / deplacement 5.756 / admission 0.545 — champs 0.80 recalculs/tick à 14302 µs (max 16862), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 4 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.598 ms (p99 15.999, max 16.629) — humains 0.383 / grilles 0.977 / champs 0.315 / perception 3.530 / deplacement 5.766 / admission 0.509 — champs 0.80 recalculs/tick à 2485 µs (max 2919), obstacle 0 µs — réservations 28181/32993 — poursuite 55770 relayés 263830 attirés 0 perdus 117 errance 283 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 5 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.377 ms (p99 15.437, max 17.288) — humains 0.382 / grilles 0.968 / champs 0.203 / perception 3.524 / deplacement 5.722 / admission 0.502 — champs 0.80 recalculs/tick à 1165 µs (max 1435), obstacle 0 µs — réservations 28075/32917 — poursuite 55478 relayés 264139 attirés 0 perdus 101 errance 282 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Toute /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.834 ms (p99 17.987, max 18.114) — humains 0.389 / grilles 1.011 / champs 1.280 / perception 3.613 / deplacement 5.791 / admission 0.538 — champs 0.80 recalculs/tick à 13504 µs (max 16609), obstacle 0 µs — réservations 28234/33050 — poursuite 55253 relayés 264415 attirés 0 perdus 51 errance 281 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /1 Partiel Dense16 2 m réservation Partout ×16 : médiane 19.222 ms (p99 23.587, max 26.329) — humains 0.386 / grilles 1.022 / champs 6.995 / perception 4.209 / deplacement 5.770 / admission 0.531 — champs 16.00 recalculs/tick à 6171 µs (max 9941), obstacle 0 µs — réservations 28211/33056 — poursuite 55494 relayés 264170 attirés 0 perdus 37 errance 299 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 14.856 ms (p99 20.220, max 21.094) — humains 0.390 / grilles 1.020 / champs 3.147 / perception 3.791 / deplacement 5.811 / admission 0.565 — champs 3.20 recalculs/tick à 9598 µs (max 12317), obstacle 0 µs — réservations 28251/33091 — poursuite 55635 relayés 264026 attirés 0 perdus 38 errance 301 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /60 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.079 ms (p99 19.488, max 31.204) — humains 0.384 / grilles 0.982 / champs 0.615 / perception 3.544 / deplacement 5.761 / admission 0.523 — champs 0.32 recalculs/tick à 21876 µs (max 24317), obstacle 0 µs — réservations 28378/33070 — poursuite 55454 relayés 264189 attirés 0 perdus 77 errance 280 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 16.079 ms (p99 21.001, max 24.017) — humains 0.388 / grilles 1.000 / champs 4.348 / perception 3.866 / deplacement 5.763 / admission 0.551 — champs 3.20 recalculs/tick à 4061 µs (max 6443), obstacle 0 µs — réservations 28187/33040 — poursuite 55421 relayés 264226 attirés 0 perdus 51 errance 302 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 15.267 ms (p99 21.351, max 22.055) — humains 0.388 / grilles 0.981 / champs 3.759 / perception 3.780 / deplacement 5.728 / admission 0.513 — champs 0.80 recalculs/tick à 3792 µs (max 4492), obstacle 0 µs — réservations 28221/33023 — poursuite 55911 relayés 263747 attirés 0 perdus 51 errance 291 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Aucun 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.259 ms (p99 15.620, max 17.491) — humains 0.385 / grilles 0.987 / champs 0.020 / perception 3.550 / deplacement 5.750 / admission 0.499 — champs 0.00 recalculs/tick à 0 µs (max 0), obstacle 0 µs — réservations 28036/32336 — poursuite 56155 relayés 263262 attirés 0 perdus 270 errance 313 profonds 0 — densité 24 (contact 24) — murs 0
+[19:28:14] C. champs, assaut, 16 tiles
+Assaut Reelle Flow 1 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.367 ms (p99 16.279, max 17.018) — humains 0.316 / grilles 1.117 / champs 1.731 / perception 3.652 / deplacement 5.086 / admission 0.360 — champs 0.80 recalculs/tick à 22271 µs (max 26170), obstacle 0 µs — réservations 6227/22897 — poursuite 49212 relayés 239414 attirés 18221 perdus 1661 errance 11492 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.605 ms (p99 16.817, max 18.763) — humains 0.315 / grilles 1.071 / champs 0.536 / perception 3.812 / deplacement 5.479 / admission 0.353 — champs 0.80 recalculs/tick à 6270 µs (max 7362), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 4 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.061 ms (p99 15.045, max 15.626) — humains 0.312 / grilles 1.007 / champs 0.216 / perception 3.782 / deplacement 5.307 / admission 0.364 — champs 0.80 recalculs/tick à 1732 µs (max 2105), obstacle 0 µs — réservations 6826/23983 — poursuite 45674 relayés 221736 attirés 39585 perdus 1485 errance 11520 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 5 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 10.847 ms (p99 15.046, max 15.363) — humains 0.314 / grilles 1.059 / champs 0.169 / perception 3.587 / deplacement 5.315 / admission 0.350 — champs 0.80 recalculs/tick à 1085 µs (max 1364), obstacle 0 µs — réservations 7181/21515 — poursuite 45487 relayés 222083 attirés 39184 perdus 1704 errance 11542 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Toute /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.097 ms (p99 14.062, max 14.915) — humains 0.316 / grilles 1.042 / champs 0.557 / perception 3.740 / deplacement 5.018 / admission 0.368 — champs 0.80 recalculs/tick à 6487 µs (max 7566), obstacle 0 µs — réservations 6817/25191 — poursuite 50069 relayés 236923 attirés 20008 perdus 1508 errance 11492 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /1 Partiel Dense16 2 m réservation Partout ×16 : médiane 17.896 ms (p99 23.025, max 32.052) — humains 0.316 / grilles 1.203 / champs 6.161 / perception 4.063 / deplacement 5.718 / admission 0.354 — champs 16.00 recalculs/tick à 5354 µs (max 10197), obstacle 0 µs — réservations 5988/21823 — poursuite 48440 relayés 226933 attirés 31733 perdus 1382 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.850 ms (p99 16.413, max 18.062) — humains 0.318 / grilles 1.076 / champs 1.712 / perception 3.877 / deplacement 5.471 / admission 0.352 — champs 3.20 recalculs/tick à 5629 µs (max 7372), obstacle 0 µs — réservations 5924/21483 — poursuite 48704 relayés 226978 attirés 31448 perdus 1358 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /60 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.206 ms (p99 13.659, max 15.024) — humains 0.313 / grilles 1.027 / champs 0.296 / perception 3.792 / deplacement 5.396 / admission 0.353 — champs 0.24 recalculs/tick à 7772 µs (max 8938), obstacle 0 µs — réservations 5913/21452 — poursuite 48242 relayés 227687 attirés 30975 perdus 1584 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 15.189 ms (p99 18.736, max 18.944) — humains 0.317 / grilles 1.105 / champs 3.933 / perception 3.893 / deplacement 5.473 / admission 0.355 — champs 3.20 recalculs/tick à 3681 µs (max 5562), obstacle 0 µs — réservations 5957/21164 — poursuite 48069 relayés 227482 attirés 31329 perdus 1608 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 14.420 ms (p99 18.283, max 18.997) — humains 0.314 / grilles 1.056 / champs 3.397 / perception 3.808 / deplacement 5.411 / admission 0.356 — champs 0.80 recalculs/tick à 3471 µs (max 4172), obstacle 0 µs — réservations 5933/21950 — poursuite 47673 relayés 227617 attirés 31635 perdus 1563 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Aucun 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 10.809 ms (p99 14.753, max 16.937) — humains 0.309 / grilles 0.980 / champs 0.020 / perception 3.798 / deplacement 5.385 / admission 0.258 — champs 0.00 recalculs/tick à 0 µs (max 0), obstacle 0 µs — réservations 2860/4126 — poursuite 9868 relayés 40850 attirés 258242 perdus 174 errance 10866 profonds 0 — densité 24 (contact 24) — murs 0
+[19:35:50] C. champs, repli, 16 tiles
+Repli Reelle Flow 1 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 8.996 ms (p99 13.906, max 18.771) — humains 0.398 / grilles 1.192 / champs 1.774 / perception 2.345 / deplacement 2.726 / admission 0.417 — champs 0.78 recalculs/tick à 22684 µs (max 44024), obstacle 0 µs — réservations 12937/13547 — poursuite 6431 relayés 27313 attirés 0 perdus 8554 errance 277702 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 7.277 ms (p99 10.103, max 12.137) — humains 0.394 / grilles 1.074 / champs 0.534 / perception 2.313 / deplacement 2.444 / admission 0.395 — champs 0.80 recalculs/tick à 6152 µs (max 7731), obstacle 0 µs — réservations 13387/14010 — poursuite 6238 relayés 27353 attirés 0 perdus 8209 errance 278200 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 4 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.761 ms (p99 9.609, max 9.800) — humains 0.391 / grilles 1.084 / champs 0.216 / perception 2.287 / deplacement 2.352 / admission 0.372 — champs 0.80 recalculs/tick à 1740 µs (max 2124), obstacle 0 µs — réservations 13600/14162 — poursuite 6104 relayés 27820 attirés 0 perdus 7131 errance 278945 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 5 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.639 ms (p99 9.460, max 9.846) — humains 0.390 / grilles 1.067 / champs 0.171 / perception 2.259 / deplacement 2.311 / admission 0.370 — champs 0.80 recalculs/tick à 1085 µs (max 1368), obstacle 0 µs — réservations 13005/13558 — poursuite 6155 relayés 27469 attirés 0 perdus 7188 errance 279188 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Toute /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 7.155 ms (p99 9.975, max 11.261) — humains 0.390 / grilles 1.082 / champs 0.546 / perception 2.260 / deplacement 2.392 / admission 0.386 — champs 0.80 recalculs/tick à 6360 µs (max 7391), obstacle 0 µs — réservations 13371/13983 — poursuite 6139 relayés 27468 attirés 0 perdus 8272 errance 278121 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /1 Partiel Dense16 2 m réservation Partout ×16 : médiane 13.297 ms (p99 18.115, max 18.356) — humains 0.393 / grilles 1.110 / champs 5.954 / perception 2.464 / deplacement 2.801 / admission 0.383 — champs 16.00 recalculs/tick à 5230 µs (max 8255), obstacle 0 µs — réservations 13327/14017 — poursuite 6405 relayés 27175 attirés 0 perdus 8093 errance 278327 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 8.347 ms (p99 11.153, max 11.871) — humains 0.392 / grilles 1.072 / champs 1.653 / perception 2.271 / deplacement 2.482 / admission 0.396 — champs 3.20 recalculs/tick à 5449 µs (max 6662), obstacle 0 µs — réservations 13398/14077 — poursuite 6414 relayés 27146 attirés 0 perdus 8339 errance 278101 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /60 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.831 ms (p99 9.409, max 10.672) — humains 0.392 / grilles 1.076 / champs 0.293 / perception 2.266 / deplacement 2.399 / admission 0.378 — champs 0.28 recalculs/tick à 7829 µs (max 9350), obstacle 0 µs — réservations 13427/14024 — poursuite 6368 relayés 27209 attirés 0 perdus 8486 errance 277937 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×16 : médiane 10.831 ms (p99 13.325, max 14.575) — humains 0.392 / grilles 1.104 / champs 4.060 / perception 2.253 / deplacement 2.492 / admission 0.390 — champs 3.20 recalculs/tick à 3843 µs (max 5771), obstacle 0 µs — réservations 13360/14028 — poursuite 6309 relayés 27116 attirés 0 perdus 8247 errance 278328 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 10.145 ms (p99 17.180, max 19.258) — humains 0.393 / grilles 1.082 / champs 3.522 / perception 2.283 / deplacement 2.458 / admission 0.386 — champs 0.80 recalculs/tick à 3634 µs (max 6061), obstacle 0 µs — réservations 13338/13970 — poursuite 6418 relayés 27116 attirés 0 perdus 8195 errance 278271 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Aucun 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.238 ms (p99 9.319, max 9.967) — humains 0.387 / grilles 1.069 / champs 0.020 / perception 2.225 / deplacement 2.148 / admission 0.359 — champs 0.00 recalculs/tick à 0 µs (max 0), obstacle 0 µs — réservations 12344/12916 — poursuite 6809 relayés 26338 attirés 0 perdus 9707 errance 277146 profonds 0 — densité 24 (contact 24) — murs 0
+[19:36:43] C. étalement, 1 tile
+Calme Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.950 ms (p99 2.458, max 3.156) — humains 0.137 / grilles 0.614 / champs 0.595 / perception 0.259 / deplacement 0.268 / admission 0.075 — champs 0.20 recalculs/tick à 2348 µs (max 2484), obstacle 0 µs — réservations 1015/1037 — poursuite 851 relayés 3358 attirés 0 perdus 245 errance 15546 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.383 ms (p99 4.163, max 4.479) — humains 0.138 / grilles 0.619 / champs 0.017 / perception 0.258 / deplacement 0.266 / admission 0.075 — champs 0.20 recalculs/tick à 2369 µs (max 2979), obstacle 0 µs — réservations 1002/1022 — poursuite 839 relayés 3296 attirés 0 perdus 247 errance 15618 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.499 ms (p99 1.645, max 1.676) — humains 0.136 / grilles 0.613 / champs 0.162 / perception 0.255 / deplacement 0.264 / admission 0.072 — champs 0.05 recalculs/tick à 2383 µs (max 2431), obstacle 0 µs — réservations 1019/1040 — poursuite 851 relayés 3356 attirés 0 perdus 249 errance 15544 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.363 ms (p99 3.716, max 3.756) — humains 0.136 / grilles 0.618 / champs 0.016 / perception 0.252 / deplacement 0.262 / admission 0.074 — champs 0.05 recalculs/tick à 2313 µs (max 2370), obstacle 0 µs — réservations 1001/1024 — poursuite 764 relayés 3395 attirés 0 perdus 236 errance 15605 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 2.300 ms (p99 2.658, max 2.768) — humains 0.144 / grilles 0.549 / champs 0.706 / perception 0.339 / deplacement 0.459 / admission 0.096 — champs 0.20 recalculs/tick à 2772 µs (max 2877), obstacle 0 µs — réservations 1727/2059 — poursuite 3479 relayés 16498 attirés 0 perdus 5 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.606 ms (p99 4.476, max 4.616) — humains 0.143 / grilles 0.552 / champs 0.016 / perception 0.339 / deplacement 0.456 / admission 0.093 — champs 0.20 recalculs/tick à 2729 µs (max 2771), obstacle 0 µs — réservations 1720/2053 — poursuite 3470 relayés 16512 attirés 0 perdus 0 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.774 ms (p99 2.060, max 2.125) — humains 0.142 / grilles 0.548 / champs 0.193 / perception 0.340 / deplacement 0.458 / admission 0.094 — champs 0.05 recalculs/tick à 2867 µs (max 2943), obstacle 0 µs — réservations 1728/2048 — poursuite 3564 relayés 16413 attirés 0 perdus 5 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.602 ms (p99 4.366, max 4.435) — humains 0.143 / grilles 0.552 / champs 0.016 / perception 0.337 / deplacement 0.456 / admission 0.093 — champs 0.05 recalculs/tick à 2749 µs (max 2796), obstacle 0 µs — réservations 1725/2060 — poursuite 3608 relayés 16368 attirés 0 perdus 6 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.983 ms (p99 2.069, max 2.101) — humains 0.135 / grilles 0.502 / champs 0.587 / perception 0.305 / deplacement 0.382 / admission 0.066 — champs 0.20 recalculs/tick à 2311 µs (max 2370), obstacle 0 µs — réservations 320/1013 — poursuite 3583 relayés 15429 attirés 265 perdus 100 errance 623 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.408 ms (p99 3.749, max 3.754) — humains 0.136 / grilles 0.502 / champs 0.016 / perception 0.302 / deplacement 0.377 / admission 0.065 — champs 0.20 recalculs/tick à 2292 µs (max 2335), obstacle 0 µs — réservations 316/970 — poursuite 3685 relayés 15318 attirés 262 perdus 112 errance 623 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.558 ms (p99 1.766, max 2.684) — humains 0.135 / grilles 0.503 / champs 0.162 / perception 0.304 / deplacement 0.384 / admission 0.069 — champs 0.05 recalculs/tick à 2423 µs (max 2675), obstacle 0 µs — réservations 335/1078 — poursuite 3611 relayés 15388 attirés 268 perdus 110 errance 623 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.414 ms (p99 3.739, max 3.759) — humains 0.136 / grilles 0.502 / champs 0.016 / perception 0.304 / deplacement 0.383 / admission 0.069 — champs 0.05 recalculs/tick à 2295 µs (max 2316), obstacle 0 µs — réservations 345/1165 — poursuite 3770 relayés 15219 attirés 262 perdus 126 errance 623 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 2.020 ms (p99 2.133, max 2.192) — humains 0.191 / grilles 0.613 / champs 0.588 / perception 0.284 / deplacement 0.266 / admission 0.074 — champs 0.20 recalculs/tick à 2313 µs (max 2369), obstacle 0 µs — réservations 1035/1105 — poursuite 519 relayés 2387 attirés 0 perdus 1534 errance 15560 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /5 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.452 ms (p99 3.812, max 4.211) — humains 0.192 / grilles 0.613 / champs 0.016 / perception 0.282 / deplacement 0.264 / admission 0.075 — champs 0.20 recalculs/tick à 2301 µs (max 2688), obstacle 0 µs — réservations 1028/1122 — poursuite 449 relayés 2435 attirés 0 perdus 1478 errance 15638 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.581 ms (p99 1.859, max 2.373) — humains 0.191 / grilles 0.611 / champs 0.163 / perception 0.283 / deplacement 0.264 / admission 0.073 — champs 0.05 recalculs/tick à 2395 µs (max 2473), obstacle 0 µs — réservations 1045/1117 — poursuite 530 relayés 2397 attirés 0 perdus 1521 errance 15552 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.457 ms (p99 3.781, max 3.806) — humains 0.192 / grilles 0.622 / champs 0.016 / perception 0.282 / deplacement 0.265 / admission 0.075 — champs 0.05 recalculs/tick à 2302 µs (max 2335), obstacle 0 µs — réservations 1034/1120 — poursuite 490 relayés 2447 attirés 0 perdus 1453 errance 15610 profonds 0 — densité 24 (contact 24) — murs 0
+[19:37:13] D. réservation
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Aucune ×1 : médiane 1.487 ms (p99 1.830, max 2.484) — humains 0.137 / grilles 0.483 / champs 0.165 / perception 0.311 / deplacement 0.376 / admission 0.014 — champs 0.05 recalculs/tick à 2437 µs (max 2582), obstacle 0 µs — réservations 0/0 — poursuite 3792 relayés 15229 attirés 257 perdus 102 errance 620 profonds 0 — densité 80 (contact 0) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Aucune ×1 : médiane 1.520 ms (p99 1.848, max 1.898) — humains 0.137 / grilles 0.483 / champs 0.163 / perception 0.315 / deplacement 0.412 / admission 0.014 — champs 0.05 recalculs/tick à 2397 µs (max 2544), obstacle 0 µs — réservations 0/0 — poursuite 3471 relayés 15265 attirés 588 perdus 49 errance 627 profonds 0 — densité 78 (contact 0) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Aucune ×1 : médiane 1.673 ms (p99 1.833, max 1.857) — humains 0.143 / grilles 0.531 / champs 0.197 / perception 0.341 / deplacement 0.452 / admission 0.014 — champs 0.05 recalculs/tick à 2863 µs (max 2901), obstacle 0 µs — réservations 0/0 — poursuite 3411 relayés 16566 attirés 0 perdus 5 errance 18 profonds 0 — densité 31 (contact 0) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Aucune ×16 : médiane 11.095 ms (p99 14.473, max 16.028) — humains 0.332 / grilles 1.011 / champs 0.529 / perception 3.714 / deplacement 5.402 / admission 0.018 — champs 0.80 recalculs/tick à 6147 µs (max 7238), obstacle 0 µs — réservations 0/0 — poursuite 48405 relayés 231752 attirés 26870 perdus 1480 errance 11493 profonds 0 — densité 301 (contact 0) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Aucune ×16 : médiane 12.060 ms (p99 16.221, max 17.201) — humains 0.331 / grilles 0.978 / champs 0.526 / perception 4.584 / deplacement 5.578 / admission 0.018 — champs 0.80 recalculs/tick à 6102 µs (max 7141), obstacle 0 µs — réservations 0/0 — poursuite 41925 relayés 203025 attirés 62567 perdus 927 errance 11556 profonds 0 — densité 123 (contact 0) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Aucune ×16 : médiane 12.044 ms (p99 17.023, max 17.462) — humains 0.395 / grilles 0.949 / champs 1.334 / perception 3.586 / deplacement 5.636 / admission 0.017 — champs 0.80 recalculs/tick à 13526 µs (max 16060), obstacle 0 µs — réservations 0/0 — poursuite 55624 relayés 264016 attirés 0 perdus 70 errance 290 profonds 0 — densité 36 (contact 0) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Contact ×1 : médiane 1.556 ms (p99 1.952, max 2.061) — humains 0.135 / grilles 0.499 / champs 0.163 / perception 0.308 / deplacement 0.392 / admission 0.059 — champs 0.05 recalculs/tick à 2449 µs (max 2847), obstacle 0 µs — réservations 132/640 — poursuite 3663 relayés 15381 attirés 257 perdus 79 errance 620 profonds 0 — densité 60 (contact 41) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Contact ×1 : médiane 1.571 ms (p99 1.675, max 1.697) — humains 0.136 / grilles 0.501 / champs 0.161 / perception 0.304 / deplacement 0.418 / admission 0.051 — champs 0.05 recalculs/tick à 2370 µs (max 2406), obstacle 0 µs — réservations 48/175 — poursuite 3525 relayés 15098 attirés 588 perdus 162 errance 627 profonds 0 — densité 70 (contact 36) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Contact ×1 : médiane 1.778 ms (p99 1.943, max 1.956) — humains 0.143 / grilles 0.550 / champs 0.192 / perception 0.340 / deplacement 0.461 / admission 0.094 — champs 0.05 recalculs/tick à 2835 µs (max 2867), obstacle 0 µs — réservations 1706/2017 — poursuite 3578 relayés 16398 attirés 0 perdus 6 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Contact ×16 : médiane 11.555 ms (p99 15.714, max 16.225) — humains 0.313 / grilles 1.047 / champs 0.536 / perception 3.779 / deplacement 5.534 / admission 0.287 — champs 0.80 recalculs/tick à 6268 µs (max 7453), obstacle 0 µs — réservations 2008/11072 — poursuite 48799 relayés 229199 attirés 29093 perdus 1416 errance 11493 profonds 0 — densité 134 (contact 55) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Contact ×16 : médiane 13.676 ms (p99 18.736, max 19.179) — humains 0.327 / grilles 1.240 / champs 0.544 / perception 4.706 / deplacement 6.011 / admission 0.274 — champs 0.80 recalculs/tick à 6283 µs (max 7510), obstacle 0 µs — réservations 1216/5873 — poursuite 42135 relayés 203540 attirés 61597 perdus 1172 errance 11556 profonds 0 — densité 132 (contact 55) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Contact ×16 : médiane 13.607 ms (p99 20.839, max 21.985) — humains 0.398 / grilles 1.029 / champs 1.495 / perception 3.685 / deplacement 5.994 / admission 0.589 — champs 0.80 recalculs/tick à 15044 µs (max 18205), obstacle 0 µs — réservations 27844/32519 — poursuite 55660 relayés 264011 attirés 0 perdus 39 errance 290 profonds 0 — densité 25 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.545 ms (p99 1.615, max 1.649) — humains 0.135 / grilles 0.498 / champs 0.161 / perception 0.301 / deplacement 0.382 / admission 0.068 — champs 0.05 recalculs/tick à 2365 µs (max 2386), obstacle 0 µs — réservations 335/1078 — poursuite 3611 relayés 15388 attirés 268 perdus 110 errance 623 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.604 ms (p99 1.955, max 2.002) — humains 0.136 / grilles 0.506 / champs 0.163 / perception 0.310 / deplacement 0.415 / admission 0.069 — champs 0.05 recalculs/tick à 2427 µs (max 2641), obstacle 0 µs — réservations 302/1085 — poursuite 3610 relayés 15056 attirés 612 perdus 101 errance 621 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.777 ms (p99 2.243, max 2.672) — humains 0.144 / grilles 0.549 / champs 0.196 / perception 0.342 / deplacement 0.459 / admission 0.093 — champs 0.05 recalculs/tick à 2938 µs (max 3188), obstacle 0 µs — réservations 1728/2048 — poursuite 3564 relayés 16413 attirés 0 perdus 5 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 14.065 ms (p99 29.300, max 37.646) — humains 0.358 / grilles 1.588 / champs 0.564 / perception 4.454 / deplacement 6.794 / admission 0.402 — champs 0.80 recalculs/tick à 6514 µs (max 7780), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.549 ms (p99 16.366, max 18.375) — humains 0.315 / grilles 1.038 / champs 0.536 / perception 4.529 / deplacement 5.634 / admission 0.347 — champs 0.80 recalculs/tick à 6235 µs (max 7190), obstacle 0 µs — réservations 5115/18572 — poursuite 39322 relayés 204073 attirés 64074 perdus 964 errance 11567 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.865 ms (p99 18.969, max 31.636) — humains 0.388 / grilles 0.997 / champs 1.336 / perception 3.610 / deplacement 5.801 / admission 0.546 — champs 0.80 recalculs/tick à 13799 µs (max 16655), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+[19:42:07] E. obstacle pendant l'assaut
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout +barricade ×1 : médiane 1.565 ms (p99 1.874, max 8.119) — humains 0.136 / grilles 0.501 / champs 0.163 / perception 0.309 / deplacement 0.388 / admission 0.069 — champs 0.05 recalculs/tick à 2454 µs (max 2662), obstacle 6355 µs — réservations 335/1048 — poursuite 3576 relayés 15398 attirés 305 perdus 98 errance 623 profonds 0 — densité 48 (contact 48) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout +barricade ×16 : médiane 11.746 ms (p99 15.527, max 31.224) — humains 0.314 / grilles 1.055 / champs 0.533 / perception 3.991 / deplacement 5.431 / admission 0.351 — champs 0.73 recalculs/tick à 6205 µs (max 7297), obstacle 10506 µs — réservations 5833/21578 — poursuite 47179 relayés 218799 attirés 41189 perdus 1319 errance 11514 profonds 0 — densité 78 (contact 78) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Complet Dense16 2 m réservation Partout +barricade ×1 : médiane 1.555 ms (p99 1.782, max 6.308) — humains 0.135 / grilles 0.500 / champs 0.160 / perception 0.307 / deplacement 0.387 / admission 0.069 — champs 0.05 recalculs/tick à 2373 µs (max 2520), obstacle 4676 µs — réservations 335/1048 — poursuite 3576 relayés 15398 attirés 305 perdus 98 errance 623 profonds 0 — densité 48 (contact 48) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Complet Dense16 2 m réservation Partout +barricade ×16 : médiane 11.691 ms (p99 16.052, max 24.713) — humains 0.313 / grilles 1.025 / champs 0.536 / perception 3.991 / deplacement 5.415 / admission 0.356 — champs 0.73 recalculs/tick à 6220 µs (max 7237), obstacle 11008 µs — réservations 5833/21578 — poursuite 47179 relayés 218799 attirés 41189 perdus 1319 errance 11514 profonds 0 — densité 78 (contact 78) — murs 0
+[19:43:34] F. montée en charge : calme
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.517 ms (p99 1.940, max 2.629) — humains 0.136 / grilles 0.621 / champs 0.166 / perception 0.259 / deplacement 0.266 / admission 0.074 — champs 0.05 recalculs/tick à 2452 µs (max 2528), obstacle 0 µs — réservations 1019/1040 — poursuite 851 relayés 3356 attirés 0 perdus 249 errance 15544 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×2 : médiane 1.852 ms (p99 2.502, max 3.051) — humains 0.146 / grilles 0.628 / champs 0.203 / perception 0.376 / deplacement 0.397 / admission 0.096 — champs 0.10 recalculs/tick à 2781 µs (max 3556), obstacle 0 µs — réservations 1804/1836 — poursuite 1294 relayés 5022 attirés 0 perdus 595 errance 33089 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×4 : médiane 2.719 ms (p99 3.000, max 3.097) — humains 0.212 / grilles 0.935 / champs 0.245 / perception 0.588 / deplacement 0.640 / admission 0.128 — champs 0.20 recalculs/tick à 3191 µs (max 4129), obstacle 0 µs — réservations 3022/3069 — poursuite 1708 relayés 6619 attirés 0 perdus 656 errance 71017 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×8 : médiane 3.912 ms (p99 4.823, max 5.582) — humains 0.236 / grilles 0.945 / champs 0.376 / perception 1.018 / deplacement 1.138 / admission 0.190 — champs 0.40 recalculs/tick à 4483 µs (max 5572), obstacle 0 µs — réservations 5909/6040 — poursuite 3250 relayés 12928 attirés 0 perdus 1011 errance 142811 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 6.802 ms (p99 9.852, max 10.444) — humains 0.311 / grilles 1.074 / champs 0.532 / perception 2.080 / deplacement 2.379 / admission 0.373 — champs 0.80 recalculs/tick à 6192 µs (max 7265), obstacle 0 µs — réservations 12591/12852 — poursuite 7311 relayés 28192 attirés 0 perdus 3031 errance 281466 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×24 : médiane 11.550 ms (p99 14.871, max 15.734) — humains 0.439 / grilles 2.337 / champs 0.864 / perception 3.132 / deplacement 4.099 / admission 0.632 — champs 1.20 recalculs/tick à 7006 µs (max 8649), obstacle 0 µs — réservations 19335/19715 — poursuite 11744 relayés 44886 attirés 0 perdus 4651 errance 418719 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×32 : médiane 16.649 ms (p99 20.797, max 20.862) — humains 0.519 / grilles 3.304 / champs 1.113 / perception 4.693 / deplacement 6.055 / admission 0.865 — champs 1.60 recalculs/tick à 7670 µs (max 10156), obstacle 0 µs — réservations 25921/26390 — poursuite 16063 relayés 59479 attirés 0 perdus 5781 errance 558677 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×48 : médiane 24.199 ms (p99 29.215, max 29.862) — humains 0.719 / grilles 4.956 / champs 1.675 / perception 6.749 / deplacement 8.708 / admission 1.262 — champs 2.40 recalculs/tick à 8511 µs (max 10972), obstacle 0 µs — réservations 38941/39547 — poursuite 23614 relayés 86298 attirés 0 perdus 8898 errance 841190 profonds 0 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×64 : médiane 33.468 ms (p99 38.987, max 40.825) — humains 0.926 / grilles 6.738 / champs 2.192 / perception 9.575 / deplacement 12.182 / admission 1.736 — champs 3.20 recalculs/tick à 9026 µs (max 12305), obstacle 0 µs — réservations 54250/55037 — poursuite 36183 relayés 126410 attirés 0 perdus 12206 errance 1105201 profonds 0 — densité 24 (contact 24) — murs 0
+[19:44:28] F. montée en charge : disperse
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.789 ms (p99 2.313, max 2.530) — humains 0.144 / grilles 0.554 / champs 0.196 / perception 0.339 / deplacement 0.460 / admission 0.095 — champs 0.05 recalculs/tick à 2972 µs (max 3401), obstacle 0 µs — réservations 1728/2048 — poursuite 3564 relayés 16413 attirés 0 perdus 5 errance 18 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×2 : médiane 2.466 ms (p99 3.641, max 3.836) — humains 0.156 / grilles 0.559 / champs 0.238 / perception 0.559 / deplacement 0.814 / admission 0.124 — champs 0.10 recalculs/tick à 3315 µs (max 4085), obstacle 0 µs — réservations 3471/4104 — poursuite 7012 relayés 32954 attirés 0 perdus 9 errance 25 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×4 : médiane 3.940 ms (p99 5.635, max 5.706) — humains 0.215 / grilles 0.692 / champs 0.304 / perception 0.986 / deplacement 1.493 / admission 0.174 — champs 0.20 recalculs/tick à 3780 µs (max 5204), obstacle 0 µs — réservations 6969/8180 — poursuite 13936 relayés 65975 attirés 0 perdus 14 errance 75 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×8 : médiane 6.810 ms (p99 9.161, max 10.259) — humains 0.277 / grilles 0.850 / champs 0.621 / perception 1.838 / deplacement 2.866 / admission 0.253 — champs 0.40 recalculs/tick à 6990 µs (max 8207), obstacle 0 µs — réservations 13965/16394 — poursuite 27737 relayés 132098 attirés 0 perdus 28 errance 137 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.848 ms (p99 22.945, max 28.464) — humains 0.388 / grilles 1.020 / champs 1.325 / perception 3.590 / deplacement 5.802 / admission 0.538 — champs 0.80 recalculs/tick à 14029 µs (max 16988), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×24 : médiane 20.418 ms (p99 27.906, max 30.035) — humains 0.593 / grilles 1.978 / champs 2.144 / perception 5.863 / deplacement 8.780 / admission 0.965 — champs 1.20 recalculs/tick à 20722 µs (max 26734), obstacle 0 µs — réservations 42488/49628 — poursuite 83371 relayés 396024 attirés 0 perdus 101 errance 504 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×32 : médiane 27.937 ms (p99 35.871, max 38.030) — humains 0.727 / grilles 2.946 / champs 2.511 / perception 8.111 / deplacement 12.068 / admission 1.326 — champs 1.60 recalculs/tick à 18867 µs (max 26670), obstacle 0 µs — réservations 56928/66245 — poursuite 111579 relayés 527644 attirés 0 perdus 141 errance 636 profonds 0 — densité 24 (contact 24) — murs 0
+[19:45:05] F. montée en charge : assaut
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.560 ms (p99 1.634, max 1.666) — humains 0.135 / grilles 0.507 / champs 0.161 / perception 0.306 / deplacement 0.383 / admission 0.069 — champs 0.05 recalculs/tick à 2371 µs (max 2394), obstacle 0 µs — réservations 335/1078 — poursuite 3611 relayés 15388 attirés 268 perdus 110 errance 623 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×2 : médiane 2.096 ms (p99 3.058, max 3.976) — humains 0.145 / grilles 0.509 / champs 0.198 / perception 0.484 / deplacement 0.662 / admission 0.094 — champs 0.10 recalculs/tick à 2725 µs (max 3351), obstacle 0 µs — réservations 654/2137 — poursuite 7298 relayés 30869 attirés 477 perdus 162 errance 1194 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×4 : médiane 3.659 ms (p99 4.854, max 5.049) — humains 0.210 / grilles 0.576 / champs 0.241 / perception 1.070 / deplacement 1.325 / admission 0.147 — champs 0.20 recalculs/tick à 3216 µs (max 4805), obstacle 0 µs — réservations 1572/5398 — poursuite 11440 relayés 58567 attirés 6612 perdus 269 errance 3112 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×8 : médiane 6.157 ms (p99 7.884, max 9.020) — humains 0.239 / grilles 0.762 / champs 0.377 / perception 1.993 / deplacement 2.541 / admission 0.214 — champs 0.40 recalculs/tick à 4615 µs (max 5332), obstacle 0 µs — réservations 3204/10366 — poursuite 23849 relayés 118001 attirés 11372 perdus 537 errance 6241 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 11.471 ms (p99 16.072, max 16.678) — humains 0.312 / grilles 1.017 / champs 0.539 / perception 3.787 / deplacement 5.423 / admission 0.355 — champs 0.80 recalculs/tick à 6274 µs (max 7372), obstacle 0 µs — réservations 5946/22285 — poursuite 46424 relayés 229470 attirés 31155 perdus 1439 errance 11512 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×24 : médiane 17.332 ms (p99 22.175, max 23.904) — humains 0.441 / grilles 2.092 / champs 0.862 / perception 5.390 / deplacement 7.984 / admission 0.512 — champs 1.20 recalculs/tick à 7117 µs (max 8891), obstacle 0 µs — réservations 9126/35330 — poursuite 73142 relayés 348576 attirés 37683 perdus 2276 errance 18323 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×32 : médiane 22.957 ms (p99 28.262, max 30.026) — humains 0.518 / grilles 3.065 / champs 1.089 / perception 7.151 / deplacement 10.344 / admission 0.701 — champs 1.60 recalculs/tick à 7605 µs (max 9859), obstacle 0 µs — réservations 12181/48902 — poursuite 98176 relayés 467703 attirés 46540 perdus 3319 errance 24262 profonds 0 — densité 24 (contact 24) — murs 0
+[19:48:48] F. montée en charge : repli
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×1 : médiane 1.605 ms (p99 2.019, max 2.136) — humains 0.192 / grilles 0.617 / champs 0.167 / perception 0.289 / deplacement 0.269 / admission 0.075 — champs 0.05 recalculs/tick à 2471 µs (max 2532), obstacle 0 µs — réservations 1045/1117 — poursuite 530 relayés 2397 attirés 0 perdus 1521 errance 15552 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×2 : médiane 1.948 ms (p99 2.425, max 2.474) — humains 0.198 / grilles 0.630 / champs 0.200 / perception 0.420 / deplacement 0.400 / admission 0.096 — champs 0.10 recalculs/tick à 2681 µs (max 3014), obstacle 0 µs — réservations 1862/1964 — poursuite 787 relayés 3810 attirés 0 perdus 2489 errance 32914 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×4 : médiane 2.887 ms (p99 3.523, max 3.695) — humains 0.273 / grilles 0.943 / champs 0.250 / perception 0.674 / deplacement 0.645 / admission 0.131 — champs 0.20 recalculs/tick à 3294 µs (max 4572), obstacle 0 µs — réservations 3208/3335 — poursuite 1283 relayés 5814 attirés 0 perdus 3101 errance 69802 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×8 : médiane 4.153 ms (p99 4.855, max 4.999) — humains 0.301 / grilles 0.944 / champs 0.380 / perception 1.181 / deplacement 1.144 / admission 0.195 — champs 0.40 recalculs/tick à 4579 µs (max 5624), obstacle 0 µs — réservations 6279/6569 — poursuite 2517 relayés 11617 attirés 0 perdus 4580 errance 141286 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 7.170 ms (p99 9.897, max 10.786) — humains 0.391 / grilles 1.082 / champs 0.532 / perception 2.253 / deplacement 2.428 / admission 0.379 — champs 0.80 recalculs/tick à 6215 µs (max 7173), obstacle 0 µs — réservations 13387/14010 — poursuite 6238 relayés 27353 attirés 0 perdus 8209 errance 278200 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×24 : médiane 18.457 ms (p99 31.154, max 45.002) — humains 0.679 / grilles 2.789 / champs 1.067 / perception 5.356 / deplacement 7.471 / admission 0.831 — champs 1.20 recalculs/tick à 7463 µs (max 9767), obstacle 0 µs — réservations 20560/21451 — poursuite 10072 relayés 44849 attirés 0 perdus 11634 errance 413445 profonds 0 — densité 24 (contact 24) — murs 0
+Repli Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×32 : médiane 19.080 ms (p99 24.118, max 25.904) — humains 0.747 / grilles 3.307 / champs 1.183 / perception 5.511 / deplacement 7.368 / admission 0.936 — champs 1.60 recalculs/tick à 7891 µs (max 10617), obstacle 0 µs — réservations 27660/28701 — poursuite 14151 relayés 61814 attirés 0 perdus 13911 errance 550124 profonds 0 — densité 24 (contact 24) — murs 0
+[19:49:17] G. référence P-02 (vue 400 m)
+Calme Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×1 : médiane 1.335 ms (p99 2.376) — humains 0.130 / grilles 0.546 / perception 0.311 / deplacement 0.297 — 1054 req/tick (4 rejetées), 5.8 cases, 8.8 candidats, 1.33 lignes par requête, 3.1 M req/s — poursuite 580 relayés 3600 attirés 0 perdus 320 errance 15500 profonds 0 — densité 38
+Calme Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×16 : médiane 11.984 ms (p99 19.999) — humains 0.372 / grilles 3.734 / perception 3.356 / deplacement 4.409 — 16760 req/tick (513 rejetées), 5.0 cases, 7.2 candidats, 1.12 lignes par requête, 4.9 M req/s — poursuite 5735 relayés 29329 attirés 0 perdus 4023 errance 280913 profonds 0 — densité 38
+Calme Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×32 : médiane 19.424 ms (p99 23.613) — humains 0.536 / grilles 7.516 / perception 5.070 / deplacement 6.195 — 33461 req/tick (790 rejetées), 5.2 cases, 7.7 candidats, 1.12 lignes par requête, 6.5 M req/s — poursuite 13326 relayés 61105 attirés 0 perdus 7564 errance 558005 profonds 0 — densité 46
+Calme Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×64 : médiane 40.844 ms (p99 45.360) — humains 0.922 / grilles 16.125 / perception 10.454 / deplacement 13.100 — 68050 req/tick (1274 rejetées), 5.5 cases, 8.1 candidats, 1.17 lignes par requête, 6.4 M req/s — poursuite 30795 relayés 129103 attirés 0 perdus 16836 errance 1103266 profonds 0 — densité 47
+Disperse Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×1 : médiane 1.410 ms (p99 2.082) — humains 0.137 / grilles 0.449 / perception 0.367 / deplacement 0.458 — 709 req/tick (0 rejetées), 8.4 cases, 8.4 candidats, 0.04 lignes par requête, 1.9 M req/s — poursuite 3635 relayés 16320 attirés 0 perdus 27 errance 18 profonds 0 — densité 28
+Assaut Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×1 : médiane 1.292 ms (p99 1.769) — humains 0.123 / grilles 0.416 / perception 0.357 / deplacement 0.392 — 1544 req/tick (4 rejetées), 9.8 cases, 13.8 candidats, 2.20 lignes par requête, 4.2 M req/s — poursuite 3028 relayés 13003 attirés 3242 perdus 103 errance 624 profonds 0 — densité 54
+Disperse Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×16 : médiane 13.547 ms (p99 19.396) — humains 0.429 / grilles 3.096 / perception 4.054 / deplacement 5.834 — 11476 req/tick (0 rejetées), 8.3 cases, 8.5 candidats, 0.02 lignes par requête, 2.6 M req/s — poursuite 56552 relayés 262874 attirés 0 perdus 260 errance 314 profonds 0 — densité 40
+Assaut Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×16 : médiane 16.062 ms (p99 20.109) — humains 0.350 / grilles 3.591 / perception 5.914 / deplacement 6.659 — 25622 req/tick (185 rejetées), 10.5 cases, 14.9 candidats, 2.40 lignes par requête, 4.4 M req/s — poursuite 39709 relayés 209446 attirés 57805 perdus 1530 errance 11510 profonds 0 — densité 119
+Disperse Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×32 : médiane 38.284 ms (p99 48.647) — humains 0.836 / grilles 7.493 / perception 12.510 / deplacement 17.550 — 23242 req/tick (0 rejetées), 8.3 cases, 8.6 candidats, 0.02 lignes par requête, 1.9 M req/s — poursuite 114184 relayés 524664 attirés 0 perdus 462 errance 690 profonds 0 — densité 44
+Assaut Reelle Kdtree/25 +rejet +relais filtré +veille +profonde ×32 : médiane 28.168 ms (p99 35.804) — humains 0.545 / grilles 6.908 / perception 9.864 / deplacement 10.199 — 47451 req/tick (325 rejetées), 10.7 cases, 15.3 candidats, 2.33 lignes par requête, 4.6 M req/s — poursuite 81671 relayés 429741 attirés 101311 perdus 3372 errance 23905 profonds 0 — densité 119
+[19:52:41] H. threads
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 128.147 ms (p99 134.774, max 136.809) — humains 3.037 / grilles 8.931 / champs 6.469 / perception 37.865 / deplacement 69.062 / admission 2.290 — champs 0.80 recalculs/tick à 8351 µs (max 9742), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 64.805 ms (p99 69.895, max 70.666) — humains 1.540 / grilles 4.469 / champs 3.669 / perception 18.980 / deplacement 34.718 / admission 1.216 — champs 0.80 recalculs/tick à 8918 µs (max 10888), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 33.778 ms (p99 39.060, max 39.651) — humains 0.811 / grilles 2.378 / champs 2.228 / perception 9.701 / deplacement 17.686 / admission 0.772 — champs 0.80 recalculs/tick à 9885 µs (max 13576), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 18.304 ms (p99 23.428, max 24.251) — humains 0.469 / grilles 1.309 / champs 1.521 / perception 5.111 / deplacement 9.194 / admission 0.578 — champs 0.80 recalculs/tick à 11348 µs (max 15759), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 18.523 ms (p99 23.211, max 23.537) — humains 0.491 / grilles 1.566 / champs 1.576 / perception 5.790 / deplacement 8.432 / admission 0.713 — champs 0.80 recalculs/tick à 16238 µs (max 19824), obstacle 0 µs — réservations 28224/33043 — poursuite 55620 relayés 264037 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+[19:54:31] I. vue de 200 m
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 7.069 ms (p99 8.729, max 9.021) — humains 0.345 / grilles 1.309 / champs 0.557 / perception 1.755 / deplacement 2.723 / admission 0.340 — champs 0.80 recalculs/tick à 6459 µs (max 7874), obstacle 0 µs — réservations 7643/7888 — poursuite 5451 relayés 21039 attirés 0 perdus 795 errance 166501 profonds 126214 — densité 24 (contact 24) — murs 0
+Calme Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×64 : médiane 32.733 ms (p99 44.773, max 54.979) — humains 1.081 / grilles 6.168 / champs 2.554 / perception 8.182 / deplacement 12.987 / admission 1.583 — champs 3.20 recalculs/tick à 9026 µs (max 14047), obstacle 0 µs — réservations 33206/33971 — poursuite 24561 relayés 87565 attirés 0 perdus 3237 errance 685667 profonds 478970 — densité 24 (contact 24) — murs 0
+Disperse Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 15.509 ms (p99 19.600, max 21.318) — humains 0.406 / grilles 1.144 / champs 1.464 / perception 4.150 / deplacement 6.950 / admission 0.633 — champs 0.80 recalculs/tick à 14434 µs (max 16933), obstacle 0 µs — réservations 28224/33043 — poursuite 55613 relayés 264044 attirés 0 perdus 49 errance 294 profonds 0 — densité 24 (contact 24) — murs 0
+Assaut Reelle Flow 2 m Majorite /20 Partiel Dense16 2 m réservation Partout ×16 : médiane 12.333 ms (p99 15.670, max 16.965) — humains 0.323 / grilles 1.159 / champs 0.549 / perception 3.813 / deplacement 5.633 / admission 0.373 — champs 0.80 recalculs/tick à 6393 µs (max 7838), obstacle 0 µs — réservations 5659/21245 — poursuite 47438 relayés 228336 attirés 32075 perdus 1311 errance 0 profonds 10840 — densité 24 (contact 24) — murs 0
+[19:55:40] Terminé : resultats.csv

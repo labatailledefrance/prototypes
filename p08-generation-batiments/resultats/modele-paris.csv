@@ -1,0 +1,6 @@
+etiquette,type,batiments,plat,deux_pans,quatre_pans,mansarde,toit_donnee,h_donnee,h_etages,h_altitudes_toit,h_mediane_tile,h_constante,avec_porche
+paris,rural,279,51,167,59,2,70,251,2,0,26,0,7
+paris,bourg,459,99,233,106,21,161,422,4,0,24,9,6
+paris,urbain,1401,466,535,266,134,461,1245,15,0,140,1,81
+paris,dense,124442,44173,28990,12095,39184,18861,114484,1497,1,8431,29,33689
+paris,toutes,126581,44789,29925,12526,39341,19553,116402,1518,1,8621,39,33783

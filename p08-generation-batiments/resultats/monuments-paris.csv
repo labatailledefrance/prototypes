@@ -1,0 +1,14 @@
+etiquette,nature,batiments,tiles,aire_med_m2,aire_p90_m2,aire_max_m2,plus_de_500m2,plus_de_2000m2
+paris,Indifférenciée,123752,105,158,530,42975,13573,1100
+paris,Industriel agricole ou commercial,2157,105,323,1845,35050,801,196
+paris,Eglise,255,77,531,1900,4676,133,20
+paris,Chapelle,76,46,309,721,1306,17,0
+paris,Monument,199,38,3,30,4964,3,1
+paris,Serre,44,14,274,1353,1612,9,0
+paris,Silo,10,3,317,447,504,1,0
+paris,Château,5,4,735,5519,5519,3,1
+paris,Tour donjon,17,10,87,1544,4386,3,2
+paris,Tribune,51,18,473,4410,19520,25,7
+paris,Moulin à vent,4,3,48,53,53,0,0
+paris,Arc de triomphe,9,3,61,180,971,1,0
+paris,Arène ou théâtre antique,2,1,467,467,467,0,0

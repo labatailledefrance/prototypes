@@ -1,0 +1,5 @@
+banc grille noeuds 40000 arcs_cch 1272269 ordre_s 0.72 structure_s 0.163 complete_1t_ms 156.70 ns_par_arc 123
+banc partielle coupures 1 arcs 4 ms 0.002 ns_par_arc 471
+banc partielle coupures 10 arcs 289078 ms 112.355 ns_par_arc 389
+banc partielle coupures 100 arcs 681401 ms 173.599 ns_par_arc 255
+banc partielle coupures 1000 arcs 1035454 ms 200.710 ns_par_arc 194

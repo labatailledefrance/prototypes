@@ -1,0 +1,10 @@
+etiquette,threads,mode,tiles,batiments,s,batiments_par_s
+paris,1,tiles_en_parallele_r0,105,126581,3.754,33716
+paris,1,tiles_en_parallele_r1,105,126581,3.703,34185
+paris,1,tile_seule_x651_y6865,1,2524,0.0882,28611
+paris,8,tiles_en_parallele_r0,105,126581,0.592,213665
+paris,8,tiles_en_parallele_r1,105,126581,0.580,218368
+paris,8,tile_seule_x651_y6865,1,2524,0.0134,188479
+paris,16,tiles_en_parallele_r0,105,126581,0.512,247184
+paris,16,tiles_en_parallele_r1,105,126581,0.442,286196
+paris,16,tile_seule_x651_y6865,1,2524,0.0260,97126

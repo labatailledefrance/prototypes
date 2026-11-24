@@ -1,0 +1,8 @@
+etiquette,categorie,batiments,us_med,us_p99,us_max,tri_med,tri_max,echecs_toit,ecart_aire_max,raster_ecart_bats,raster_manque,raster_hors,raster_total
+manche,toutes,593511,9.12,41.0,639.0,60,1479,0,1.74e-1,4981,5725,210,76940162
+manche,tres_petite,31784,4.46,24.9,111.0,32,540,0,9.23e-14,108,109,1,193842
+manche,tres_grande,252,18.20,192.6,223.0,130,1133,0,4.56e-3,4,3,67,2517031
+manche,concave,2909,20.26,93.4,233.2,142,1142,0,1.74e-1,53,66,44,1688674
+manche,a_cours,280,57.27,194.7,244.8,279,1479,0,4.96e-15,8,8,1,445362
+manche,a_cheval,15640,10.33,49.2,175.5,63,1123,0,2.68e-14,123,147,2,4595851
+manche,sans_hauteur,15700,4.60,30.3,89.9,32,518,0,3.35e-14,71,84,2,2121527

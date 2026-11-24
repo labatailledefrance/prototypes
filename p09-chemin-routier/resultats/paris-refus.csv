@@ -1,0 +1,5 @@
+classe,aretes_permises,nature,acces,largeur,hauteur,poids,pont,ponts_bdtopo_refuses,km_permis
+voiture,29607,306,2692,0,0,0,0,0,2066
+camion,29384,0,2694,118,180,199,30,17,2054
+porte-char,22310,922,2679,6182,206,148,158,100,1537
+leclerc,29544,0,2679,7,16,229,130,96,2075

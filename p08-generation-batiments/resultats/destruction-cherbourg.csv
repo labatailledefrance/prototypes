@@ -1,0 +1,5 @@
+etiquette,tile,batiment,aire_m2,h_m,etape,us_batiment,ms_fusion_tile,ms_fusion_morceau,tri_avant,tri_apres,cases_franch_bloquees,us_franch
+cherbourg,x366_y6958,304870042,70,6.6,Endommage,15.0,1.548,0.066,160,160,0,0.0
+cherbourg,x366_y6958,304870042,70,6.6,Effondre,11.6,0.910,0.065,160,430,16,0.2
+cherbourg,x366_y6958,339541361,35473,21.0,Endommage,7.4,0.877,0.003,65,65,0,0.0
+cherbourg,x366_y6958,339541361,35473,21.0,Effondre,1952.0,2.244,0.511,65,103180,1543,17.0

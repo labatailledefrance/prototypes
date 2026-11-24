@@ -1,0 +1,5 @@
+etiquette,tile,batiment,aire_m2,h_m,etape,us_batiment,ms_fusion_tile,ms_fusion_morceau,tri_avant,tri_apres,cases_franch_bloquees,us_franch
+paris,x651_y6862,245184976,149,18.6,Endommage,3.8,0.911,0.088,35,35,0,0.0
+paris,x651_y6862,245184976,149,18.6,Effondre,30.6,0.699,0.103,35,1530,34,0.4
+paris,x651_y6862,245184875,12450,30.2,Endommage,436.0,0.792,0.022,4787,4787,0,0.0
+paris,x651_y6862,245184875,12450,30.2,Effondre,1034.3,1.453,0.216,4787,53710,2296,14.1

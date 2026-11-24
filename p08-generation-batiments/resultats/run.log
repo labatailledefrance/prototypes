@@ -1,0 +1,15 @@
+    Finished `release` profile [optimized] target(s) in 0.23s
+stats : fait
+débit : fait
+  paris : deux exécutions identiques
+  manche : deux exécutions identiques
+déterminisme : fait
+étalement : fait
+destruction : fait
+repli, format, monuments : fait
+cadence : fait
+survol : fait
+destruction rendue : fait
+captures : fait (./images)
+tests : fait
+./run.sh  5183,54s user 1258,36s system 259% cpu 41:22,47 total

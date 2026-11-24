@@ -1,0 +1,4 @@
+rapport zstd 19 / 9 : 0.935 (621 tiles)
+tiles bâties (France, P-07) : 633436
+section bati de P-07 : 1.4 Go ; maillages stockés (vue isométrique) : 28 Go ; avec la vue lointaine : 45 Go
+génération de toute la France : 0.2 h sur un thread

@@ -1,0 +1,13 @@
+batiments_generes 593511
+identifiants_distincts 593511
+batiments_dans_les_entetes 593511
+raster_1m_cases_emprise 76940162
+raster_1m_bati_sans_volume 5725
+raster_1m_volume_hors_emprise 210
+batiments_avec_ecart_raster 4981
+batiments_echec_toit 0
+batiments_ecart_aire_sup_1e-3 8
+batiments_denivele_sup_1m 142710
+batiments_denivele_sup_3m 9752
+batiments_denivele_sup_10m 164
+mesures_remesurees 0
