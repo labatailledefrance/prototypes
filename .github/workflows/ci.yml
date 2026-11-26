@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  securite:
+    uses: labatailledefrance/.github/.github/workflows/securite.yml@2a2b9d8e0fd4a253d281d83127b4f4f67c20880d # v2.0.0
+    permissions:
+      contents: read
+  codeql:
+    if: github.event.repository.visibility == 'public'
+    uses: labatailledefrance/.github/.github/workflows/codeql.yml@2a2b9d8e0fd4a253d281d83127b4f4f67c20880d # v2.0.0
+    with:
+      languages: '["actions"]'
+    permissions:
+      contents: read
+      actions: read
+      security-events: write
+  dco:
+    if: github.event_name == 'pull_request'
+    uses: labatailledefrance/.github/.github/workflows/dco.yml@2a2b9d8e0fd4a253d281d83127b4f4f67c20880d # v2.0.0
+    permissions:
+      contents: read
