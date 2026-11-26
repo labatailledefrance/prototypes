@@ -1,6 +1,6 @@
 # P-02 — Perception des zombies
 
-Prototype jetable. Problème : [A-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles). Fiche du prototype : [prototypes/README.md](../README.md#p-02--perception-des-zombies). Point de départ : [P-01](../p01-tile-paris/README.md).
+Prototype jetable. Problème : [A-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles). Fiche du prototype : [prototypes/README.md](../README.md#p-02--perception-des-zombies). Point de départ : [P-01](../p01-tile-paris/README.md).
 
 ## Hypothèse testée
 
@@ -18,7 +18,7 @@ Machine de référence (F-02) : AMD Ryzen 7 5700X (8 cœurs, 16 threads), 32 Go 
 
 La simulation est celle du test 2 de P-01 : emprises réelles de la BD TOPO (`data/generated/p01-tiles/`), 20 000 zombies et 1 000 humains par tile, relais d'alerte, veille, champ de distance, capacité par case. [src/ville.rs](src/ville.rs), [src/grille.rs](src/grille.rs), [src/alea.rs](src/alea.rs) et [src/mesure.rs](src/mesure.rs) sont copiés de P-01, qui n'est pas modifié. Les agents sont placés dans la plus grande zone de rues connexe, comme dans P-01.
 
-Les décisions de [ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception), de F-01 et de F-02 sont appliquées : perception à 4 Hz, veille à 1 Hz, vue de 200 m, relais valable 3 s, dernière position suivie pendant une minute, `par_iter_mut` avec un lot minimal de 1 024, composants groupés, états en champs.
+Les décisions de [ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception), de F-01 et de F-02 sont appliquées : perception à 4 Hz, veille à 1 Hz, vue de 200 m, relais valable 3 s, dernière position suivie pendant une minute, `par_iter_mut` avec un lot minimal de 1 024, composants groupés, états en champs.
 
 ### La requête
 
@@ -270,10 +270,10 @@ Tick, 16 tiles, médiane (p99), en ms :
 
 Prises à l'issue du prototype et reportées dans les documents de conception :
 
-- **Structure de perception** : arbre k-d des humains par tile, reconstruit à chaque tick ([A-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles), [SYSTEMES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/systemes/SYSTEMES.md#simulation-par-tiles)).
-- **Distance de vue** : plus de plafond de coût ; environ 400 m en ville, jusqu'à 800 m en terrain découvert, toujours sous la largeur de la couronne ; **fixée par tile**, selon sa part de bâti calculée à la préparation de la carte ([ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)). En conséquence, la veille profonde commence au-delà de la distance de vue.
+- **Structure de perception** : arbre k-d des humains par tile, reconstruit à chaque tick ([A-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles), [SYSTEMES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/systemes/SYSTEMES.md#simulation-par-tiles)).
+- **Distance de vue** : plus de plafond de coût ; environ 400 m en ville, jusqu'à 800 m en terrain découvert, toujours sous la largeur de la couronne ; **fixée par tile**, selon sa part de bâti calculée à la préparation de la carte ([ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)). En conséquence, la veille profonde commence au-delà de la distance de vue.
 - **Index des humains denses** : reconstruit environ 4 fois par seconde pour une tile de plusieurs milliers d'humains individualisés.
-- **Relais** : recherche à chaque tick, pour garder une portée d'environ 150 m ([ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)).
+- **Relais** : recherche à chaque tick, pour garder une portée d'environ 150 m ([ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)).
 - **Perception entre tiles** : un arbre par tile ; un zombie interroge aussi ceux des tiles voisines que sa vue atteint.
 - **Grille des zombies** : son remplacement est confié à [P-03](../README.md#p-03--flow-fields).
 

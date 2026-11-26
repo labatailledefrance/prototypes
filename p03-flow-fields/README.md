@@ -1,6 +1,6 @@
 # P-03 — Flow fields
 
-Prototype jetable. Problèmes : [A-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles), [A-05](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-05--entassement-et-franchissement-dobstacles), [A-07](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-07--recherche-de-chemin). Fiche du prototype : [prototypes/README.md](../README.md#p-03--flow-fields). Points de départ : [P-02](../p02-perception/README.md), [P-01](../p01-tile-paris/README.md#test-2--relais-veille-et-emprises-réelles).
+Prototype jetable. Problèmes : [A-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles), [A-05](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-05--entassement-et-franchissement-dobstacles), [A-07](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-07--recherche-de-chemin). Fiche du prototype : [prototypes/README.md](../README.md#p-03--flow-fields). Points de départ : [P-02](../p02-perception/README.md), [P-01](../p01-tile-paris/README.md#test-2--relais-veille-et-emprises-réelles).
 
 ## Hypothèse testée
 
@@ -323,17 +323,17 @@ Coût marginal d'une tile : environ 0,55 ms au calme, 0,9 en dispersé, 0,7 en a
 
 Prises à l'issue du prototype (recommandations suivies) et reportées dans les documents de conception :
 
-- **Flow fields à 2 m**, règle de la majorité, marge le long des murs ([A-07](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-07--recherche-de-chemin), [ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#déplacement)).
+- **Flow fields à 2 m**, règle de la majorité, marge le long des murs ([A-07](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-07--recherche-de-chemin), [ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#déplacement)).
 - **Deux champs par tile**, à sources multiples : « proies » (humains observés dans la dernière minute, à leur position observée) et « bruits ».
-- **Recalcul des proies à 1 Hz, étalé sur la seconde** en double tampon ; plus généralement, tout calcul lourd d'une tile est étalé sur plusieurs ticks ([F-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
+- **Recalcul des proies à 1 Hz, étalé sur la seconde** en double tampon ; plus généralement, tout calcul lourd d'une tile est étalé sur plusieurs ticks ([F-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
 - **Obstacle** : recalcul partiel immédiat s'il invalide peu de cases, sinon calcul complet étalé.
-- **Frontières** : échange des bordures entre tiles voisines à chaque recalcul, valeurs horodatées comme l'alerte relayée ([SYSTEMES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/systemes/SYSTEMES.md#simulation-par-tiles)).
+- **Frontières** : échange des bordures entre tiles voisines à chaque recalcul, valeurs horodatées comme l'alerte relayée ([SYSTEMES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/systemes/SYSTEMES.md#simulation-par-tiles)).
 - **Ligne droite** vers la cible sous 15 m seulement (valeur mesurée).
-- **Index des zombies** : grille dense de 2 m en u16, sans curseurs ([A-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles)).
-- **Réservation exacte des places sur toutes les cases** ; l'admission progressive disparaît ([A-05](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-05--entassement-et-franchissement-dobstacles)).
-- **Coût de franchissement propre à chaque obstacle** dans les champs (barbelés faible, mur élevé) ; 40 fois une rue pour une barricade de référence, à régler à l'équilibrage ([CONSTRUCTIONS.md](https://github.com/fafapiti/documentation/blob/main/game-elements/constructions/CONSTRUCTIONS.md#décisions)).
+- **Index des zombies** : grille dense de 2 m en u16, sans curseurs ([A-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles)).
+- **Réservation exacte des places sur toutes les cases** ; l'admission progressive disparaît ([A-05](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-05--entassement-et-franchissement-dobstacles)).
+- **Coût de franchissement propre à chaque obstacle** dans les champs (barbelés faible, mur élevé) ; 40 fois une rue pour une barricade de référence, à régler à l'équilibrage ([CONSTRUCTIONS.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/constructions/CONSTRUCTIONS.md#décisions)).
 - **Pas de construction sur des zombies ni sur des corps** : la place doit être dégagée avant de construire.
-- **Passages de moins de 2 m** : percés ou élargis à la génération des bâtiments, comme les porches ([B-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#b-02--génération-des-bâtiments)).
+- **Passages de moins de 2 m** : percés ou élargis à la génération des bâtiments, comme les porches ([B-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#b-02--génération-des-bâtiments)).
 
 ## Questions ouvertes
 

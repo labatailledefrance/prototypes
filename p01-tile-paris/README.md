@@ -1,6 +1,6 @@
 # P-01 — Coût d'une tile parisienne
 
-Prototype jetable. Problèmes : [A-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles), [A-15](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-15--civils-en-métropole--colonies). Fiche du prototype : [prototypes/README.md](../README.md#p-01--coût-dune-tile-parisienne).
+Prototype jetable. Problèmes : [A-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-01--nombre-de-zombies--simulation-par-tiles), [A-15](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-15--civils-en-métropole--colonies). Fiche du prototype : [prototypes/README.md](../README.md#p-01--coût-dune-tile-parisienne).
 
 ## Hypothèse testée
 
@@ -51,7 +51,7 @@ Elle donne 52 à 57 % de surface bâtie, l'ordre de grandeur du Paris dense. Le 
    - la **vue** : les 4 humains les plus proches dans le cône et à distance de vue, avec un tracé de ligne de vue case par case sur le bitmap (algorithme DDA, l'équivalent d'un traceroute qui s'arrête au premier mur) ;
    - les **bruits**, s'il n'y a pas d'humain.
 
-   Au test 1, sans stimulus, le zombie perd la trace immédiatement. Le test 2 applique les décisions prises depuis : relais, dernière position connue ([ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)).
+   Au test 1, sans stimulus, le zombie perd la trace immédiatement. Le test 2 applique les décisions prises depuis : relais, dernière position connue ([ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)).
 3. **Déplacement** : en ligne droite vers la cible (pas de flow field, c'est P-03), ou en errance. Les collisions restent simples :
    - séparation entre zombies, sur 16 voisins au plus ;
    - glissement le long des murs ;
@@ -215,7 +215,7 @@ La somme de contrôle est identique sur les cinq lignes.
 
 ### Ce qui change
 
-**Relais d'alerte** (option `--relais`), selon les décisions de [ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception) :
+**Relais d'alerte** (option `--relais`), selon les décisions de [ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception) :
 
 - Un zombie qui voit ou entend une cible publie une **alerte** : la position de la cible et l'horodatage de sa **dernière observation directe**.
 - Un voisin à moins de 3 m reprend l'alerte la plus fraîche de son voisinage, sans faire sa propre perception, et la republie **avec l'horodatage d'origine**. C'est le principe des numéros de séquence des protocoles de routage (DSDV, AODV) : une information relayée ne paraît jamais plus fraîche qu'elle ne l'est. Il n'y a donc ni boucle, ni « comptage à l'infini ».
@@ -366,11 +366,11 @@ Coût marginal d'une tile : environ **0,75 ms** au calme, **1,0 ms** en dispers�
 
 Prises pendant le prototype et reportées dans les documents de conception :
 
-- **Relais d'alerte** entre voisins, avec une perte en chaîne quand la source perd la cible ; **hordes émergentes** ([ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#comportement-de-horde)).
-- **Dernière position connue** suivie pendant environ une minute ([ZOMBIES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)).
-- **Perception** vers 4 Hz pour un zombie actif, **veille** vers 1 Hz pour un zombie sans stimulus ([A-03](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-03--unités-dispersées-sur-tout-le-territoire)).
+- **Relais d'alerte** entre voisins, avec une perte en chaîne quand la source perd la cible ; **hordes émergentes** ([ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#comportement-de-horde)).
+- **Dernière position connue** suivie pendant environ une minute ([ZOMBIES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/zombies/ZOMBIES.md#perception)).
+- **Perception** vers 4 Hz pour un zombie actif, **veille** vers 1 Hz pour un zombie sans stimulus ([A-03](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-03--unités-dispersées-sur-tout-le-territoire)).
 - **Distance de vue** plafonnée vers 100 à 200 m en ville.
-- **Taille de lot minimale** d'environ 1 024 ([F-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
+- **Taille de lot minimale** d'environ 1 024 ([F-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
 - **Densité de zombies** proportionnelle à la population (A-10).
 - **Veille profonde** : hors de l'index spatial, déplacement une fois par seconde, sans collision, loin de tout humain (A-01, A-03).
 - **Fraîcheur de l'alerte relayée** : 3 s.
@@ -378,7 +378,7 @@ Prises pendant le prototype et reportées dans les documents de conception :
 - **Cours fermées** : passage percé à la génération des bâtiments (B-02).
 - **Dépassement du budget** : le temps de jeu ralentit sous ×1 (A-02).
 - **Entassement** : réservation exacte des places sur les cases au contact (A-05).
-- **Base parisienne** : les 20 arrondissements, avec le périphérique comme ligne de défense. **Abandonnée ensuite** au profit de la colonisation, notamment à cause du résultat 5 du test 2 ([A-15](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#a-15--civils-en-métropole--colonies)).
+- **Base parisienne** : les 20 arrondissements, avec le périphérique comme ligne de défense. **Abandonnée ensuite** au profit de la colonisation, notamment à cause du résultat 5 du test 2 ([A-15](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#a-15--civils-en-métropole--colonies)).
 
 ## Questions ouvertes
 

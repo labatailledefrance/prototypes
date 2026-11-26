@@ -1,13 +1,13 @@
 # Prototypes
 
-Prototypes techniques jetables. Chaque prototype est une petite codebase indépendante dans son propre sous-dossier (par exemple `p01-tile-paris/`). Il sert à valider un algorithme ou une solution à un problème de [OPEN-PROBLEMS.md](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md), pas à être conservé.
+Prototypes techniques jetables. Chaque prototype est une petite codebase indépendante dans son propre sous-dossier (par exemple `p01-tile-paris/`). Il sert à valider un algorithme ou une solution à un problème de [OPEN-PROBLEMS.md](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md), pas à être conservé.
 
 Pour chaque prototype, noter dans son README : l'hypothèse testée, la machine utilisée, les mesures obtenues et la conclusion.
 
 ## Hypothèses communes
 
 - **Machine de mesure** : AMD Ryzen 7 5700X (8 cœurs, 16 threads), 32 Go de DDR4 (2 × 16 Go), NVIDIA RTX 3060 12 Go. Les prototypes P-00 à P-09 y ont été mesurés ; elle reste la machine de mesure des prototypes et la **référence du client** (navigateur).
-- **Référence du serveur** (F-02) : `srv.chelsea486mhz.fr`, AMD EPYC 7351P (16 cœurs, 32 threads), 128 Go de mémoire, deux disques durs de 8 To en RAID 0, 1 Gbit/s ; k3s et Traefik. Elle fixe le budget d'agents ; les prototypes de capacité (P-14) s'y mesurent.
+- **Référence du serveur** (F-02) : `srv.labatailledefrance.fr`, AMD EPYC 7351P (16 cœurs, 32 threads), 128 Go de mémoire, deux disques durs de 8 To en RAID 0, 1 Gbit/s ; k3s et Traefik. Elle fixe le budget d'agents ; les prototypes de capacité (P-14) s'y mesurent.
 - **Fréquence de simulation** : hypothèse de départ 20 ticks par seconde, indépendante de la fréquence d'affichage.
 - **Budget** (révisé, A-02) : pas d'accélération, simulation sur le serveur. Le tick dispose de **50 ms** à 20 Hz, sans rendu, moins une marge à fixer. Côté client, une frame dure 16,6 ms à 60 images par seconde, pour le rendu seul. Les budgets « à ×10 » et « de ×100 » des prototypes P-01 à P-05 sont historiques.
 - Les critères de réussite ci-dessous sont des **premiers objectifs**, à ajuster après les premières mesures.
@@ -150,7 +150,7 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 
 - **Problème** : A-02, A-03, F-02. (Ce prototype mesurait l'accélération maximale tenable ; l'accélération est abandonnée.)
 - **Objectif** : trouver le nombre de tiles actives tenables à ×1 sur le serveur, toutes les unités du joueur réellement simulées (A-03).
-- **Méthode** : sur `srv.chelsea486mhz.fr`, tiles calmes, en assaut et dispersées (P-01 à P-04) ; mise en veille des unités sans stimulus ; fréquence adaptative des zones calmes ; ralentissement sous ×1 quand le budget est dépassé.
+- **Méthode** : sur `srv.labatailledefrance.fr`, tiles calmes, en assaut et dispersées (P-01 à P-04) ; mise en veille des unités sans stimulus ; fréquence adaptative des zones calmes ; ralentissement sous ×1 quand le budget est dépassé.
 - **Critères** : tiles actives tenables à 20 Hz, par type de tile ; durée et fréquence des ralentissements sous ×1.
 
 ### P-15 — Combat probabiliste et explosions

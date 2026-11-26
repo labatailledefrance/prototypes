@@ -1,6 +1,6 @@
 # P-00 — Socle ECS
 
-Prototype jetable. Problèmes : [F-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-01--moteur), [F-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation). Fiche du prototype : [prototypes/README.md](../README.md#p-00--socle-ecs).
+Prototype jetable. Problèmes : [F-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-01--moteur), [F-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation). Fiche du prototype : [prototypes/README.md](../README.md#p-00--socle-ecs).
 
 ## Hypothèse testée
 
@@ -233,12 +233,12 @@ Temps par tick en ms : **médiane (p99)**. Script : `./run-etats.sh` ([resultats
 
 ## Décisions
 
-- **Bevy retenu** comme moteur complet ; la simulation utilise l'exécuteur multi-thread ([F-01](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-01--moteur)).
-- **Composants groupés** : les données mises à jour ensemble sont dans un même composant ([F-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
-- **Test à plusieurs types d'entités** : fait (test 2). Toute requête parallèle fixe une taille de lot minimale ([F-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
-- **États** : champ pour les états fréquents, marqueur pour les changements rares ([F-02](https://github.com/fafapiti/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
-- **Événements ponctuels** (mort d'un civil, chef tué) : mis en file, appliqués à la mise à jour suivante des jauges ([SYSTEMES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/systemes/SYSTEMES.md#soldats)).
-- **Jauges lentes** (fatigue, moral, faim, soif) : mises à jour une fois par seconde de jeu ([SYSTEMES.md](https://github.com/fafapiti/documentation/blob/main/game-elements/systemes/SYSTEMES.md#soldats)).
+- **Bevy retenu** comme moteur complet ; la simulation utilise l'exécuteur multi-thread ([F-01](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-01--moteur)).
+- **Composants groupés** : les données mises à jour ensemble sont dans un même composant ([F-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
+- **Test à plusieurs types d'entités** : fait (test 2). Toute requête parallèle fixe une taille de lot minimale ([F-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
+- **États** : champ pour les états fréquents, marqueur pour les changements rares ([F-02](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md#f-02--performances-de-la-simulation)).
+- **Événements ponctuels** (mort d'un civil, chef tué) : mis en file, appliqués à la mise à jour suivante des jauges ([SYSTEMES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/systemes/SYSTEMES.md#soldats)).
+- **Jauges lentes** (fatigue, moral, faim, soif) : mises à jour une fois par seconde de jeu ([SYSTEMES.md](https://github.com/labatailledefrance/documentation/blob/main/game-elements/systemes/SYSTEMES.md#soldats)).
 
 ## Questions ouvertes
 
