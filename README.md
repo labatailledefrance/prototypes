@@ -4,6 +4,8 @@ Prototypes techniques jetables. Chaque prototype est une petite codebase indépe
 
 Pour chaque prototype, noter dans son README : l'hypothèse testée, la machine utilisée, les mesures obtenues et la conclusion.
 
+**P-24 à P-26 ne sont pas versionnés** : leurs dossiers restent sur la machine de l'utilisateur (`.gitignore`). Leurs mesures, constats et décisions sont reportés dans [OPEN-PROBLEMS.md](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md), qui fait foi.
+
 ## Hypothèses communes
 
 - **Machine de mesure** : AMD Ryzen 7 5700X (8 cœurs, 16 threads), 32 Go de DDR4 (2 × 16 Go), NVIDIA RTX 3060 12 Go. Les prototypes P-00 à P-09 y ont été mesurés ; elle reste la machine de mesure des prototypes et la **référence du client** (navigateur).
@@ -79,16 +81,16 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 
 ### P-22 — Réseau et gestion d'intérêt
 
-- **Problème** : H-05, H-06, A-12.
+- **Problème** : H-05, H-06, A-12, C-05.
 - **Objectif** : tenir **1 000 joueurs simultanés** sur 1 Gbit/s montant, tiles comprises, sans CDN.
-- **Méthode** : serveur qui fait autorité (simulation de P-01 à P-04) et clients simulés, chacun avec une caméra en mouvement (survol, suivi d'un combat en ville dense, vue simplifiée). Gestion d'intérêt par zone, positions quantifiées en différences, fréquence réduite loin de la caméra ; tiles servies à la demande, en HTTP statique, avec cache côté client.
-- **Critères** : débit montant moyen et p99 par client ; coût de la gestion d'intérêt dans le tick du serveur ; délai entre un ordre et son effet à l'écran.
+- **Méthode** : serveur qui fait autorité (celui de P-24, avec ses clients simulés) et clients simulés, chacun avec une caméra en mouvement (survol, suivi d'un combat en ville dense, vue simplifiée). Gestion d'intérêt par zone : zombies un par un jusqu'à environ 1 km de la caméra, carte de densité par case de 50 m au-delà (décision de P-24), positions quantifiées en différences ; tiles servies à la demande, en HTTP statique, avec cache côté client.
+- **Critères** : débit montant moyen et p99 par client (objectif de P-24 : 60 ko/s) ; coût de la gestion d'intérêt dans le tick du serveur ; délai entre un ordre et son effet à l'écran.
 
 ### P-23 — Client navigateur
 
 - **Problème** : F-01, F-04, C-04, C-05.
 - **Objectif** : afficher une tile dense de Paris dans le navigateur, avec Bevy compilé en WebAssembly et rendu en WebGPU, sur la machine de mesure (Linux, Wayland).
-- **Méthode** : bâtiments générés dans le client (P-08), étalés sur plusieurs frames ou confiés à des Web Workers ; zombies reçus du serveur et rendus par instanciation ; mémoire suivie sous la limite de 4 Go du wasm32. Vérifier d'abord la disponibilité de WebGPU sous Linux dans Chrome et Firefox.
+- **Méthode** : partir du client natif de P-24 ; bâtiments générés dans le client (P-08), étalés sur plusieurs frames ou confiés à des Web Workers ; zombies reçus du serveur et rendus par instanciation ; mémoire suivie sous la limite de 4 Go du wasm32. Vérifier d'abord la disponibilité de WebGPU sous Linux dans Chrome et Firefox.
 - **Critères** : p99 du temps de frame ; temps entre l'arrivée d'une tile et son affichage ; mémoire maximale du client.
 
 ## Phase 2 — Le monde
@@ -201,3 +203,31 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 - **Objectif** : calculer la marée sur les plages de Normandie.
 - **Méthode** : prédiction par harmoniques, comparée à des données de référence.
 - **Critère** : écart avec la référence.
+
+## Phase 4 — Intégration
+
+### P-24 — Prototype jouable local
+
+- **Problème** : A-01, A-02, A-04, A-07, A-12, A-16, F-01, F-04, H-03, H-05.
+- **Objectif** : assembler les briques de P-00 à P-09 en une partie jouable sur une zone réelle, avec l'architecture décidée : serveur sans rendu qui fait autorité, client qui affiche et commande sans simuler.
+- **Méthode** : 6 × 6 km de la Manche (Utah Beach, Sainte-Marie-du-Mont) depuis les tiles de P-07 ; serveur Bevy à 20 Hz et client Bevy natif reliés par WebSocket ; zombies (perception, relais, flow fields), combat infanterie et Griffon, véhicules sur le graphe routier, dépôt, camions, ramassage des corps et site d'incinération dont la fumée attire les hordes.
+- **Critères** : jouable de bout en bout ; coût du tick (p50, p99) ; débit par client ; temps de frame du client ; déterminisme.
+- **Résultats** (dossier local `p24-jouable/`, non versionné) : Jouable de bout en bout : débarquement, avance, combat, ravitaillement par camions, ramassage et incinération des corps, hordes attirées par les tirs et la fumée. 27 000 zombies sur 36 km² coûtent **2,3 ms par tick** (p99 2,4 ms), dont 1 ms de déplacement ; les champs (20 à 30 ms, hors du tick) sont le premier poste. Un client qui voit 1,5 km reçoit **32 ko/s** (p99 40 ko/s) ; qui voit toute la zone, 475 ko/s, au-delà du budget de H-05 : carte de densité nécessaire au loin. Client : 4,6 millions de triangles et 5 100 zombies, frame p99 12 ms. **Déterminisme** obtenu en appliquant les résultats des tâches de fond à un tick fixé (sans cela, trois exécutions, trois empreintes). Décisions prises : tâches de fond à tick fixé, `game/` sur l'architecture de P-24, densité au-delà de 1 km, champs limités aux tiles actives, foule mêlant pente et écart individuel, ordres logistiques permanents, gué des cours d'eau étroits. Second temps : siège du Mont-Saint-Michel avec modèles, textures, foule animée et passe pixel art.
+
+### P-25 — Manche jouable
+
+- **Problème** : A-01, A-03, A-07, C-01 à C-05, E-01, H-05, H-06.
+- **Objectif** : jouer dans la **Manche entière** (environ 6 300 tiles de terre) avec le rendu de P-24 : interface utilisateur, zoom continu du soldat à la carte du département, tiles chargées et activées à la demande.
+- **Méthode** : reprendre P-24 ; positions en tile + position locale (C-01, P-06), streaming et niveaux de vue du client (P-10, en natif et sans le globe), tiles actives et inertes (P-04), routes en CCH (P-09), zombies en différences et carte de densité au loin (P-22). Deux foyers de jeu, Utah Beach et le Mont-Saint-Michel, dans la même partie.
+- **Critères** : p99 du temps de frame pendant un survol et un zoom complets ; mémoire du client et du serveur, bornées et indépendantes de la taille de la carte ; tick p99 avec plusieurs combats simultanés ; débit par client (60 ko/s visés) ; déterminisme ; jouable de bout en bout à la souris.
+- **Prompt de départ** : `p25-manche/PROMPT.md` (local).
+- **Résultats** (dossier local `p25-manche/`, non versionné) : La Manche se joue du soldat au département. Tick p99 **7,6 ms** (deux combats de 10 000), débit p99 **30 ko/s** au-dessus d'un combat, comptes exacts, même empreinte à 1 et 16 threads, interface testée à la souris. Manqués : mémoire du client (3,8 Go, en hausse), une frame de 46,8 ms sur un tour, siège « tenable » non démontré.
+
+### P-26 — France entière
+
+- **Problème** : A-01, A-10, B-01, B-03, C-01 à C-05, F-02, G-02, H-05, H-06.
+- **Objectif** : le jeu de P-25 sur la métropole et l'outre-mer, avec le relief le plus fidèle possible ; données produites et gardées sur `srv.labatailledefrance.fr`, tiles téléchargées à la demande par le client.
+- **Méthode** : chaîne de P-07 sur tous les départements, sur le serveur ; jeu de P-25 sans tableaux fixes, tile = (zone de projection, ix, iy) ; chargeur HTTP avec cache ; graphe routier national ; foyers de Paris et de La Réunion en plus de ceux de P-25.
+- **Critères** : couverture contrôlée ; frame p99 sur un survol du pays ; délai d'arrivée d'une tile ; mémoire indépendante de la carte ; tick avec un foyer à Paris ; débit ; comptes et déterminisme.
+- **Prompt de départ** : `p26-france/PROMPT.md` (local).
+- **État** (2026-11-25, en cours ; dossier local `p26-france/`, non versionné) : jeu sans tableaux fixes (tile = zone, ix, iy) ; chaîne généralisée, conforme à P-07 sur la Manche et Paris, produite aussi pour La Réunion et les Hautes-Alpes ; tiles et partie servies depuis le cluster et **jouables** par tunnel (Manche, La Réunion) ; globe continu et carte multi-zones. Relief national retenu : LiDAR HD en 1 m, complété par le RGE ALTI. Restent : téléchargements (RGE ALTI, LiDAR HD), reste de la France, graphe routier national, mesures complètes, étapes 6 et 7. Détail dans OPEN-PROBLEMS (B-01, H-06, C-01 à C-04, A-07, H-01).

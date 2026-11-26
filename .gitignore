@@ -1,3 +1,8 @@
 # Artefacts de compilation Cargo
 target/
 target-*/
+
+# Prototypes gardés en local, non versionnés (enseignements dans OPEN-PROBLEMS.md)
+/p24-jouable/
+/p25-manche/
+/p26-france/
