@@ -124,3 +124,165 @@ Reproduire : `./run.sh` (environ 15 min) ; `ESSAI=1 ./run.sh` valide toutes les 
 - **Requête** : quelques centaines de microsecondes au plus pour un trajet départemental, pour que des milliers de convois replanifient en une fraction de seconde.
 - **Mise à jour** : une destruction (pont, gravats, épave) se répercute en quelques millisecondes, sans bloquer le tick.
 - **Mémoire** : le graphe national et ses métriques doivent tenir en quelques Go au plus dans les 32 Go de la machine.
+
+## Mesures
+
+Dernière exécution complète de `./run.sh` ; chiffres bruts dans [resultats/](resultats/). Requêtes chronométrées une à la fois, sur un thread.
+
+### 1. Construction
+
+| | Manche | Paris |
+|---|---|---|
+| Tiles lues | 14 076 | 105 |
+| Graphe carrossable : nœuds, arêtes | 153 263, 181 138 | 23 111, 32 605 |
+| Composantes (part de la plus grande) | 208 (99,5 %) | 84 |
+| Longueur totale, contre P-07 | 31 088 km, écart 1,9 × 10⁻⁶ | 2 790 km, écart 2,2 × 10⁻⁶ |
+| Recousure aux bords des tiles | 38 779 jointures, 0 doublon, 0 rupture, 19 trous (bords du département) | idem, 0 doublon, 0 rupture |
+| Deux pseudo-départements recousus séparément puis ensemble | même graphe | même graphe |
+| Ponts associés aux tronçons (par la géométrie, à moins de 5 m) | 2 286 | 218 |
+| Chargement complet (tiles → graphe) | 1,3 s | 0,15 s |
+| Ordre CCH (dissection emboîtée), structure | 4,4 s, 49 ms | 0,6 s, 11 ms |
+| Personnalisation d'une classe (16 threads, 1 thread) | 7 ms, 20 ms | 4,5 ms |
+| CH classiques : préparation d'une classe (sans, avec l'ordre déjà calculé) | 0,3 à 2,4 s, 0,1 à 0,4 s | |
+| Mémoire maximale, tout compris | 880 Mo | 169 Mo |
+
+### 2. Requêtes
+
+10 000 paires aléatoires (1 000 pour les méthodes sans prétraitement) ; exactitude contre Dijkstra : **0 écart** pour toutes les méthodes et les quatre classes, dans les deux jeux de données.
+
+| Manche, médiane (p99) | Voiture | Camion | Porte-char | Leclerc |
+|---|---|---|---|---|
+| Dijkstra | 6,8 ms (14,4) | 8,9 ms (19,4) | 0,2 ms (6,3) | 8,8 ms (18,9) |
+| Bidirectionnel | 5,1 ms (15,7) | 6,3 ms (21,1) | — | 6,9 ms (21,0) |
+| A\* | 4,7 ms (17,8) | 4,3 ms (22,8) | 0,3 ms (9,0) | 2,7 ms (20,3) |
+| ALT | 1,0 ms (7,9) | 1,6 ms (12,0) | 0,4 ms (27,9) | 1,5 ms (13,0) |
+| CH | 30 µs (48) | 31 µs (50) | 3 µs (23) | 32 µs (51) |
+| **CCH**, chemin en arcs compris | **49 µs (100)** | **51 µs (108)** | **6 µs (86)** | **54 µs (117)** |
+
+À Paris : Dijkstra 1,0 ms en médiane ; CH 15 à 18 µs ; CCH 32 à 34 µs (p99 48 à 57 µs). Les temps du porte-char sont faibles parce que la plupart des paires sont impossibles pour lui (7 774 sur 10 000 dans la Manche) et s'arrêtent tôt.
+
+Trajets typiques, Manche ([images/](images/)) :
+
+| Trajet | Voiture | Camion | Porte-char | Leclerc |
+|---|---|---|---|---|
+| Cherbourg → Saint-Lô | 68 min, 80 km | 71 min, 80 km | 87 min, 89 km | 101 min, 79 km |
+| Cherbourg → Granville | 105 min, 106 km | 105 min, 106 km | 172 min, 160 km | 137 min, 105 km |
+| La Hague → Mont-Saint-Michel | 142 min, 202 km | 153 min, 173 km | 198 min, 206 km | 204 min, 163 km |
+
+### 3. Charge limite
+
+| Manche | Arêtes permises | Refus : nature, accès, largeur, hauteur, poids, pont | Ponts de la BD TOPO refusés |
+|---|---|---|---|
+| Voiture | 156 304 | 24 176, 658, 0, 0, 0, 0 | 0 |
+| Camion | 179 816 | 0, 658, 21, 31, 29, 583 | 575 |
+| Porte-char | 82 640 | 52 173, 655, 44 640, 39, 17, 974 | 945 |
+| Leclerc | 178 950 | 0, 655, 12, 8, 31, 1 482 | 1 460 |
+
+Sur 9 920 paires, passer du camion au Leclerc change 8 792 chemins (distance quasi inchangée, durée +34 % en moyenne et +64 % au p99, le char roulant moins vite) et en rend 87 impossibles ; au porte-char, 7 694 deviennent impossibles. Les seuls ponts (métriques « libres », sans limite de charge) expliquent 120 trajets impossibles du Leclerc sur 164. Le Leclerc refuse 497 des 1 260 ponts que les camions empruntent.
+
+### 4. Modifications
+
+Personnalisation **partielle**, comparée bit à bit à une personnalisation complète après chaque modification : **identique** dans tous les cas, réouverture comprise (elle rend exactement la métrique d'origine). Trajets touchés replanifiés : **0 écart** avec Dijkstra sur le réseau modifié.
+
+| Manche, voiture | Partielle | Arcs recalculés | Complète | CH, nouvelle préparation avec l'ordre | Trajets touchés (sur 10 000) | Replanification |
+|---|---|---|---|---|---|---|
+| Pont le plus emprunté par les camions détruit | 0,8 ms | 4 389 | 8,0 ms | 300 ms | 1 554 | 111 ms (72 µs par trajet) |
+| 1 route coupée | 0,06 ms | 532 | 8,1 ms | 291 ms | 3 | 0,3 ms |
+| 10 routes | 1,3 ms | 9 147 | 8,2 ms | 300 ms | 72 | 4,6 ms |
+| 100 routes | 5,5 ms | 52 151 | 7,2 ms | 284 ms | 4 546 | 283 ms |
+| 1 000 routes | 10,4 ms | 129 228 | 7,6 ms | 302 ms | 9 239 | 508 ms |
+
+Mêmes ordres de grandeur pour les autres classes et à Paris (100 coupures : 5 ms en partielle, 4,5 ms en complète). Au-delà d'une centaine de coupures simultanées, la personnalisation complète, parallèle, devient plus rapide que la partielle, séquentielle.
+
+### 5. Charge de jeu
+
+1 000 convois (60 % camions, 20 % voitures, 10 % porte-chars, 10 % Leclerc), 100 routes coupées sur leurs trajets.
+
+| | Manche | Paris |
+|---|---|---|
+| Calcul initial des 1 000 itinéraires (16 threads) | 120 ms | 16 ms |
+| Mise à jour des 4 métriques | 22 ms | 21 ms |
+| Détection des convois touchés (index arête → convois) | 0,06 ms (index : 24 ms) | 0,06 ms |
+| Convois touchés | 519 | 483 |
+| Replanification, temps de calcul | 35 ms | 18 ms |
+| Dans la boucle, à 3 ms par tick | 12 ticks | 6 ticks |
+| **En tâche de fond**, 4 threads, 15 threads | **10,9 ms, 7,9 ms** | **5,0 ms, 2,4 ms** |
+| Les 1 000 convois, en tâche de fond (4 threads) | 15 ms | 8,3 ms |
+
+### 6. Paris
+
+Respecter tous les sens uniques (classe `voiture-code`) change 93 % des chemins, allonge les trajets de 7,5 % en distance et de 11 % en durée en moyenne, et rend 2,8 % des paires impossibles (275 sur 10 000). Dans la Manche : 0,3 % en distance, 0,5 % en durée, 2 paires impossibles. Le Leclerc change 37 % des chemins du camion, pour 3 % de durée en plus ; le porte-char perd 61 % des paires (largeur des rues).
+
+### 7. Déterminisme
+
+Cinq exécutions par jeu de données : 16 threads, 1 thread, ordres de lecture des tiles mélangé et inverse, nouvelle exécution à 16 threads ([determinisme.csv](resultats/determinisme.csv)).
+
+| Empreinte | Manche | Paris |
+|---|---|---|
+| Fragments | `51cdeedc4b2051b2` | `9200fdd834e45c2a` |
+| Graphe | `25299a52ba9c84c6` | `476cf0b1bc41880a` |
+| Ordre CCH | `26a8362a4c8eb6eb` | `11e2b2ac35e493c1` |
+| Sept métriques | `9ce003757465b0dd` | `cfb64ebe99f881d3` |
+| Trajets CCH (2 000 paires) | `68b874349f2f093a` | `ac08c65bfa0af10e` |
+| Trajets Dijkstra (500 paires) | `adce02a413f19712` | `6a44732007ecc9af` |
+
+**Identiques** dans les cinq exécutions. Temps en millisecondes entières, égalités départagées par identifiant ; aucune fonction de la bibliothèque mathématique, sauf `sqrt`.
+
+### 8. Suivi en jeu
+
+Camion Cherbourg → Saint-Lô : 307 arcs, 122 tiles traversées.
+
+| Mesure | Résultat |
+|---|---|
+| Géométrie par les morceaux des tiles (2 445 points) | 0,1 ms |
+| Écart des positions locales f32 avec les coordonnées de la chaîne | 0,00 m |
+| Position en tile inerte (durées cumulées, recherche dichotomique) | 9 ns |
+| Itinéraire restant, brut et compressé | 1 228 et 715 octets |
+| 100 modifications du réseau (tronçon BD TOPO, rang de début, état), brut et compressé | 456 et 322 octets |
+
+### 9. Fichier livré
+
+| | Manche | Paris |
+|---|---|---|
+| Graphe compact, brut et zstd | 2,8 et 2,0 Mo | 0,47 et 0,34 Mo |
+| Ordre CCH, brut et zstd | 0,61 et 0,26 Mo | 0,09 et 0,04 Mo |
+| Chargement : décompression, structure depuis l'ordre, 4 personnalisations | 3,5 + 56 + 34 ms | 0,8 + 10 + 19 ms |
+| Nouvelle traversée (une arête en plus) : structure reconstruite avec le même ordre | 65 ms, 1 095 arcs CCH en plus | |
+
+Micro-banc ([banc.txt](resultats/banc.txt)), grille de 40 000 nœuds : personnalisation complète 157 ms sur un thread (123 ns par arc) ; partielle 194 à 471 ns par arc recalculé.
+
+## Analyse
+
+- **La CCH tient tous les budgets.** Une requête départementale répond en 50 µs en médiane, chemin compris, exactement, quand Dijkstra en prend 7 à 9 ms et ALT 1 à 2 ms. Les CH classiques sont un peu plus rapides en requête (30 µs), mais chaque modification du réseau coûte une nouvelle préparation de 300 ms par classe, contre moins d'une milliseconde pour la CCH. Or le jeu modifie le réseau sans cesse (ponts détruits, gravats, épaves).
+- **Analogie** : les CH classiques ressemblent à une table de routage compilée, rapide mais à recompiler entière à chaque changement de lien. La CCH sépare la topologie (les zones et leurs carrefours de frontière, calculés une fois) des coûts, qui se mettent à jour localement, comme un protocole à état de liens qui ne recalcule que les routes touchées.
+- **La personnalisation partielle** n'existe pas dans la crate `cch` ; écrite ici, elle est exacte (comparée bit à bit) et 10 à 100 fois plus rapide que la complète pour quelques coupures. Au-delà d'une centaine de coupures simultanées, la complète, parallèle, reprend l'avantage : le jeu peut choisir selon le nombre d'arêtes touchées.
+- **Le coût est dans la replanification, pas dans la mise à jour** : 100 coupures se répercutent en 5 ms, mais 500 convois doivent replanifier (35 ms de calcul). En tâche de fond, c'est 8 à 11 ms de temps réel ; dans la boucle, 12 ticks à 3 ms. D'où la tâche de fond, avec un résultat rendu à un tick fixé pour rester déterministe (A-12).
+- **Recousure exacte** : la BD TOPO n'a pas de table de nœuds, mais (identifiant, rang) suffit à recoller les morceaux des tiles sans doublon ni rupture, et le graphe ne dépend ni du découpage, ni du nombre de threads, ni de l'ordre de lecture. Un graphe national peut donc se construire département par département.
+- **Les ponts** décident des trajets lourds : le Leclerc refuse 39 % des ponts empruntés par les camions. La BD TOPO décrit un pont par tablier : détruire un pont d'une 2 × 2 voies ne coupe qu'un sens, ce qui n'a pas de sens en jeu.
+- **Les sens uniques urbains** coûtent cher à Paris (+11 % de durée, 2,8 % de paires impossibles) pour un intérêt de jeu nul dans une France sans circulation.
+
+## Conclusion
+
+L'hypothèse est **vérifiée** : une CCH sur le réseau carrossable recousu depuis les tiles répond en quelques dizaines de microsecondes, exactement, encaisse une destruction en moins d'une milliseconde par classe, et 1 000 convois replanifient en une dizaine de millisecondes en tâche de fond. Le tout est déterministe et tient en moins de 1 Go pour un département.
+
+## Recommandations
+
+- Graphe **national unique**, construit par la chaîne après tous les départements ; ordre CCH calculé par la chaîne, structure et métriques régénérées au chargement du jeu.
+- Une **métrique par classe d'itinéraire** (charge, largeur, hauteur, nature des voies), pas une par véhicule.
+- Replanification **en tâche de fond**, résultat rendu à un tick fixé ; seuls les convois dont l'itinéraire restant emprunte une arête modifiée replanifient.
+- Ajouter aux tiles le lien pont → tronçons portés et le regroupement des tabliers, aujourd'hui retrouvés par la géométrie, et l'attribut « fictif ».
+
+## Décisions
+
+- **CCH** sur un **graphe national unique** : la chaîne calcule l'ordre (dissection emboîtée) et livre un fichier du graphe ; le jeu reconstruit la structure et personnalise une **métrique par classe d'itinéraire** au chargement, en tâche de fond. Une modification du réseau passe par une **personnalisation partielle** ; seuls les convois touchés replanifient, **en tâche de fond**, jamais dans le tick.
+- Le **sens de circulation** n'est respecté que sur les **chaussées séparées** (autoroutes, routes à 2 chaussées, bretelles) ; sens uniques urbains, ronds-points et interdictions de tourner ignorés.
+- Un **pont du jeu** est une traversée (tabliers regroupés par la chaîne) : détruit, endommagé ou réparé d'un bloc. Gravats, épaves et barrages du génie coupent les arêtes qu'ils recouvrent.
+- Une **nouvelle traversée** (pont du génie hors d'un pont existant) ajoute une arête : structure reconstruite avec le même ordre, en tâche de fond (65 ms pour la Manche). Poser un pont du génie sur un pont détruit n'est qu'un changement de métrique.
+- La sauvegarde garde la **liste des modifications du réseau** et l'**itinéraire restant** de chaque unité en mouvement ; graphe et métriques se régénèrent.
+- La chaîne produit un **fichier national du réseau routier** (graphe carrossable, charge des ouvrages, ordre CCH) ; la section `ponts` des tiles reçoit les tronçons portés, le franchissement et la charge calculée ; la section `reseau` reçoit le bit « fictif ».
+
+Détail et statut : [B-03 et A-07 dans OPEN-PROBLEMS](https://github.com/labatailledefrance/documentation/blob/main/OPEN-PROBLEMS.md).
+
+## Questions ouvertes
+
+Aucune.
