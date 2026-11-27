@@ -121,9 +121,9 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 ### P-10 — Streaming et niveaux de vue
 
 - **Problème** : C-02, C-03, C-04.
-- **Objectif** : zoom continu du soldat en vue isométrique à la carte 2D, puis au globe, et trajet Paris → La Réunion sans écran de chargement.
+- **Objectif** : zoom continu du soldat en vue isométrique à la carte d'état-major, puis au globe (cartes des territoires plaquées dessus, C-03), et trajet Paris → La Réunion sans écran de chargement ; **fixer le seuil de bascule** entre la 3D et la vue simplifiée (C-02).
 - **Méthode** : chargement et déchargement des tiles 3D et 2D à la volée pendant les mouvements de caméra, **dans le navigateur**, les tiles venant du serveur (P-22, P-23). Les bâtiments y sont générés en tâche de fond et envoyés par morceaux de 250 m (P-08).
-- **Critère** : aucune frame au-dessus du budget (mesure du p99 du temps de frame) pendant le trajet.
+- **Critère** : aucune frame au-dessus du budget (mesure du p99 du temps de frame) pendant le trajet ; seuil de bascule choisi.
 
 ### P-11 — Rendu des foules
 
@@ -136,7 +136,7 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 
 - **Problème** : C-06.
 - **Objectif** : voir les unités à travers les bâtiments parisiens en vue isométrique.
-- **Méthode** : comparer transparence, découpe autour des unités et silhouettes à travers les murs. Les bâtiments sont des morceaux fusionnés de 250 m dont chaque sommet porte l'indice de son bâtiment (P-08) : la transparence et la découpe se font dans le shader.
+- **Méthode** : transparence par tramage des bâtiments entre la caméra et les unités, et silhouettes des unités et des zombies à travers les murs (choix fait, C-06) ; choisir la méthode dans le shader. Les bâtiments sont des morceaux fusionnés de 250 m dont chaque sommet porte l'indice de son bâtiment (P-08) : la transparence et la découpe se font dans le shader.
 - **Critère** : lisibilité jugée en test de jeu ; coût de rendu.
 
 ## Phase 3 — Les systèmes
@@ -171,10 +171,10 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 
 ### P-17 — Feu
 
-- **Problème** : A-06, B-04.
-- **Objectif** : simuler un incendie de 50 km² arbre par arbre.
-- **Méthode** : automate cellulaire et objets dans les zones en feu, état stocké ailleurs ; vent ; agrégat dans les tiles inertes ; zombies en feu qui propagent l'incendie.
-- **Critère** : coût par tick d'un incendie de 50 km².
+- **Problème** : A-06, B-04, C-07.
+- **Objectif** : simuler un incendie de 50 km² arbre par arbre, et le rendre (flammes et fumée par cellule, instanciées, agrégées au dézoom).
+- **Méthode** : automate cellulaire et objets dans les zones en feu, état stocké ailleurs ; vent réel (A-11) ; agrégat dans les tiles inertes ; zombies en feu qui propagent l'incendie.
+- **Critère** : coût par tick d'un incendie de 50 km² ; coût de rendu (p99 du temps de frame).
 
 ### P-18 — Déterminisme
 
@@ -195,7 +195,7 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 - **Problème** : A-09, D-05.
 - **Objectif** : valider le modèle de données des objets (lots, emballer / déballer, inspection).
 - **Méthode** : conteneurs contenant des palettes contenant des caisses contenant des lots ; calcul de masse et de volume ; inspection.
-- **Critère** : temps de calcul de la masse d'un navire chargé ; simplicité du modèle.
+- **Critère** : temps de calcul de la masse d'un navire chargé et du total par ressource ; coût d'une recherche par ressource dans tout le monde ; simplicité du modèle.
 
 ### P-21 — Marées
 
