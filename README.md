@@ -201,7 +201,7 @@ Ces tests valident ou invalident l'architecture. À faire en premier.
 
 - **Problème** : A-11.
 - **Objectif** : calculer la marée sur les plages de Normandie.
-- **Méthode** : prédiction par harmoniques, comparée à des données de référence.
+- **Méthode** : prédiction par harmoniques, comparée à des données de référence (pour la mesure seulement : les prédictions du SHOM ne peuvent pas entrer dans le jeu, B-06).
 - **Critère** : écart avec la référence.
 
 ## Phase 4 — Intégration
